@@ -1,0 +1,246 @@
+
+/* =============================================== */
+/* == Heros on Homepage made in Refresh Builder == */
+/* =============================================== */
+/* Extra small devices (phones, less than 768px) */
+/* mobile first */
+
+.theme-section {
+  margin: 0% 3% 5% 3%;
+}
+
+.hp-hero-desktop {
+  display: none;
+}
+
+.hp-hero-mobile {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#mcBannerArea img.hp-hero-desktop {
+  display: none;
+}
+
+#mcBannerArea img.hp-hero-mobile{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.details-modal-block {
+  height: 30px;
+  width: 70px;
+  background-color: #f3f2f1;
+  float: right;
+}
+.rb-details-box {
+  margin-right: 3%;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  min-width: 30px;
+  max-height: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  /*border-bottom: 20px solid #fff;*/
+  border-bottom: 20px solid rgb(243,242,241,.5);
+  line-height: unset;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*opacity: .5;*/
+}
+
+.details-dagger {
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.details-text {
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: underline;
+}
+
+.fht-hp-hero {
+  position: relative;
+  min-height: 1px;
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
+  /*float: left;*/
+  width: 100%;
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fht-hp-sl-img-banner {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.fht-ma-hero {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    max-width: 100%;
+  }
+
+.fht-nca-top-banner {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*float: left;*/
+  max-width: 100%;
+}
+
+.fht-hp-legacy {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*float: left;*/
+  max-width: 100%;
+}
+
+.rb-details-box-copy {
+  margin-right: 3%;
+  color: #000;
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  min-width: 45px;
+  max-height: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: unset;
+  padding-left: 5px;
+  padding-right: 4px;
+  /* opacity: .5; */
+}
+
+.rb-details-box {
+  min-width: 35px;
+}
+
+.modal-details {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modal-details:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modal-details > div {
+  width: 250px;
+  position: relative;
+  margin: 5% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.close-details {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close-details:hover { background: #00d9ff; }
+
+
+@media screen and (min-width: 360px) {
+  .modal-details > div {
+    width: 300px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+  }
+}
+
+@media screen and (min-width:500px) {
+
+  .theme-section {
+    margin: 5% 3%;
+  }
+
+  .hp-hero-mobile {
+    display:none;
+  }
+
+  .hp-hero-desktop {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fht-nca-top-banner .hp-hero-desktop {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  #mcBannerArea img.hp-hero-mobile {
+      display:none;
+    }
+
+  #mcBannerArea img.hp-hero-desktop {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (min-width: 601px) {
+  .modal-details > div {
+    width: 400px;
+  }
+}

@@ -1,0 +1,207 @@
+.plp-top-cat-pg {
+  margin-top: 15%;
+}
+
+.toy-pb-shop-by-age-btn p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.holiday-toy-lp-gift-finder-by-price {
+  margin-top: 5%;
+}
+
+.plp-top-cat-pg-shop-pg-title {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title  {
+     display: block;
+     margin-top: 0%;
+     margin-bottom: 4%;
+     font-family: 'Quicksand', sans-serif;
+  }
+
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title  {
+    display: block;
+    margin-bottom: 4%;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+   .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-nav-icons {
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-nav-icons {
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-itm {
+    width:47%;
+    margin-bottom: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+    width:47%;
+    margin-bottom: 1%;
+  }
+
+.plp-top-cat-pg-scrollmenu a, .plp-top-cat-pg-scrollmenu a:link, .plp-top-cat-pg-scrollmenu a:visited, .plp-top-cat-pg-scrollmenu a:active, .plp-top-cat-pg-scrollmenu a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm a, .plp-top-cat-pg-shp-by-ctgy-itm a:link, .plp-top-cat-pg-shp-by-ctgy-itm a:visited, .plp-top-cat-pg-shp-by-ctgy-itm a:active, .plp-top-cat-pg-shp-by-ctgy-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm img {
+  display: none;
+}
+
+.zero-24-months-red p {
+  color:#ea2f1f;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.two-to-four-years-yellow p {
+  color:#e59c00;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.five-to-seven-years-green p {
+  color:#01893b;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.eight-to-eleven-years-blue p {
+  color:#156bb0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.twelve-plus-years-purple p {
+  color:#820aa4;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.by-age-mobile {
+  display: block;
+}
+
+.by-age-desktop {
+  display: none;
+}
+
+@media screen and (min-width:500px) {
+
+  .holiday-toy-lp-gift-finder-by-price {
+    margin-top: 0%;
+  }
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title {
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title  {
+    margin-bottom: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-nav-icons {
+    margin-bottom: 0%;
+  }
+
+  .toy-pb-shop-by-age-btn p {
+    font-size: 14px;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm img {
+    display: none;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    display: block;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price {
+      margin-top: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder {
+      margin-top: 1%;
+  }
+
+.holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-itm {
+    width:18%;
+    margin-bottom:0;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+    width:18%;
+    margin-bottom:0;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-nav-icons .plp-top-cat-pg-shp-by-ctgy-itm:first-child {
+    margin-left:10.5%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-nav-icons .plp-top-cat-pg-shp-by-ctgy-itm:last-child {
+    margin-right:10.5%;
+  }
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-itm {
+    margin-bottom: 3%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+    margin-bottom: 3%;
+  }
+
+  .by-age-mobile {
+    display: none;
+  }
+
+  .by-age-desktop {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:769px) {
+  .toy-pb-shop-by-age-btn p {
+    font-size: 20px;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    height: 125px;
+  }
+}
+
+@media screen and (min-width:976px) {
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    height: 150px;
+  }
+}
