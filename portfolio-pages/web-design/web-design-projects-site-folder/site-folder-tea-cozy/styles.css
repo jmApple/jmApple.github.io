@@ -1,11 +1,12 @@
 * {
   color: #fff5ee;
-  font-family: sans-serif;
+  font-family: Helvetica;
 }
 
 h2, h3, h4, p {
   margin-block-start: 0;
   margin-block-end: 0;
+  opacity: 0.9;
 }
 
 body {
