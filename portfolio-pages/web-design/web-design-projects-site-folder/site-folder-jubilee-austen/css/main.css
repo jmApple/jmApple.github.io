@@ -1,0 +1,180 @@
+/* NOTE: Base Styles */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', bold;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+
+/* NOTE: grid */
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* NOTE: header */
+header {
+  height: 800px;
+  background: url('../img/hero-image.png');
+  background-size: cover;
+}
+
+header h3 {
+  font-size: 30px;
+  color: #bbc085;
+  margin: 79px 0 0 0;
+}
+
+
+
+header h1 {
+  padding-top: 210px;
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 75px 30px;
+}
+
+nav ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #828282;
+  text-decoration: none;
+}
+
+.header-title {
+  color: #9b9b9b;
+}
+
+/* NOTE: about */
+
+#about .full-width{
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+}
+
+#about p {
+  font-size: 21px;
+  color: #7f7f7f;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/* NOTE: work */
+
+#work {
+  background: #f9ceb7;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+#work p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 31.95px;
+  color: #2b2b2b;
+  padding: 0 35px;
+}
+
+#work .third-width {
+  text-align: center;
+}
+
+
+/* NOTE: contact */
+#contact {
+  background: #ebebeb;
+}
+
+#contact .full-width {
+  padding: 115px 0;
+}
+
+#contact .contact-img img {
+  border: 16px solid #ffffff;
+}
+
+#contact .contact-info {
+  padding-left: 124px;
+}
+
+#contact .social-media {
+  padding-left: 124px;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+#contact p {
+  font-size: 32px;
+  line-height: 53px;
+  padding-bottom: 3px;
+  margin: 0;
+}
+
+.email-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  color: #c49075;
+  padding-left: 10px;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact h4 {
+  font-size: 29px;
+  padding-top: 27px;
+  margin-bottom: 17px;
+}
+
+#contact .social-media img {
+  padding-right: 53px;
+}
