@@ -1,0 +1,659 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   /* NOTE:
+       font-family: 'Fredericka the Great', cursive;
+
+       font-family: 'Happy Monkey', cursive;
+
+       font-family: 'Nixie One', cursive;
+    */
+
+   /* NOTE: create medium blog post for this project*/
+
+   p {
+     font-family: 'Nixie One', cursive;
+     font-weight: 500;
+     margin: 0;
+     text-transform: uppercase;
+   }
+
+   .emphasis-1 {
+     font-family: 'Fredericka the Great', cursive;
+     font-size: 100px;
+     line-height: 83px;
+     text-align: right;
+   }
+
+
+   .kerning-adj {
+     letter-spacing: -2px;
+   }
+
+   .kerning-adj-2 {
+     letter-spacing: -1px;
+   }
+
+   .kerning-adj-3 {
+     letter-spacing: -5.5px;
+   }
+
+   /* NOTE: 1 | section 1 from reference printout */
+   .section-one {
+     border: double 7px #030303;
+     width: 505px;
+     margin: 30px auto;
+     padding: 10px 17px;
+   }
+
+
+   /* NOTE: 2 | section 2 from reference printout */
+   .section-two {
+     /* background: #ff5555;  */
+     overflow: hidden;
+   }
+
+       .section-ten {
+         float: left;
+       }
+
+         .line-a {
+           font-size: 33.2px;
+           line-height: 29px;
+         }
+
+         .line-b {
+           font-size: 21.2px;
+           line-height: 27.9px;
+         }
+
+         .line-c {
+           font-size: 24.2px;
+           line-height: 24.2px;
+         }
+
+       .section-eleven {
+         float: left;
+       }
+
+
+
+
+   /* NOTE: 3 | section 3 from reference printout */
+   .section-three {
+     /* background: #ffbb00; */
+     width: 500px;
+
+   }
+
+       .line-d {
+         font-size: 21.2px;
+         line-height: 16px;
+         word-spacing: 5.5px;
+       }
+
+       .line-e {
+         font-size: 28px;
+         line-height: 27.9px;
+         word-spacing: 1.1px;
+       }
+
+       .line-f {
+         font-size: 17.39px;
+         word-spacing: 1.6px;
+       }
+
+       .line-g {
+         font-size: 17.39px;
+       }
+
+       .line-h {
+         font-size: 21.2px;
+         line-height: 27px;
+         letter-spacing: .7px;
+       }
+
+       .line-i {
+         font-size: 29px;
+         line-height: 25px;
+         word-spacing: 2.6px;
+         letter-spacing: .29px;
+       }
+
+
+   /* NOTE: 4 | section 4 from reference printout */
+   .section-four {
+     /* background: #ffee00; */
+     overflow: hidden;
+   }
+
+       .section-twelve {
+         float: left;
+         margin-top: 2px;
+       }
+
+           .line-j {
+             font-size: 23px;
+             line-height: 29px;
+             word-spacing: 5.5px;
+           }
+
+           .line-k {
+             font-size: 35.7px;
+             line-height: 41.5px;
+             word-spacing: 5px;
+             letter-spacing: .53px;
+           }
+
+       .section-thirteen {
+         float: left;
+         padding-left: 7px;
+       }
+
+           .line-l {
+             font-size: 12px;
+             word-spacing: 1.6px;
+             letter-spacing: .295px;
+           }
+
+           .line-m {
+             font-size: 13px;
+             word-spacing: 2.2px;
+             letter-spacing: .45px;
+             line-height: 1.7;
+           }
+
+           .line-n {
+             font-size: 23px;
+             word-spacing: 1.6px;
+             line-height: 1;
+           }
+
+
+
+   /* NOTE: 5 | section 5 from reference printout */
+   .section-five {
+     /* background: #00ff67; */
+   }
+
+       .line-o {
+         font-size: 18px;
+         word-spacing: .48px;
+       }
+
+       .line-p {
+         font-size: 18px;
+         word-spacing: 3px;
+         letter-spacing: .152px;
+       }
+
+       .line-q {
+         font-size: 17px;
+         word-spacing: .37px;
+       }
+
+       .line-r {
+         font-size: 19.5px;
+         word-spacing: 1.62px;
+       }
+
+
+   /* NOTE: 6 | section 6 from reference printout */
+   .section-six {
+     /* background: #00eebb; */
+     overflow: hidden;
+   }
+
+       .section-fourteen p {
+         line-height: 1;
+       }
+
+       .section-fourteen {
+         float: left;
+       }
+
+           .line-s {
+             font-size: 37px;
+           }
+
+       .section-fifteen p {
+         line-height: .9;
+       }
+
+       .section-fifteen {
+         float: left;
+         padding-left: 7px;
+         padding-top: 3.5px;
+         overflow:  visible;
+       }
+
+           .line-t {
+             font-size: 17px;
+             word-spacing: 2.5px;
+             letter-spacing: 1.74px;
+           }
+
+           .line-u {
+             font-size: 15px;
+             letter-spacing: .22px;
+           }
+
+
+
+   /* NOTE: 7 | section 7 from reference printout */
+   .section-seven {
+     /* background: #0099ff; */
+   }
+
+       .line-v {
+         font-size: 18px;
+         word-spacing: .02px;
+         line-height: 1;
+       }
+
+       .line-w {
+         font-size: 22px;
+         word-spacing: 1px;
+         letter-spacing: .335px;
+         line-height: 25px;
+       }
+
+       .line-x {
+         font-size: 25px;
+         word-spacing: 1.43px;
+         letter-spacing: .5px;
+         line-height: 1;
+       }
+
+       .line-y {
+         font-size: 27px;
+         word-spacing: 1.85px;
+         letter-spacing: .81px;
+         line-height: 1;
+       }
+
+   /* NOTE: 8 | section 8 from reference printout */
+   .section-eight {
+     /*background: #0000a3; */
+     padding-top: 2px;
+     overflow: hidden;
+   }
+
+   .section-eight p {
+     /* color: white; */
+     line-height: 0;
+   }
+
+       .section-sixteen {
+         float: left;
+
+       }
+
+           .line-z {
+             font-size: 63px;
+             line-height: 50px;
+             word-spacing: 1px;
+             letter-spacing: 1px;
+           }
+
+           .line-aa {
+             font-size: 63px;
+             line-height: 1;
+             letter-spacing: -1.3px;
+           }
+
+       .section-seventeen {
+         float: left;
+         padding-left: 7px;
+         padding-top: 1.5px;
+       }
+
+           .line-ab {
+             font-size: 28px;
+             line-height: 1;
+             word-spacing: 1.5px;
+             letter-spacing: .6px;
+             line-height: 25px;
+           }
+
+           .line-ac {
+             font-size: 45px;
+             word-spacing: 1.06px;
+             letter-spacing: .46px;
+             line-height: 47px;
+           }
+
+           .line-ad {
+             font-size: 35px;
+             line-height: 1;
+           }
+
+
+   /* NOTE: 9 | section 9 from reference printout */
+   .section-nine {
+     /*background: #a300a3; */
+     padding-top: 7px;
+     padding-right: 4px;
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .section-nine p {
+     font-family: 'Happy Monkey', cursive;
+     font-size: 10px;
+     letter-spacing: .5px;
+     }
+           .line-ae-1 {
+             display: flex;
+           }
+
+           .line-ae-2 {
+             display: flex;
+           }
+
+           .line-ae-3 {
+             display: flex;
+           }
+
+   /* NOTE: 18 | section 18 from reference printout */
+   .section-eighteen {
+     /*background: #a300a3; */
+     display: flex;
+     justify-content: center;
+     padding-right: 4px;
+     }
+
+   .section-eighteen p {
+     font-family: 'Happy Monkey', cursive;
+     font-size: 10px;
+     word-spacing: 3.5px;
+     letter-spacing: .5px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
