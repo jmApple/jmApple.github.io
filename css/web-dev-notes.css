@@ -1,0 +1,809 @@
+/* REPLACES
+   portfolio-css-rb.css
+   &
+   portfolio-css-cat-pg-top.css
+*/
+
+/* NOTE: COLORS
+   magenta // #ba1e47
+    orange // #f6882f
+    yellow // #ffc233
+     green // #92c844
+      cyan // #00aeef
+      blue // #2e3192
+    purple // #181148
+*/
+
+
+/* ==================================================== */
+/* ********************* IE | FIX ********************* */
+/* ==================================================== */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+}
+
+/* =========================================== */
+/* *************** START | TITLE ************* */
+/* =========================================== */
+.spacing-container-dev-ref-notes {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: inherit;
+  height: 100%;
+  min-height: 568px;
+}
+
+.reference-guide-main-title {
+  background-color: #010f1f;
+}
+
+.reference-guide-main-title p {
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/* =========================================== */
+/* *********** START | FLAG COLORS *********** */
+/* =========================================== */
+.magenta {
+  background-color: #ba1e47
+}
+
+.tangerine {
+  background-color: #f6882f;
+}
+
+.lemon {
+  background-color: #ffc233;
+}
+
+.lime {
+  background-color: #92c844;
+}
+
+.cyan {
+  background-color: #00aeef;
+}
+
+.blueberry {
+  background-color: #2e3192;
+}
+
+.grape {
+  background-color: #181148;
+}
+
+
+/* ============================================ */
+/* ******** START | REFERENCE SECTION ********* */
+/* ============================================ */
+.web-dev-reference-guide-index-pg {
+  margin-top: 5%;
+}
+
+.reference-guide-itm {
+  width:47%;
+  margin-bottom: 1%;
+}
+
+.reference-guide-topic {
+  width:93%;
+  margin-right: auto;
+  margin-bottom: 1%;
+  margin-left: auto;
+}
+
+.reference-guide-topic-itm {
+  border-top: 2px solid #010f1f;
+  margin-bottom: 7%;
+  padding-left: 3%;
+
+}
+
+.reference-guide-subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  display: none;
+}
+
+.reference-guide-section .reference-guide-subtitle  {
+  margin-top: 0%;
+}
+
+.reference-guide-itm a, .reference-guide-itm a:link, .reference-guide-itm a:visited, .reference-guide-itm a:active, .reference-guide-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.reference-guide-topic-itm a, .reference-guide-topic-itm a:link, .reference-guide-topic-itm a:visited, .reference-guide-topic-itm a:active, .reference-guide-topic-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.reference-guide-nav-icons {
+  display: flex;
+  display: -ms-flex;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  justify-content: space-evenly;
+  -ms-justify-content: space-around;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: 21px;
+}
+
+ .reference-guide-nav-icons {
+  margin-left:0;
+  margin-right:0;
+  margin-bottom: 1%;
+}
+
+.reference-guide-itm {
+  width: 43%;
+  margin-bottom: 3%;
+}
+
+/* *************************************** */
+/* ********* START | ITEM BLOCKS ********* */
+/* *************************************** */
+
+.reference-guide-chapter-title {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reference-guide-chapter-title-long {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reference-guide-chapter-title p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.reference-guide-flag {
+  width: 42vw;
+  min-width: 131px;
+  max-width: 320px;
+  height: 56px;
+  box-sizing: content-box;
+  padding-top: 21px;
+  position: relative;
+}
+
+.reference-guide-flag-two-line {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+.reference-guide-flag-three-line {
+  padding-top: 11px;
+  padding-bottom: 10px;
+  height: 81px;
+}
+
+.reference-guide-flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid #fff;
+  border-left: 21vw solid transparent;
+  border-right: 21vw solid transparent;
+}
+
+.reference-guide-flag-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reference-guide-flag-title-long {
+  flex-direction: column;
+}
+
+.reference-guide-flag-title p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+}
+
+.small-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reference-guide-topper {
+  width: 42vw;
+  min-width: 131px;
+  max-width: 320px;
+  height: 56px;
+  box-sizing: content-box;
+  padding-top: 21px;
+  position: relative;
+}
+
+.reference-guide-topper-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reference-guide-topper-title p {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+}
+
+.magenta-fill {
+  color: #ba1e47;
+}
+
+.tangerine-fill {
+  color: #f6882f;
+}
+
+.lemon-fill {
+  color: #ffc233;
+}
+
+.lime-fill {
+  color: #92c844;
+}
+
+.cyan-fill {
+  color: #00aeef;
+}
+
+.blueberry-fill {
+  color: #2e3192;
+}
+
+.grape-fill {
+  color: #181148;
+}
+
+.reference-guide-chapter-title .fa-lg {
+    font-size: 1.43em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+.variable-copy {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.variable-copy-scnd-line {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.variable-copy img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.ellispse-wavy-line {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+  overflow: hidden;
+  position: relative;
+  width: 150em;
+  height: 32px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  width: 1000%;
+  transform: translateX(0%) scale(0.5);
+}
+
+.ellipse {
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, #fff 7px, #fff 10px, transparent 11px);
+  background-size: 36px 40px;
+  width: 160em;
+  height: 20px;
+  top: 20px;
+  left: 18px;
+  background-position: 0px -20px;
+}
+
+.ellipse2 {
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, #fff 7px, #fff 10px, transparent 11px);
+  background-size: 36px 40px;
+  width: 160em;
+  height: 20px;
+  top: 20px;
+  left: 18px;
+  background-position: 0px -20px;
+}
+
+.ellipse {
+  background-size: 36px 40px;
+}
+
+.reference-guide-topic-copy {
+  margin-left: 21vw;
+}
+
+.reference-guide-topic-copy h4 {
+  margin-block-start: 1.33em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.reference-guide-topic-copy p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-block-start: 0em;
+}
+
+.file-path-word-wrap {
+  word-wrap: break-word;
+}
+
+.reference-guide-nav-icons {
+ margin-left:0;
+ margin-right:0;
+}
+
+.reference-guide-itm a, .reference-guide-itm a:link, .reference-guide-itm a:visited, .reference-guide-itm a:active, .reference-guide-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.reference-guide-topic-itm a, .reference-guide-topic-itm a:link, .reference-guide-topic-itm a:visited, .reference-guide-topic-itm a:active, .reference-guide-topic-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.reference-guide-itm img {
+  display: none;
+}
+
+.chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+}
+.chevron:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: red;
+  transform: skew(0deg, 6deg);
+}
+.chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: red;
+  transform: skew(0deg, -6deg);
+}
+
+.spacing-container-dev-ref-notes #footer-border {
+  margin: 0;
+  border-top: 1px solid #000;
+}
+
+/*==================
+ min width 331px
+===================*/
+@media screen and (min-width:331px) {
+  .reference-guide-main-title p {
+    font-size: 1.5em;
+  }
+}
+
+/*==================
+ min width 360px
+===================*/
+@media screen and (min-width: 360px) {
+}
+
+/*==================
+ min width 375px
+===================*/
+@media screen and (min-width: 375px) {
+}
+
+/*==================
+ min width 411px
+===================*/
+@media screen and (min-width:411px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 21%;
+  }
+}
+
+
+/*==================
+ min width 420px
+===================*/
+@media screen and (min-width:420px) {
+  .variable-copy {
+    width: 35%;
+  }
+  .variable-copy img {
+    margin-bottom: 4%;
+  }
+}
+
+/*==================
+ min width 460px
+===================*/
+@media (max-width: 460px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 23%;
+  }
+}
+
+/*==================
+ min width 480px
+===================*/
+@media screen and (min-width:480px) {
+}
+
+/*==================
+ min width 500px
+===================*/
+@media screen and (min-width:500px) {
+
+  .reference-guide-main-title p {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .reference-guide-chapter-title p {
+    font-size: 14px;
+  }
+
+  .web-dev-reference-guide-index-pg {
+    margin-top: 0%;
+  }
+
+  .reference-guide-section .reference-guide-subtitle  {
+    margin-bottom: 1%;
+  }
+
+  .reference-guide-section .reference-guide-subtitle {
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
+
+  .reference-guide-itm {
+    width: 30%;
+    margin-bottom: 1.5%;
+  }
+
+  .reference-guide-topic-itm {
+    margin-bottom: 1.5%;
+  }
+
+  .reference-guide-itm img {
+    display: none;
+  }
+
+  .reference-guide-itm .reference-guide-chapter-title {
+    display: block;
+  }
+
+  .reference-guide-itm .reference-guide-chapter-title {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .web-dev-reference-guide-index-pg {
+      margin-top: 1%;
+  }
+
+  .reference-guide-itm {
+    width: 30%;
+    margin-bottom:1.5%;
+  }
+
+  .reference-guide-topic-itm {
+    margin-bottom: 1.5%;
+  }
+
+  .variable-copy {
+    width: 30%;
+    margin-left: 5%;
+  }
+
+  .variable-copy-scnd-line {
+    margin-left: auto;
+  }
+
+  .variable-copy img {
+    margin-bottom: 3%;
+  }
+
+}
+
+/*==================
+ min width 568px
+===================*/
+@media screen and (min-width: 568px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    height: 25%;
+    min-height: 159px;
+  }
+}
+
+/*==================
+ min width 763px
+===================*/
+@media screen and (min-width: 763px) {
+  .reference-guide-flag:after {
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+  }
+
+  .reference-guide-topic-copy {
+    margin-left: 160px;
+  }
+}
+
+/*==================
+ min width 768px
+===================*/
+@media screen and (min-width: 768px) {
+
+  .spacing-container-dev-ref-notes {
+    min-height: 487px;
+  }
+
+  .corner-body .spacing-container-dev-ref-notes header  {
+    min-height: 195px;
+    margin-bottom: 5%;
+  }
+
+  .reference-guide-flag-title-long {
+    flex-direction: row;
+  }
+
+  .variable-copy-scnd-line {
+    margin-right: 0;
+  }
+
+  .reference-guide-flag-two-line {
+      padding-top: 21px;
+      padding-bottom: 0px;
+  }
+
+  .reference-guide-flag-three-line {
+      padding-top: 21px;
+      padding-bottom: 0px;
+  }
+
+  .variable-copy {
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  .variable-copy img {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+}
+
+/*==================
+ min width 769px
+===================*/
+@media screen and (min-width:769px) {
+
+  .reference-guide-chapter-title p {
+    font-size: 16px;
+  }
+
+  .reference-guide-itm .reference-guide-chapter-title {
+    height: 125px;
+  }
+
+}
+
+/*==================
+ min width 796px
+===================*/
+@media screen and (min-width: 796px) {
+
+  .reference-guide-itm {
+    width: 30%;
+  }
+
+}
+
+/*==================
+ min width 940px
+===================*/
+@media screen and (min-width: 940px) {
+  .spacing-container-dev-ref-notes{
+    min-height: 690px;
+  }
+
+  .corner-body .spacing-container-dev-ref-notes header {
+    margin-bottom: 1%;
+  }
+}
+
+/*==================
+ min width 976px
+===================*/
+@media screen and (min-width: 976px) {
+  .reference-guide-itm .reference-guide-chapter-title {
+    height: 150px;
+  }
+}
+
+/*==================
+ min width 992px
+===================*/
+@media screen and (min-width: 992px) {
+  .reference-guide-topic {
+    width: 93%;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .reference-guide-topic-itm {
+    width: 45%;
+  }
+
+  .reference-guide-flag {
+    max-width: 220px;
+  }
+
+  .reference-guide-flag:after {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+  }
+
+  .reference-guide-topic-copy {
+    margin-left: 110px;
+  }
+
+}
+
+/*==================
+ min width 995px
+===================*/
+@media screen and (min-width: 995px) {
+}
+
+/*==================
+ min width 1024px
+===================*/
+@media screen and (min-width:1024px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 225px;
+  }
+
+}
+
+
+/*==================
+ min width 1024px
+===================*/
+@media screen and (min-width:1024px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 255px;
+  }
+}
+
+/*==================
+ min width 1366px
+===================*/
+@media screen and (min-width:1366px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 275px;
+    margin-bottom: 3%;
+  }
+
+  .reference-guide-itm {
+    width: 15%;
+    margin-bottom: .5%;
+  }
+
+  .reference-guide-chapter-title p {
+    font-size: 19px;
+  }
+}
+
+
+/*==================
+ min width 1370px
+===================*/
+@media screen and (min-width:1370px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 225px;
+    margin-bottom: 1%;
+  }
+}
+
+/*==================
+ min width 1420px
+===================*/
+@media screen and (min-width:1420px) {
+  .corner-body .spacing-container-dev-ref-notes header {
+    min-height: 180px;
+    margin-bottom: 0;
+  }
+}
+
+/*==================
+ min width 1800px
+===================*/
+@media screen and (min-width: 1800px) {
+}
