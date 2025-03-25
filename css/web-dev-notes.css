@@ -169,12 +169,6 @@
   margin-bottom: 10px;
 }
 
-.reference-guide-chapter-title-long {
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
 .reference-guide-chapter-title p {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -184,24 +178,15 @@
 }
 
 .reference-guide-flag {
+  display: flex;
+  justify-content: center;
   width: 42vw;
   min-width: 131px;
   max-width: 320px;
-  height: 56px;
   box-sizing: content-box;
   padding-top: 21px;
+  padding-bottom: 34px;
   position: relative;
-}
-
-.reference-guide-flag-two-line {
-  padding-top: 11px;
-  padding-bottom: 10px;
-}
-
-.reference-guide-flag-three-line {
-  padding-top: 11px;
-  padding-bottom: 10px;
-  height: 81px;
 }
 
 .reference-guide-flag:after {
@@ -221,10 +206,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.reference-guide-flag-title-long {
-  flex-direction: column;
+  align-items: center;
+  width: 86%;
+  gap: 0 10px;
 }
 
 .reference-guide-flag-title p {
@@ -311,13 +295,6 @@
 
 .variable-copy {
   width: 40%;
-  margin-left: 5%;
-}
-
-.variable-copy-scnd-line {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .variable-copy img {
@@ -574,11 +551,6 @@
 
   .variable-copy {
     width: 30%;
-    margin-left: 5%;
-  }
-
-  .variable-copy-scnd-line {
-    margin-left: auto;
   }
 
   .variable-copy img {
@@ -625,27 +597,8 @@
     margin-bottom: 5%;
   }
 
-  .reference-guide-flag-title-long {
-    flex-direction: row;
-  }
-
-  .variable-copy-scnd-line {
-    margin-right: 0;
-  }
-
-  .reference-guide-flag-two-line {
-      padding-top: 21px;
-      padding-bottom: 0px;
-  }
-
-  .reference-guide-flag-three-line {
-      padding-top: 21px;
-      padding-bottom: 0px;
-  }
-
   .variable-copy {
     width: 25%;
-    margin-left: 5%;
   }
 
   .variable-copy img {
