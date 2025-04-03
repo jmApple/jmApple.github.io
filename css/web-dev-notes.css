@@ -473,7 +473,69 @@
   background-color: #00aeef40;
 }
 
-.grid-item p {
+/* NOTE: COLORS
+   magenta // #ba1e47
+    orange // #f6882f
+    yellow // #ffc233
+     green // #92c844
+      cyan // #00aeef
+      blue // #2e3192
+    purple // #181148
+*/
+
+.flex-box {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+  background-color: #ffc23360;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6882f40;
+  width: 25%;
+  height: 50px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col-reverse {
+  flex-direction: column-reverse;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-flow-row-rev-wrap {
+  flex-flow: row-reverse wrap;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.grid-item p, .flex-item p {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   color: #fff;
