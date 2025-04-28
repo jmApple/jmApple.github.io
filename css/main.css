@@ -193,7 +193,7 @@ img {
 MOBILE FIRST | NO min width
 ===================================================*/
 /*==================================================
-GLOBAL STYLES | iPhone5 | NO min width
+GLOBAL UTILITY STYLES | iPhone5 | NO min width
 ===================================================*/
 html, body {
   width: 100%;
@@ -202,6 +202,30 @@ html, body {
   max-width: 1725px;
   min-width: 315px;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-100 {
+  gap: 8px;
+}
+
+.gap-200 {
+  gap: 16px;
+}
+
+/*==================================================
+GLOBAL STYLES | iPhone5 | NO min width
+===================================================*/
 
 .spacing-container-home {
   display: flex;
@@ -1208,6 +1232,12 @@ PORTFOLIO INDEX PAGES | iPhone5 | NO min width
 
 .porfolio-thumb-title {
   background: #000;
+}
+
+.porfolio-thumb-title-alt {
+  background: #ffffff;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*==================================================
