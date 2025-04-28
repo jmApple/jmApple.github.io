@@ -1579,6 +1579,9 @@ footer .half-width {
 }
 
 .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -1586,25 +1589,21 @@ footer .half-width {
 
 #footer-border ul {
   display: inline-block;
-  float: right;
   margin: 10px 0;
   padding: 0;
 }
 
 #footer-no-border ul {
   display: inline-block;
-  float: right;
   margin: 10px 0;
   padding: 0;
 }
 
 #footer-border ul li {
-  float: right;
   display: inline-block;
 }
 
 #footer-no-border ul li {
-  float: right;
   display: inline-block;
 }
 
@@ -1624,13 +1623,13 @@ footer .half-width {
   text-decoration: none;
 }
 
-#footer-border .email {
+/* #footer-border .email {
   display: none;
 }
 
 #footer-no-border .email {
   display: none;
-}
+} */
 /*==================================================
 END MOBILE FIRST | iPhone5 | NO min width
 ===================================================*/
@@ -4371,7 +4370,6 @@ END MOBILE FIRST | iPhone5 | NO min width
      }
 
      #footer-border ul, #footer-no-border ul{
-       float: right;
        list-style: none;
        text-align: right;
        padding-right: 5px;
@@ -4379,7 +4377,6 @@ END MOBILE FIRST | iPhone5 | NO min width
      }
 
      #footer-border ul li, #footer-no-border ul li  {
-       float: left;
        display: inline-block;
      }
 
@@ -4391,18 +4388,21 @@ END MOBILE FIRST | iPhone5 | NO min width
        text-decoration: none;
      }
 
-     #footer-border ul li a:hover,   #footer-no-border ul li a:hover  {
+     #footer-border ul li a:hover,
+     #footer-no-border ul li a:hover {
        color: #bbbdc0;
      }
 
-     #footer-border .email, #footer-no-border .email {
+     #footer-border .email,
+     #footer-no-border .email {
        display: block;
        line-height: 28px;
      }
 
-     #footer-border .email:hover, #footer-no-border .email:hover {
-       color: #72b648;
-     }
+     #footer-border ul li .email:hover,
+     #footer-no-border ul li .email:hover {
+       color: #bbbdc0;
+     } 
 
      #footer p {
        font-size: 17px;
@@ -4437,14 +4437,6 @@ END MOBILE FIRST | iPhone5 | NO min width
        padding-left: 5px;
        padding-right: 5px;
        text-decoration: none;
-     }
-
-     #footer-border ul li .email:hover {
-       color: #72b648;
-     }
-
-     #footer-no-border ul li .email:hover {
-       color: #72b648;
      }
    }
 
