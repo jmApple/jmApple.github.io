@@ -203,6 +203,225 @@ html, body {
   min-width: 315px;
 }
 
+.fg-primary {
+  color: #4751A3;
+}
+
+.fg-secondary {
+  color: #FAC816;
+}
+
+.fg-success {
+  color: #00B38F;
+} 
+
+.fg-attention {
+  color: #F69320;
+}
+
+.fg-danger {
+  color: #D91865;
+}
+
+.fg-info {
+  color: #4A5A63;
+} 
+
+.fg-emphasis {
+  color: #000000;
+} 
+
+.fg-subdued {
+  color: #FFFFFF;
+} 
+
+.fg-primary-subdued {
+  color: #D4EFFC;
+}
+
+.fg-secondary-subdued {
+  color: #FEF4D0;
+}
+
+.fg-success-subdued {
+  color: #A5D9CD;
+}   
+
+.fg-attention-subdued {
+  color: #FBD6C6;
+}
+
+.fg-danger-subdued {
+  color: #F9CCD2;
+}
+
+.fg-info-subdued {
+  color: #C7C9CB;
+}
+
+.bg-primary {
+  background-color: #4751A3;
+}
+
+.bg-secondary {
+  background-color: #FAC816;
+}
+
+.bg-success {
+  background-color: #00B38F;
+} 
+
+.bg-attention {
+  background-color: #F69320;
+}
+
+.bg-danger {
+  background-color: #D91865;
+}
+
+.bg-info {
+  background-color: #4A5A63;
+}
+
+.bg-emphasis {
+  background-color: #000000;
+}
+
+.bg-primary-subdued {
+  background-color: #D4EFFC;
+}
+
+.bg-secondary-subdued {
+  background-color: #FEF4D0;
+}
+
+.bg-success-subdued {
+  background-color: #A5D9CD;
+} 
+
+.bg-attention-subdued {
+  background-color: #FBD6C6;
+}
+
+.bg-danger-subdued {
+  background-color: #F9CCD2;
+}
+
+.bg-info-subdued {
+  background-color: #C7C9CB;
+} 
+
+.bg-subdued {
+  background-color: #FFFFFF;
+} 
+
+.border-xs {
+  border: 1px solid #000000;
+}
+
+.border-sm {
+  border: 2px solid #000000;
+}
+
+.border-md {
+  border: 4px solid #000000;
+}
+
+.border-lg {
+  border: 8px solid #000000;
+}
+
+.border-xl {
+  border: 12px solid #000000;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-bottom-sm {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+}
+
+.border-primary {
+  border-color: #4751A3;
+}
+
+.border-secondary {
+  border-color: #FAC816;
+}
+
+.border-success {
+  border-color: #00B38F;
+} 
+
+.border-attention {
+  border-color: #F69320;
+} 
+
+.border-danger {
+  border-color: #D91865;
+} 
+
+.border-info {
+  border-color: #4A5A63;
+}
+
+.border-emphasis {
+  border-color: #000000;
+}
+
+.border-primary-subdued {
+  border-color: #D4EFFC;
+}
+
+.border-secondary-subdued {
+  border-color: #FEF4D0;
+}
+
+.border-success-subdued {
+  border-color: #A5D9CD;
+}
+
+.border-attention-subdued {
+  border-color: #FBD6C6;
+}
+
+.border-danger-subdued {
+  border-color: #F9CCD2;
+}
+
+.border-info-subdued {
+  border-color: #C7C9CB;
+}
+
+.rounded-xs {
+  border-radius: 1px;
+}
+
+.rounded-sm {
+  border-radius: 2px;
+}
+
+.rounded-md {
+  border-radius: 4px;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.rounded-xl {
+  border-radius: 12px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .flex {
   display: flex;
 }
@@ -215,12 +434,177 @@ html, body {
   flex-direction: row;
 }
 
+.font-size-175 {
+  font-size: 1.75em;
+}
+
 .gap-100 {
   gap: 8px;
 }
 
+.gap-150 {
+  gap: 12px;
+}
+
 .gap-200 {
   gap: 16px;
+}
+
+.grid-color-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
+.h-300 {
+  height: 24px;
+}
+
+.h-400 {
+  height: 32px;
+}
+
+.h-350 {
+  height: 28px;
+}
+
+.h-400 {
+  height: 32px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.my-block-100 {
+  margin-block-end: .5em;
+  margin-block-start: .5em;
+}
+
+.m-block-none {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+.m-200 {
+  margin: 16px;
+}
+
+.mb-200 {
+  margin-bottom: 16px;
+}
+
+.mb-300 {
+  margin-bottom: 24px;
+}
+
+.mx-200 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mx-300 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.my-400 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.p-200 {
+  padding: 16px;
+}
+
+.pb-200 {
+  padding-bottom: 16px;
+}
+
+.py-150 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-200 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+} 
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.33333%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-1\/6 {
+  width: 16.66666%;
+}
+
+.w-1\/12 {
+  width: 8.33333%;
+}
+
+.W-2\/12 {
+  width: 16.66666%;
+}
+
+.w-3\/12 {
+  width: 25%;
+} 
+
+.w-4\/12 {
+  width: 33.33333%;
+}
+
+.w-5\/12 {
+  width: 41.66666%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-7\/12 {
+  width: 58.33333%;
+}
+
+.w-8\/12 {
+  width: 66.66666%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-10\/12 {
+  width: 83.33333%;
+}
+
+.w-11\/12 {
+  width: 91.66666%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 /*==================================================
@@ -3083,6 +3467,11 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     GLOBAL STYLES | TABLET-iPAD | min width 768px
     ===================================================*/
+    .md-w-3\/4 {
+      width: 75%;
+    }
+    
+    
     .home-body {
       background-size: 19%, 49.5%;
       background-position: 5% 2.5%, -29px 0px;
@@ -3680,6 +4069,10 @@ END MOBILE FIRST | iPhone5 | NO min width
        display: flex;
        align-items: flex-end;
      }
+
+     .grid-color-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
 
      .portfolio-description {
        width: 47%;
@@ -4477,6 +4870,10 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*==================================================
      GLOBAL STYLES | iPAD HORIZONTAL | min width 1024px
      ===================================================*/
+
+     .lg-w-1\/2 {
+       width: 50%;
+     }
      .home-body {
        background: url(../img/corner-sketch.gif), url(../img/wise-web-owl.gif);
        background-repeat: no-repeat, no-repeat;
@@ -4819,6 +5216,10 @@ END MOBILE FIRST | iPhone5 | NO min width
      #individual-portfolio-page {
        padding-top: 4%;
      }
+
+     .grid-color-cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
      /*==================================================
      CONTACT PAGE | | min width 1200px
@@ -5276,6 +5677,10 @@ END MOBILE FIRST | iPhone5 | NO min width
        padding-top: -1%;
        width: 72%;
      }
+
+     /* .grid-color-cards {
+      grid-template-columns: repeat(4, 1fr);
+    } */
 
      /*==================================================
      PORTFOLIO INDIVIDUAL PAGES | | min width 1615px
