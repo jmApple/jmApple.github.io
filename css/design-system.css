@@ -144,16 +144,16 @@
   background-color: var(--color-attention);
 }
 
+.attention .checkbox:checked:hover {
+  background-color: var(--color-attention-emphasis-hover);
+  border-color: var(--color-attention-emphasis-hover);
+}
+
 .attention .checkbox:disabled,
 .attention .checkbox:checked:disabled {
   cursor: not-allowed;
   border-color: var(--color-attention-disabled-border);
   background-color: var(--color-attention-disabled-bg);
-}
-
-.attention .checkbox:checked:hover {
-  background-color: var(--color-attention-emphasis-hover);
-  border-color: var(--color-attention-emphasis-hover);
 }
 
 .danger .checkbox {
