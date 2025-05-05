@@ -206,6 +206,8 @@ body {
   min-width: 315px;
 }
 
+
+
 .hidden {
   display: none;
 }
@@ -507,6 +509,10 @@ body {
   gap: 24px;
 }
 
+.gap-400 {
+  gap: 32px;
+}
+
 .grid-color-cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -563,8 +569,20 @@ body {
   margin-block-start: 0px;
 }
 
+.m-100 {
+  margin: 8px;
+}
+
 .m-200 {
   margin: 16px;
+}
+
+.mb-100 {
+  margin-bottom: 8px;
+}
+
+.mb-150 {
+  margin-bottom: 12px;
 }
 
 .mb-200 {
@@ -3753,7 +3771,7 @@ END MOBILE FIRST | iPhone5 | NO min width
   .md-gap-300 {
     gap: 24px;
   }
-  
+
   .md-font-size-150 {
     font-size: 1.5em;
   }

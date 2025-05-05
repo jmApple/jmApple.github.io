@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../../css/main.css">
   <link rel="stylesheet" href="../../css/portfolio-css.css">
   <link rel="stylesheet" href="../../css/web-design-portfolio-buttons-opt2.css">
+  <link rel="stylesheet" href="../../css/design-system.css">
   <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="https://use.fontawesome.com/f940d2b2b9.js"></script>
   <!-- <script src="https://kit.fontawesome.com/daba43222b.js" crossorigin="anonymous"></script> -->
@@ -274,7 +275,7 @@
             </div>
           </div>
 
-          <div class="md-font-size-150 flex flex-col">
+          <div class="font-size-150 flex flex-col">
             <!-- raw value -->
             <div class="flex flex-row gap-150 md-gap-300 justify-center align-center">
               <!-- &#x2193;HEX CODE&#8595;HTML CODE&darr; -->
@@ -371,13 +372,15 @@
           <div>
             <div class="flex flex-col gap-100 align-center w-full md-w-8/12 lg-w-6/12 xxl-w-4/12">
 
-              <div class="flex justify-center border-box border-solid border-sm border-info-subdued rounded-xl py-100 w-8/12">
+              <div
+                class="flex justify-center border-box border-solid border-sm border-info-subdued rounded-xl py-100 w-8/12">
                 <h2 class="m-block-none fg-info">design decisions</h2>
               </div>
 
               <div class="arrow-down"></div>
 
-              <div class="flex justify-center bg-emphasis border-box border-solid border-sm border-emphasis rounded-xl py-100 w-8/12">
+              <div
+                class="flex justify-center bg-emphasis border-box border-solid border-sm border-emphasis rounded-xl py-100 w-8/12">
                 <h2 class="m-block-none fg-subdued">design tokens</h2>
               </div>
 
@@ -389,13 +392,15 @@
                   <div class="arrow-down"></div>
                 </div>
               </div>
-              
+
               <div class="flex flex-row justify-space-around w-full">
-                <div class="flex flex-col align-center border-solid border-sm bg-secondary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-secondary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">design</h2>
                   <h2 class="m-block-none">variables</h2>
                 </div>
-                <div class="flex flex-col align-center border-solid border-sm bg-primary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-primary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">engineering</h2>
                   <h2 class="m-block-none">variables</h2>
                 </div>
@@ -409,13 +414,15 @@
                   <div class="arrow-down"></div>
                 </div>
               </div>
-              
+
               <div class="flex flex-row justify-space-around w-full">
-                <div class="flex flex-col align-center border-solid border-sm bg-secondary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-secondary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">design</h2>
                   <h2 class="m-block-none">styles</h2>
                 </div>
-                <div class="flex flex-col align-center border-solid border-sm bg-primary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-primary-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">css</h2>
                   <h2 class="m-block-none">variables</h2>
                 </div>
@@ -429,18 +436,20 @@
                   <div class="arrow-down"></div>
                 </div>
               </div>
-              
+
               <div class="flex flex-row justify-space-around w-full">
-                <div class="flex flex-col align-center border-solid border-sm bg-success-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-success-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">design</h2>
                 </div>
-                <div class="flex flex-col align-center border-solid border-sm bg-success-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
+                <div
+                  class="flex flex-col align-center border-solid border-sm bg-success-subdued border-box border-info-subdued rounded-xl py-100 w-11/24">
                   <h2 class="m-block-none">browser</h2>
                 </div>
               </div>
 
             </div>
-            
+
           </div>
 
 
@@ -1762,6 +1771,401 @@
           </div>
           <!-- END | wip Figma to Code deck -->
 
+          <!-- **************************** -->
+          <!-- ********** Inputs ********** -->
+          <!-- **************************** -->
+
+          <div>
+            <form class="flex flex-col gap-400">
+              <!-- <div class="flex gap-200">
+                <div>
+                  <label for="input" class="font-size-175">Input</label>
+                  <input type="text" id="input" placeholder="Input" class="w-full border-solid border-sm">
+                </div>
+                <div>
+                  <label for="select" class="font-size-175">Select</label>
+                  <select id="select" class="w-full border-solid border-sm">
+                    <option value="">Select</option>
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                  </select>
+                </div>
+              </div> -->
+
+              <!-- checkboxes -->
+              <div class="flex flex-col gap-200">
+                <h2 class="m-block-none font-size-175">Checkboxes</h2>
+
+                <!-- checkboxes: default -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">unchecked:</h2>
+                  <div class="flex flex-row gap-200">
+
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxDefault" class="checkbox">
+                      <label for="checkboxDefault" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxDefaultSuccess" class="checkbox">
+                      <label for="checkboxDefaultSuccess" class="font-size-175" aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxDefaultAttention" class="checkbox">
+                      <label for="checkboxDefaultAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxDefaultDanger" class="checkbox">
+                      <label for="checkboxDefaultDanger" class="font-size-175" aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxDefaultInfo" class="checkbox">
+                      <label for="checkboxDefaultInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">unchecked</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- checkboxes: checked -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">checked:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxChecked" class="checkbox" checked>
+                      <label for="checkboxChecked" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxCheckedSuccess" class="checkbox" checked>
+                      <label for="checkboxCheckedSuccess" class="font-size-175" aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxCheckedAttention" class="checkbox" checked>
+                      <label for="checkboxCheckedAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxCheckedDanger" class="checkbox" checked>
+                      <label for="checkboxCheckedDanger" class="font-size-175" aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxCheckedInfo" class="checkbox" checked>
+                      <label for="checkboxCheckedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">checked</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- checkboxes: mixed -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">mixed:</h2>
+                  <div class="flex flex-row gap-200">
+
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxMixed" class="checkbox" checked aria-checked="mixed">
+                      <label for="checkboxMixed" class="font-size-175" aria-label="example of primary mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxMixedSuccess" class="checkbox" checked aria-checked="mixed">
+                      <label for="checkboxMixedSuccess" class="font-size-175"
+                        aria-label="example of success mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxMixedAttention" class="checkbox" checked aria-checked="mixed">
+                      <label for="checkboxMixedAttention" class="font-size-175"
+                        aria-label="example ofattention mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxMixedDanger" class="checkbox" checked aria-checked="mixed">
+                      <label for="checkboxMixedDanger" class="font-size-175"
+                        aria-label="example of danger mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxMixedInfo" class="checkbox" checked aria-checked="mixed">
+                      <label for="checkboxMixedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info mixed">mixed</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- checkboxes: disabled -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">disabled unchecked:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxDisabled" class="checkbox" disabled>
+                      <label for="checkboxDisabled" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxDisabledSuccess" class="checkbox" disabled>
+                      <label for="checkboxDisabledSuccess" class="font-size-175"
+                        aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxDisabledAttention" class="checkbox" disabled>
+                      <label for="checkboxDisabledAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxDisabledDanger" class="checkbox" disabled>
+                      <label for="checkboxDisabledDanger" class="font-size-175" aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxDisabledInfo" class="checkbox" disabled>
+                      <label for="checkboxDisabledInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">disabled
+                        unchecked</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- checkboxes: disabled checked -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">disabled checked:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxDisabledChecked" class="checkbox" checked disabled>
+                      <label for="checkboxDisabledChecked" class="font-size-175"
+                        aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxDisabledCheckedSuccess" class="checkbox" checked disabled>
+                      <label for="checkboxDisabledCheckedSuccess" class="font-size-175"
+                        aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxDisabledCheckedAttention" class="checkbox" checked disabled>
+                      <label for="checkboxDisabledCheckedAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxDisabledCheckedDanger" class="checkbox" checked disabled>
+                      <label for="checkboxDisabledCheckedDanger" class="font-size-175"
+                        aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxDisabledCheckedInfo" class="checkbox" checked disabled>
+                      <label for="checkboxDisabledCheckedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">disabled
+                        checked</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- checkboxes: disabled mixed -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">disabled mixed:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="checkbox" id="checkboxDisabledMixed" class="checkbox" checked aria-checked="mixed"
+                        disabled>
+                      <label for="checkboxDisabledMixed" class="font-size-175"
+                        aria-label="example of primary mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="checkbox" id="checkboxDisabledMixedSuccess" class="checkbox" checked
+                        aria-checked="mixed" disabled>
+                      <label for="checkboxDisabledMixedSuccess" class="font-size-175"
+                        aria-label="example of success mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="checkbox" id="checkboxDisabledMixedAttention" class="checkbox" checked
+                        aria-checked="mixed" disabled>
+                      <label for="checkboxDisabledMixedAttention" class="font-size-175"
+                        aria-label="example of attention mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="checkbox" id="checkboxDisabledMixedDanger" class="checkbox" checked
+                        aria-checked="mixed" disabled>
+                      <label for="checkboxDisabledMixedDanger" class="font-size-175"
+                        aria-label="example of danger mixed"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="checkbox" id="checkboxDisabledMixedInfo" class="checkbox" checked
+                        aria-checked="mixed" disabled>
+                      <label for="checkboxDisabledMixedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info mixed">disabled mixed</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- radios -->
+              <div class="flex flex-col gap-200">
+                <h2 class="m-block-none font-size-175">Radios</h2>
+
+                <!-- radios: default -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">unselected:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="radio" id="radioDefault" name="radioDefault" class="radio">
+                      <label for="radioDefault" class="font-size-175"
+                        aria-label="example of primary unselected"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="radio" id="radioDefaultSuccess" name="radioDefaultSuccess" class="radio">
+                      <label for="radioDefaultSuccess" name="radioDefaultSuccess" class="font-size-175"
+                        aria-label="example of success unselected"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="radio" id="radioDefaultAttention" name="radioDefaultAttention" class="radio">
+                      <label for="radioDefaultAttention" class="font-size-175"
+                        aria-label="example of attention unselected"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="radio" id="radioDefaultDanger" name="radioDefaultDanger" class="radio">
+                      <label for="radioDefaultDanger" class="font-size-175"
+                        aria-label="example of danger unselected"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="radio" id="radioDefaultInfo" name="radioDefaultInfo" class="radio">
+                      <label for="radioDefaultInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info unselected">unselected</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- radio: selected -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">selected:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="radio" id="radioChecked" name="radioChecked" class="radio" checked>
+                      <label for="radioChecked" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="radio" id="radioCheckedSuccess" name="radioCheckedSuccess" class="radio" checked>
+                      <label for="radioCheckedSuccess" class="font-size-175" aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="radio" id="radioCheckedAttention" name="radioCheckedAttention" class="radio" checked>
+                      <label for="radioCheckedAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="radio" id="radioCheckedDanger" name="radioCheckedDanger" class="radio" checked>
+                      <label for="radioCheckedDanger" class="font-size-175" aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="radio" id="radioCheckedInfo" name="radioCheckedInfo" class="radio" checked>
+                      <label for="radioCheckedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">selected</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- radio: disabled -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">disabled unselected:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="radio" id="radioDisabled" name="radioDisabled" class="radio" disabled>
+                      <label for="radioDisabled" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="radio" id="radioDisabledSuccess" name="radioDisabledSuccess" class="radio" disabled>
+                      <label for="radioDisabledSuccess" class="font-size-175" aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="radio" id="radioDisabledAttention" name="radioDisabledAttention" class="radio"
+                        disabled>
+                      <label for="radioDisabledAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="radio" id="radioDisabledDanger" name="radioDisabledDanger" class="radio" disabled>
+                      <label for="radioDisabledDanger" class="font-size-175" aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="radio" id="radioDisabledInfo" name="radioDisabledInfo" class="radio" disabled>
+                      <label for="radioDisabledInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">disabled
+                        unselected</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- radio: disabled selected -->
+                <div class="flex flex-col">
+                  <h2 class="md-hidden font-size-150 m-block-none mb-100">disabled selected:</h2>
+                  <div class="flex flex-row gap-200">
+                    <div class="flex flex-row align-center">
+                      <input type="radio" id="radioDisabledChecked" name="radioDisabledChecked" class="radio" checked
+                        disabled>
+                      <label for="radioDisabledChecked" class="font-size-175" aria-label="example of primary"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center success">
+                      <input type="radio" id="radioDisabledCheckedSuccess" name="radioDisabledCheckedSuccess"
+                        class="radio" checked disabled>
+                      <label for="radioDisabledCheckedSuccess" class="font-size-175"
+                        aria-label="example of success"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center attention">
+                      <input type="radio" id="radioDisabledCheckedAttention" name="radioDisabledCheckedAttention"
+                        class="radio" checked disabled>
+                      <label for="radioDisabledCheckedAttention" class="font-size-175"
+                        aria-label="example of attention"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center danger">
+                      <input type="radio" id="radioDisabledCheckedDanger" name="radioDisabledCheckedDanger"
+                        class="radio" checked disabled>
+                      <label for="radioDisabledCheckedDanger" class="font-size-175"
+                        aria-label="example of danger"></label>
+                    </div>
+
+                    <div class="flex flex-row align-center info">
+                      <input type="radio" id="radioDisabledCheckedInfo" name="radioDisabledCheckedInfo" class="radio"
+                        checked disabled>
+                      <label for="radioDisabledCheckedInfo" class="hidden md-block font-size-175"
+                        aria-label="example of info">disabled
+                        selected</label>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </main>
