@@ -6,10 +6,9 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
+/* ============================================= */
+/* ~~~~~ Base styles: opinionated defaults ~~~~~ */
+/* ============================================= */
 html {
   color: #222;
   font-size: 1em;
@@ -34,9 +33,7 @@ html {
   text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
+/* A better looking default horizontal rule */
 
 .dropbtn hr {
   display: block;
@@ -62,9 +59,7 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
+/* Remove default fieldset styles. */
 
 fieldset {
   border: 0;
@@ -72,18 +67,15 @@ fieldset {
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+/* Allow only vertical resizing of textareas. */
 
 textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
+/* ============================================ */
+/* ~~~~~~~~~~ Browser Upgrade Prompt ~~~~~~~~~~ */
+/* ============================================ */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -91,17 +83,17 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
+/* ============================================ */
+/* ~~~~~~~~~~ Author's custom styles ~~~~~~~~~~ */
+/* ============================================ */
 .clearfix:after {
   clear: both;
 }
 
-/*==================================================
-BASE STYLES | NO min width
-===================================================*/
+
+/* ================================================ */
+/* ~~~~~~~~~~ BASE STYLES | NO min width ~~~~~~~~~~ */
+/* ================================================ */
 @import url('http://fast.fonts.net/t/1.css?apiType=css&projectid=83e20145-0d49-400a-a25a-d4ca0fc7eb70');
 
 @font-face {
@@ -191,13 +183,13 @@ img {
   height: auto;
 }
 
+/* =============================================== */
+/* ~~~~~~~~~ MOBILE FIRST | NO min width ~~~~~~~~~ */
+/* =============================================== */
 
-/*==================================================
-MOBILE FIRST | NO min width
-===================================================*/
-/*==================================================
-GLOBAL UTILITY STYLES | iPhone5 | NO min width
-===================================================*/
+/* ==================================================== */
+/* ~~ GLOBAL UTILITY STYLES | iPhone5 | NO min width ~~ */
+/* ==================================================== */
 html,
 body {
   width: 100%;
@@ -206,553 +198,9 @@ body {
   min-width: 315px;
 }
 
-
-
-.hidden {
-  display: none;
-}
-
-.block {
-  display: block;
-}
-
-.border-box {
-  box-sizing: border-box;
-}
-
-.fg-primary {
-  color: #4751A3;
-}
-
-.fg-secondary {
-  color: #FAC816;
-}
-
-.fg-success {
-  color: #00B38F;
-}
-
-.fg-attention {
-  color: #F69320;
-}
-
-.fg-danger {
-  color: #D91865;
-}
-
-.fg-info {
-  color: #4A5A63;
-}
-
-.fg-emphasis {
-  color: #000000;
-}
-
-.fg-subdued {
-  color: #FFFFFF;
-}
-
-.fg-primary-subdued {
-  color: #D4EFFC;
-}
-
-.fg-secondary-subdued {
-  color: #FEF4D0;
-}
-
-.fg-success-subdued {
-  color: #A5D9CD;
-}
-
-.fg-attention-subdued {
-  color: #FBD6C6;
-}
-
-.fg-danger-subdued {
-  color: #F9CCD2;
-}
-
-.fg-info-subdued {
-  color: #C7C9CB;
-}
-
-.bg-primary {
-  background-color: #4751A3;
-}
-
-.bg-secondary {
-  background-color: #FAC816;
-}
-
-.bg-success {
-  background-color: #00B38F;
-}
-
-.bg-attention {
-  background-color: #F69320;
-}
-
-.bg-danger {
-  background-color: #D91865;
-}
-
-.bg-info {
-  background-color: #4A5A63;
-}
-
-.bg-emphasis {
-  background-color: #000000;
-}
-
-.bg-primary-subdued {
-  background-color: #D4EFFC;
-}
-
-.bg-secondary-subdued {
-  background-color: #FEF4D0;
-}
-
-.bg-success-subdued {
-  background-color: #A5D9CD;
-}
-
-.bg-attention-subdued {
-  background-color: #FBD6C6;
-}
-
-.bg-danger-subdued {
-  background-color: #F9CCD2;
-}
-
-.bg-info-subdued {
-  background-color: #C7C9CB;
-}
-
-.bg-subdued {
-  background-color: #FFFFFF;
-}
-
-.border-xs {
-  border: 1px solid #000000;
-}
-
-.border-sm {
-  border: 2px solid #000000;
-}
-
-.border-md {
-  border: 4px solid #000000;
-}
-
-.border-lg {
-  border: 8px solid #000000;
-}
-
-.border-xl {
-  border: 12px solid #000000;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-bottom-sm {
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 2px;
-  border-left-width: 0px;
-}
-
-.border-primary {
-  border-color: #4751A3;
-}
-
-.border-secondary {
-  border-color: #FAC816;
-}
-
-.border-success {
-  border-color: #00B38F;
-}
-
-.border-attention {
-  border-color: #F69320;
-}
-
-.border-danger {
-  border-color: #D91865;
-}
-
-.border-info {
-  border-color: #4A5A63;
-}
-
-.border-emphasis {
-  border-color: #000000;
-}
-
-.border-primary-subdued {
-  border-color: #D4EFFC;
-}
-
-.border-secondary-subdued {
-  border-color: #FEF4D0;
-}
-
-.border-success-subdued {
-  border-color: #A5D9CD;
-}
-
-.border-attention-subdued {
-  border-color: #FBD6C6;
-}
-
-.border-danger-subdued {
-  border-color: #F9CCD2;
-}
-
-.border-info-subdued {
-  border-color: #C7C9CB;
-}
-
-.border-t-none {
-  border-top-width: 0px;
-}
-
-.border-r-none {
-  border-right-width: 0px;
-}
-
-.border-t {
-  border-top-width: 2px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-}
-
-.border-r {
-  border-top-width: 0px;
-  border-right-width: 2px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-}
-
-.border-b-none {
-  border-bottom-width: 0px;
-}
-
-.border-l-none {
-  border-left-width: 0px;
-}
-
-.rounded-xs {
-  border-radius: 1px;
-}
-
-.rounded-sm {
-  border-radius: 2px;
-}
-
-.rounded-md {
-  border-radius: 4px;
-}
-
-.rounded-lg {
-  border-radius: 8px;
-}
-
-.rounded-xl {
-  border-radius: 12px;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.row-wrap {
-  flex-wrap: wrap;
-}
-
-.font-size-150 {
-  font-size: 1.5em;
-}
-
-.font-size-175 {
-  font-size: 1.75em;
-}
-
-.gap-100 {
-  gap: 8px;
-}
-
-.gap-150 {
-  gap: 12px;
-}
-
-.gap-200 {
-  gap: 16px;
-}
-
-.gap-300 {
-  gap: 24px;
-}
-
-.gap-400 {
-  gap: 32px;
-}
-
-.grid-color-cards {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 24px;
-}
-
-.h-300 {
-  height: 24px;
-}
-
-.h-400 {
-  height: 32px;
-}
-
-.h-350 {
-  height: 28px;
-}
-
-.h-400 {
-  height: 32px;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-end {
-  justify-content: end;
-}
-
-.justify-space-between {
-  justify-content: space-between;
-}
-
-.justify-space-around {
-  justify-content: space-around;
-}
-
-.justify-items-end {
-  justify-items: end;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.my-block-100 {
-  margin-block-end: .5em;
-  margin-block-start: .5em;
-}
-
-.m-block-none {
-  margin-block-end: 0px;
-  margin-block-start: 0px;
-}
-
-.m-100 {
-  margin: 8px;
-}
-
-.m-200 {
-  margin: 16px;
-}
-
-.mb-100 {
-  margin-bottom: 8px;
-}
-
-.mb-150 {
-  margin-bottom: 12px;
-}
-
-.mb-200 {
-  margin-bottom: 16px;
-}
-
-.mb-300 {
-  margin-bottom: 24px;
-}
-
-.mx-100 {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.mx-200 {
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-.mx-300 {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.my-400 {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.p-200 {
-  padding: 16px;
-}
-
-.pb-200 {
-  padding-bottom: 16px;
-}
-
-.px-100 {
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.px-150 {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.px-200 {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.px-300 {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.py-50 {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.py-100 {
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.py-150 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.py-200 {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.w-300 {
-  width: 24px;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-1\/3 {
-  width: 33.33333%;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-1\/6 {
-  width: 16.66666%;
-}
-
-.w-1\/24 {
-  width: 4.16666%;
-}
-
-.w-1\/12 {
-  width: 8.33333%;
-}
-
-.w-2\/12 {
-  width: 16.66666%;
-}
-
-.w-3\/12 {
-  width: 25%;
-}
-
-.w-7\/24 {
-  width: 29.16666%;
-}
-
-.w-4\/12 {
-  width: 33.33333%;
-}
-
-.w-9\/24 {
-  width: 37.5%;
-}
-
-.w-5\/12 {
-  width: 41.66666%;
-}
-
-.w-11\/24 {
-  width: 45.83333%;
-}
-
-.w-6\/12 {
-  width: 50%;
-}
-
-.w-7\/12 {
-  width: 58.33333%;
-}
-
-.w-8\/12 {
-  width: 66.66666%;
-}
-
-.w-9\/12 {
-  width: 75%;
-}
-
-.w-10\/12 {
-  width: 83.33333%;
-}
-
-.w-11\/12 {
-  width: 91.66666%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-/*==================================================
-GLOBAL STYLES | iPhone5 | NO min width
-===================================================*/
-
+/* ================================================ */
+/* ~~~~ GLOBAL STYLES | iPhone5 | NO min width ~~~~ */
+/* ================================================ */
 .spacing-container-home {
   display: flex;
   flex-flow: column;
@@ -2208,10 +1656,9 @@ footer .half-width {
 END MOBILE FIRST | iPhone5 | NO min width
 ===================================================*/
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
+/* =======================================
+Helper classes
+========================================= */
 /*
  * Hide visually and from screen readers
  */
@@ -2284,96 +1731,24 @@ END MOBILE FIRST | iPhone5 | NO min width
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+/* =========================================================
+EXAMPLE Media Queries for Responsive Design.
+These examples override the primary ('mobile first') styles.
+Modify as content requires.
+========================================================== */
 
 /*==================================================
 ~~~~~~~~~~~~~INTERIM LAYOUT ADJUSTMENTS~~~~~~~~~~~~~
 ===================================================*/
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 360px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================= */
+/* ~~~~~~~~~~~~~~~~ min width 360px ~~~~~~~~~~~~~~~~ */
+/* ================================================= */
 @media screen and (min-width:360px) {
 
   /*==================================================
    HOME PAGE || min width 360px
    ===================================================*/
-  .sm-hidden {
-    display: none;
-  }
-
-  .sm-block {
-    display: block;
-  }
-
-  .sm-w-1\/2 {
-    width: 50%;
-  }
-
-  .sm-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .sm-w-1\/4 {
-    width: 25%;
-  }
-
-  .sm-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .sm-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .sm-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .sm-w-3\/12 {
-    width: 25%;
-  }
-
-  .sm-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .sm-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .sm-w-6\/12 {
-    width: 50%;
-  }
-
-  .sm-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .sm-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .sm-w-9\/12 {
-    width: 75%;
-  }
-
-  .sm-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .sm-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .sm-w-full {
-    width: 100%;
-  }
-
   .owl-mobile img {
     width: 91%;
     margin: -41px 0 0 0;
@@ -2749,9 +2124,9 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 
 
-  /*==================================================
+  /*============================================
     CONTACT PAGE | | min width 360px
-    ===================================================*/
+    ===========================================*/
   .contact-name h1 {
     font-size: 53px;
     line-height: 53px;
@@ -2780,22 +2155,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 375px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* =========================================== */
+/* ~~~~~~~~~~~~~ min width 375px ~~~~~~~~~~~~~ */
+/* =========================================== */
 @media screen and (min-width:375px) {
 
   /*==================================================
    HOME PAGE | | min width 375px
    ===================================================*/
-  .hidden {
-    display: none;
-  }
-
-  .block {
-    display: block;
-  }
-
   .vertical-header {
     min-height: 443px;
   }
@@ -2844,25 +2211,25 @@ END MOBILE FIRST | iPhone5 | NO min width
     background-size: 29%;
   }
 
-  /*==================================================
+  /*================================================
     INDIVIDUAL PORTFOLIO PAGE | | min width 375px
-    ===================================================*/
+    ===============================================*/
   #individual-portfolio-page {
     padding-top: 30%;
   }
 
-  /*==================================================
+  /*=================================================
     CONTACT PAGE | | min width 375px
-    ===================================================*/
+    ===============================================*/
   .contact-page-img {
     background-position: center;
     width: 29%;
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 401px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================== */
+/*  ~~~~~~~~~~~~~~ min width 401px ~~~~~~~~~~~~~~ */
+/*  ============================================= */
 @media screen and (min-width:401px) {
   .dev-portflio-itm-spacing {
     margin-top: 12%;
@@ -2873,9 +2240,9 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 411px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 411px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width:411px) {
 
   /*==================================================
@@ -3067,9 +2434,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     height: 91.5%;
   }
 
-  /*==================================================
+  /*==============================================
     PORTFOLIO INDEX PAGES | | min width 411px
-    ===================================================*/
+    =============================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-ind-portfolio header {
     min-height: 21%;
@@ -3085,14 +2452,14 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     INDIVIDUAL PORTFOLIO PAGE | | min width 411px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page {
     padding-top: 10%;
   }
 
-  /*==================================================
+  /*=================================================
     CONTACT | | min width 411px
-    ===================================================*/
+    ================================================*/
   #contact {
     height: calc(100vh - 195px);
   }
@@ -3123,7 +2490,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     FOOTER | | min width 411px
-    ===================================================*/
+    =================================================*/
   #footer-border .half-width .copyright {
     padding-left: 7px;
   }
@@ -3133,14 +2500,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 414px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~ min width 414px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:414px) {
 
-  /*==================================================
+  /*================================================
     ABOUT PAGE | | min width 414px
-    ===================================================*/
+    ===============================================*/
   #about {
     max-width: 422px;
     margin: 0 auto 0 12px;
@@ -3159,36 +2526,36 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin-bottom: 7px;
   }
 
-  /*==================================================
+  /*=================================================
     PORTFOLIO PAGE | | min width 414px
-    ===================================================*/
+    ===============================================*/
   .logo-design-mobile {
     height: 90.75%;
   }
 
-  /*==================================================
+  /*=================================================
     CONTACT PAGE | | min width 414px
-    ===================================================*/
+    ===============================================*/
   #contact {
     height: calc(100vh - 197px);
   }
 
   /*==================================================
     UNDER CONSTRUCTION PAGE | | min width 414px
-    ===================================================*/
+    ================================================*/
   #under-construction-page {
     padding-top: 43%;
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 460px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================= */
+/* ~~~~~~~~~~~~~~~~ min width 460px ~~~~~~~~~~~~~~~~ */
+/* ================================================= */
 @media screen and (min-width: 460px) {
 
   /*==================================================
     PORTFOLIO INDEX PAGES | | min width 460px
-    ===================================================*/
+    ================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-ind-portfolio header {
     min-height: 23%;
@@ -3199,22 +2566,22 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 520px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 520px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width: 520px) {
 
   /*==================================================
     GLOBAL STYLES | | min width 520px
-    ===================================================*/
+    ================================================*/
   .corner-body {
     background-size: 23%, 55%;
     background-position: 20px 20px, -29px 0px;
   }
 
-  /*==================================================
+  /*=================================================
     NAVAGATION | | min width 520px
-    ===================================================*/
+    ================================================*/
   .dropbtn hr {
     border-top: 2px solid #808080;
     border-bottom: 1px solid #fff;
@@ -3224,7 +2591,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     ABOUT PAGE | | min width 520px
-    ===================================================*/
+    ================================================*/
   #about {
     max-width: 400px;
     margin: 0 auto 0 0px;
@@ -3248,7 +2615,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO PAGE | | min width 520px
-    ===================================================*/
+    ================================================*/
   #portfolio .full-width {
     display: flex;
     width: 100%;
@@ -3470,20 +2837,20 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     contact PAGE | | min width 520px
-    ===================================================*/
+    ================================================*/
   .contact-page-img {
     width: 21%;
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 568px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================= */
+/* ~~~~~~~~~~~~~~~~ min width 568px ~~~~~~~~~~~~~~~~ */
+/* ================================================= */
 @media screen and (min-width: 568px) {
 
   /*==================================================
     HOME PAGE | | min width 568px
-    ===================================================*/
+    ================================================*/
   .vertical-header {
     min-height: 650px;
   }
@@ -3498,7 +2865,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     ABOUT PAGE | | min width 568px
-    ===================================================*/
+    ================================================*/
   #about {
     max-width: 530px;
     min-height: 665px;
@@ -3517,7 +2884,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO INDEX PAGES | | min width 568px
-    ===================================================*/
+    =================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-ind-portfolio header {
     height: 25%;
@@ -3535,14 +2902,14 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     INDIVIDUAL PORTFOLIO PAGE | | min width 568px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page {
     padding-top: 13%;
   }
 
   /*==================================================
     CONTACT PAGE | | min width 568px
-    ===================================================*/
+    =================================================*/
   .spacing-container-contact {
     /*min-height: 320px;*/
     /* NOTE: if this min height is active it leades to the nave not working if the screen height shrinks below a certian height */
@@ -3558,9 +2925,9 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 601px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 601px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width: 601px) {
   .dev-portflio-itm-spacing {
     margin-top: 17%;
@@ -3571,14 +2938,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 610px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* =============================================== */
+/* ~~~~~~~~~~~~~~~ min width 610px ~~~~~~~~~~~~~~~ */
+/* =============================================== */
 @media screen and (min-width: 610px) {
 
   /*==================================================
     ABOUT PAGE | | min width 610px
-    ===================================================*/
+    =================================================*/
   #about {
     max-width: 530px;
     margin: 0 auto 0 0px;
@@ -3600,7 +2967,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO INDIVIDUAL PAGES | | min width 610px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page {
     padding-top: 27%;
   }
@@ -3611,14 +2978,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 640px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 640px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width: 640px) {
 
   /*==================================================
     GLOBAL STYLES | | min width 640px
-    ===================================================*/
+    =================================================*/
   .corner-body {
     background-size: 22%, 47%;
     background-position: 20px 10px, -29px 0px;
@@ -3626,7 +2993,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     HOME PAGE | | min width 640px
-    ===================================================*/
+    =================================================*/
   .vertical-header {
     min-height: 740px;
     max-height: 760px;
@@ -3643,7 +3010,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     ABOUT PAGE | | min width 640px
-    ===================================================*/
+    =================================================*/
   #about {
     min-height: 655px;
   }
@@ -3654,14 +3021,14 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO PAGE | | min width 640px
-    ===================================================*/
+    =================================================*/
   #portfolio .full-width {
     padding-top: 17%;
   }
 
   /*==================================================
     INDIVIDUAL PORTFOLIO PAGE | | min width 640px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page {
     padding-top: 10%;
   }
@@ -3672,27 +3039,27 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 667px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================= */
+/* ~~~~~~~~~~~~~~~~ min width 667px ~~~~~~~~~~~~~~~~ */
+/* ================================================= */
 @media screen and (min-width: 667px) {
 
   /*==================================================
     HOME PAGE | | min width 667px
-    ===================================================*/
+    =================================================*/
   .vertical-header {
     min-height: 790px;
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 730px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 730px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width: 730px) {
 
   /*==================================================
     HOME PAGE | | min width 730px
-    ===================================================*/
+    =================================================*/
   .vertical-header {
     min-height: 825px;
     padding-bottom: 3px;
@@ -3704,7 +3071,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     ABOUT PAGE | | min width 730px
-    ===================================================*/
+    =================================================*/
   #about {
     margin-left: 19px;
     margin-top: 20px;
@@ -3716,34 +3083,34 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO PAGE | | min width 730px
-    ===================================================*/
+    =================================================*/
   #portfolio .full-width {
     padding-top: 14%;
   }
 
   /*==================================================
     INDIVIDUAL PORTFOLIO PAGE | | min width 730px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page {
     padding-top: 14%;
   }
 
   /*==================================================
     CONTACT PAGE | | min width 730px
-    ===================================================*/
+    =================================================*/
   .contact-page-img {
     width: 17%;
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 758px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~ min width 758px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width: 758px) {
 
   /*==================================================
     PORTFOLIO PAGE | | min width 758px
-    ===================================================*/
+    =================================================*/
   #portfolio .full-width {
     /* was 23% */
     padding-top: 13%;
@@ -3759,103 +3126,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-  ~~~~~~~~~~~~~~~~~~min width 768px~~~~~~~~~~~~~~~~~~
-  ===================================================*/
+/* ================================================== */
+/* ~~~~~~~~~~~~~~~~~ min width 768px ~~~~~~~~~~~~~~~~ */
+/* ================================================== */
 @media screen and (min-width: 768px) {
 
   /*==================================================
     GLOBAL STYLES | TABLET-iPAD | min width 768px
-    ===================================================*/
-
-  .md-gap-300 {
-    gap: 24px;
-  }
-
-  .md-font-size-150 {
-    font-size: 1.5em;
-  }
-
-  .md-w-3\/4 {
-    width: 75%;
-  }
-
-  .md-hidden {
-    display: none;
-  }
-
-  .md-block {
-    display: block;
-  }
-
-  .md-w-1\/2 {
-    width: 50%;
-  }
-
-  .md-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .md-w-1\/4 {
-    width: 25%;
-  }
-
-  .md-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .md-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .md-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .md-w-3\/12 {
-    width: 25%;
-  }
-
-  .md-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .md-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .md-w-6\/12 {
-    width: 50%;
-  }
-
-  .md-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .md-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .md-w-9\/12 {
-    width: 75%;
-  }
-
-  .md-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .md-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .md-w-full {
-    width: 100%;
-  }
-
-  .md-mx-300 {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
+    =================================================*/
 
   .home-body {
     background-size: 19%, 49.5%;
@@ -3881,7 +3159,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE | TABLET-iPAD | min width 768px
-     ===================================================*/
+     ================================================*/
   .hello-mobile {
     min-height: calc(100vh - 122px);
   }
@@ -3929,7 +3207,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      ABOUT PAGE | TABLET-iPAD | min width 768px
-     ===================================================*/
+     ================================================*/
   .about-spacing-container {
     min-height: 1024px;
   }
@@ -4157,7 +3435,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | TABLET-iPAD | min width 768px
-     ===================================================*/
+     ================================================*/
   .corner-body #portfolio-illustration {
     padding-top: 25%;
   }
@@ -4291,9 +3569,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding-left: 4px;
   }
 
-  /*==================================================
+  /*======================================================
      PORTFOLIO INDEX PAGE | TABLET-iPAD | min width 768px
-     ===================================================*/
+    =====================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-digital-illustraions-index header,
   .corner-body .spacing-container-ind-portfolio header {
@@ -4305,7 +3583,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding-top: 3%;
   }
 
-  /*=======================================================
+  /*==========================================================
      PORTFOLIO INDIVIDUAL PAGE | TABLET-iPAD | min width 768px
      ========================================================*/
   #individual-portfolio-page {
@@ -4345,7 +3623,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     width: 76.5%;
   }
 
-  /*=====================================================
+  /*========================================================
      UNDER CONSTRUCTION PAGE | TABLET-iPAD | min width 768px
      ======================================================*/
   #under-construction-page {
@@ -4383,7 +3661,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE | TABLET-iPAD | min width 768px
-     ===================================================*/
+     ===============================================*/
   #contact {
     height: calc(100vh - 298px);
   }
@@ -4413,25 +3691,25 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-~~~~~~~~~~~~~INTERIM LAYOUT ADJUSTMENTS~~~~~~~~~~~~~
-===================================================*/
+/* ================================================== */
+/* ~~~~~~~~~~~~INTERIM LAYOUT ADJUSTMENTS~~~~~~~~~~~~ */
+/* ================================================== */
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 810px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* =================================================== */
+/* ~~~~~~~~~~~~~~~~~ min width 810px ~~~~~~~~~~~~~~~~~ */
+/* =================================================== */
 @media screen and (min-width:810px) {
 
   /*==================================================
      HOME PAGE || min width 810px
-     ===================================================*/
+     ================================================*/
   .vertical-header {
     min-height: 800px;
   }
 
   /*==================================================
      ABOUT PAGE || min width 810px
-     ===================================================*/
+     ================================================*/
   #about {
     margin-top: 1.5%;
   }
@@ -4442,7 +3720,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO INDEX PAGE || min width 810px
-     ===================================================*/
+     ================================================*/
   #portfolio-illustration {
     padding-top: 33%;
   }
@@ -4453,7 +3731,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO INDIVIDUAL PAGE || min width 810px
-     ===================================================*/
+     ================================================*/
   #individual-portfolio-page {
     padding-top: 0;
   }
@@ -4466,10 +3744,6 @@ END MOBILE FIRST | iPhone5 | NO min width
   #individual-portfolio-page .full-width {
     display: flex;
     align-items: flex-end;
-  }
-
-  .grid-color-cards {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolio-description {
@@ -4506,7 +3780,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE || min width 810px
-     ===================================================*/
+     ================================================*/
   .corner-body .spacing-container-contact header {
     height: 10%;
     min-height: 85px;
@@ -4521,14 +3795,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 823px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* =============================================== */
+/* ~~~~~~~~~~~~~~~ min width 823px ~~~~~~~~~~~~~~~ */
+/* =============================================== */
 @media screen and (min-width: 823px) {
 
   /*==================================================
      HOME PAGE || min width 823px
-     ===================================================*/
+     ================================================*/
   .vertical-header {
     min-height: 790px;
     max-height: 800px;
@@ -4536,7 +3810,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE || min width 823px
-     ===================================================*/
+     ================================================*/
   #about {
     margin: 0;
     height: 913px;
@@ -4552,21 +3826,21 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE || min width 823px
-     ===================================================*/
+     ================================================*/
   .corner-body .spacing-container-contact header {
     height: 25%;
     min-height: 119px;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 841px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~~ min width 841px ~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:841px) {
 
   /*==================================================
      GLOBAL STYLES || min width 841px
-     ===================================================*/
+     ================================================*/
   .corner-body {
     background-size: 17%, 41%;
     background-position: 5% 3.5%, -29px 0px;
@@ -4574,7 +3848,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      ABOUT PAGE || min width 841px
-     ===================================================*/
+     ================================================*/
   .four-fifths-width-work {
     margin-top: 140px;
   }
@@ -4585,7 +3859,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE || min width 841px
-     ===================================================*/
+     ================================================*/
   #contact {
     position: relative;
   }
@@ -4595,14 +3869,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 900px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~~ min width 900px ~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:900px) {
 
   /*==================================================
      ABOUT PAGE || min width 900px
-     ===================================================*/
+     ================================================*/
   .home-bracket-div {
     padding-right: 0.75%;
   }
@@ -4613,92 +3887,21 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
     PORTFOLIO INDIVIDUAL PAGE || min width 900px
-    ===================================================*/
+    =================================================*/
   #individual-portfolio-page p {
     font-size: 22px;
     line-height: 27px;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~DESKTOP | min width 940px~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================== */
+/* ~~~~~~~~~~~~~DESKTOP | min width 940px~~~~~~~~~~~~ */
+/* ================================================== */
 @media screen and (min-width:940px) {
 
   /*==================================================
      GLOBAL STYLES | DESKTOP | min width 940px
-     ===================================================*/
-  .lg-hidden {
-    display: none;
-  }
-
-  .lg-block {
-    display: block;
-  }
-
-  .lg-w-1\/2 {
-    width: 50%;
-  }
-
-  .lg-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .lg-w-1\/4 {
-    width: 25%;
-  }
-
-  .lg-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .lg-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .lg-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .lg-w-3\/12 {
-    width: 25%;
-  }
-
-  .lg-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .lg-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .lg-w-6\/12 {
-    width: 50%;
-  }
-
-  .lg-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .lg-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .lg-w-9\/12 {
-    width: 75%;
-  }
-
-  .lg-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .lg-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .lg-w-full {
-    width: 100%;
-  }
+     ================================================*/
 
   .home-body {
     background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
@@ -4754,7 +3957,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      NAVAGATION STYLES | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   header {
     display: flex;
     flex-flow: row;
@@ -4827,7 +4030,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(100vh - 45vh);
     min-height: 474.5px;
@@ -4907,7 +4110,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      ABOUT PAGE | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   .about-spacing-container {
     min-height: 924px;
   }
@@ -4968,7 +4171,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   .horizontal-nav {
     overflow: visible;
   }
@@ -5157,7 +4360,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO INDEX PAGES | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-digital-illustraions-index header,
   .corner-body .spacing-container-ind-portfolio header {
@@ -5168,28 +4371,16 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding-top: 2%;
   }
 
-  /*====================================================
+  /*=======================================================
      PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 940px
      =====================================================*/
   #individual-portfolio-page p {
     font-size: 23px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-  /*==================================================
+  /*==============================================
      CONTACT PAGE | DESKTOP | min width 940px
-     ===================================================*/
+     ============================================*/
   #contact {
     height: calc(100vh - 198px)
   }
@@ -5198,7 +4389,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin-top: 7%;
   }
 
-  /*==================================================
+  /*=====================================================
      UNDER CONSTRUCTION PAGE | DESKTOP | min width 940px
      ===================================================*/
   #under-construction-page {
@@ -5216,7 +4407,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      FOOTER | DESKTOP | min width 940px
-     ===================================================*/
+     ================================================*/
   .home-body footer {
     background-color: #fff;
     border-top: 1px solid #000;
@@ -5313,21 +4504,21 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 995px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ============================================= */
+/* ~~~~~~~~~~~~~~ min width 995px ~~~~~~~~~~~~~~ */
+/* ============================================= */
 @media screen and (min-width:995px) {
 
   /*==================================================
      HOME PAGE | | min width 995px
-     ===================================================*/
+     ================================================*/
   #home {
     min-height: 503px;
   }
 
   /*==================================================
      PORTFOLIO PAGE | | min width 995px
-     ===================================================*/
+     ================================================*/
   .portfolio-spacing-container {
     min-height: 736px;
   }
@@ -5336,7 +4527,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     min-height: 543px;
   }
 
-  /*====================================================
+  /*=======================================================
      PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 995px
      =====================================================*/
   .portfolio-description {
@@ -5344,89 +4535,13 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~iPAD HORIZONTAL | min width 1024px~~~~~~~~~
-   ===================================================*/
+/* ==================================================== */
+/* ~~~~~~~~ iPAD HORIZONTAL | min width 1024px ~~~~~~~~ */
+/* ==================================================== */
 @media screen and (min-width:1024px) {
-  /*==================================================
+  /*=====================================================
      GLOBAL STYLES | iPAD HORIZONTAL | min width 1024px
      ===================================================*/
-
-  /* .lg-w-1\/2 {
-       width: 50%;
-     } */
-
-  .xl-hidden {
-    display: none;
-  }
-
-  .xl-block {
-    display: block;
-  }
-
-  .xl-w-1\/2 {
-    width: 50%;
-  }
-
-  .xl-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .xl-w-1\/4 {
-    width: 25%;
-  }
-
-  .xl-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .xl-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .xl-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .xl-w-3\/12 {
-    width: 25%;
-  }
-
-  .xl-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .xl-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .xl-w-6\/12 {
-    width: 50%;
-  }
-
-  .xl-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .xl-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .xl-w-9\/12 {
-    width: 75%;
-  }
-
-  .xl-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .xl-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .xl-w-full {
-    width: 100%;
-  }
 
   .home-body {
     background: url(../img/corner-sketch.gif), url(../img/wise-web-owl.gif);
@@ -5456,16 +4571,16 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin: 0;
   }
 
-  /*==================================================
+  /*=====================================================
      HOME PAGE | iPAD HORIZONTAL | min width 1024px
-     ===================================================*/
+     ==================================================*/
   #home {
     height: 550PX;
   }
 
   /*==================================================
      ABOUT PAGE | iPAD HORIZONTAL | min width 1024px
-     ===================================================*/
+     ================================================*/
   .about-spacing-container header {
     min-height: 155px;
   }
@@ -5507,7 +4622,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin: 0 0 7px 40px;
   }
 
-  /*==================================================
+  /*======================================================
      PORTFOLIO PAGE | iPAD HORIZONTAL | min width 1024px
      ===================================================*/
   #portfolio {
@@ -5520,7 +4635,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding-top: 5.5%;
   }
 
-  /*========================================================
+  /*============================================================
      PORTFOLIO INDEX PAGES | iPAD HORIZONTAL | min width 1024px
      =========================================================*/
   .corner-body .spacing-container header,
@@ -5533,7 +4648,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin-top: 2%;
   }
 
-  /*==================================================
+  /*=====================================================
      CONTACT PAGE | iPAD HORIZONTAL | min width 1024px
      ===================================================*/
   #contact {
@@ -5549,14 +4664,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1030px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~ min width 1030px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:1030px) {
 
   /*==================================================
      GLOBAL STYLES | | min width 1030px
-     ===================================================*/
+     ================================================*/
   .home-body {
     background-size: 32.4468%, 50.3191%;
   }
@@ -5577,14 +4692,14 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE | | min width 1030px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(550px + .5vh);
   }
 
   /*==================================================
      ABOUT PAGE | | min width 1030px
-     ===================================================*/
+     ================================================*/
   #about p {
     font-size: 15px;
   }
@@ -5599,7 +4714,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1030px
-     ===================================================*/
+     ================================================*/
   .portfolio-spacing-container {
     min-height: 770px;
   }
@@ -5611,14 +4726,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1090px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ============================================== */
+/* ~~~~~~~~~~~~~~ min width 1090px ~~~~~~~~~~~~~~ */
+/* ============================================== */
 @media screen and (min-width:1090px) {
 
   /*==================================================
      ABOUT PAGE | | min width 1090px
-     ===================================================*/
+     ================================================*/
   .portfolio-spacing-container {
     min-height: 800px;
   }
@@ -5645,7 +4760,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1090px
-     ===================================================*/
+     ================================================*/
   #portfolio {
     height: calc(100vh - 227px);
     min-height: 555px;
@@ -5655,20 +4770,20 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE | | min width 1090px
-     ===================================================*/
+     ================================================*/
   #contact {
     height: calc(100vh - 220px);
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1120px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================== */
+/* ~~~~~~~~~~~~~~~~ min width 1120px ~~~~~~~~~~~~~~~~ */
+/* ================================================== */
 @media screen and (min-width: 1120px) {
 
   /*==================================================
      GLOBAL STYLES | | min width 1120px
-     ===================================================*/
+     ================================================*/
   .home-body {
     background-size: 30.1755%, 46.7968%;
   }
@@ -5687,14 +4802,14 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE | | min width 1120px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(550px + 1vh);
   }
 
   /*==================================================
      ABOUT PAGE | | min width 1120px
-     ===================================================*/
+     ================================================*/
   .about-img-block-work-tablet {
     display: none;
   }
@@ -5712,7 +4827,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1120px
-     ===================================================*/
+     ================================================*/
   #portfolio {
     height: calc(100vh - 222px);
     min-height: 585px;
@@ -5720,21 +4835,21 @@ END MOBILE FIRST | iPhone5 | NO min width
 
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1160px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~ min width 1150px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:1160px) {
 
   /*==================================================
      ABOUT PAGE | | min width 1160px
-     ===================================================*/
+     ================================================*/
   .home-vertical {
     margin-right: 35%;
   }
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1160px
-     ===================================================*/
+     ================================================*/
   #portfolio {
     margin-top: 0;
   }
@@ -5744,85 +4859,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1200px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ==================================================== */
+/* ~~~~~~~~~~~~~~~~~~min width 1200px~~~~~~~~~~~~~~~~~~ */
+/* ==================================================== */
 @media screen and (min-width:1200px) {
 
   /*==================================================
      HOME PAGE | | min width 1200px
-     ===================================================*/
-  .xxl-hidden {
-    display: none;
-  }
-
-  .xxl-block {
-    display: block;
-  }
-
-  .xxl-w-1\/2 {
-    width: 50%;
-  }
-
-  .xxl-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .xxl-w-1\/4 {
-    width: 25%;
-  }
-
-  .xxl-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .xxl-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .xxl-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .xxl-w-3\/12 {
-    width: 25%;
-  }
-
-  .xxl-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .xxl-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .xxl-w-6\/12 {
-    width: 50%;
-  }
-
-  .xxl-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .xxl-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .xxl-w-9\/12 {
-    width: 75%;
-  }
-
-  .xxl-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .xxl-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .xxl-w-full {
-    width: 100%;
-  }
+     ================================================*/
 
   #home {
     height: calc(592px + 1vh);
@@ -5830,7 +4874,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      ABOUT PAGE | | min width 1200px
-     ===================================================*/
+     ================================================*/
   #mobile-image-home {
     background: lightgrey url('../img/jessica-work-desktop-wide-pic.png');
     background-position: center;
@@ -5844,25 +4888,21 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      INDIVIDUAL PORTFOLIO PAGE | | min width 1200px
-     ===================================================*/
+     ================================================*/
   #individual-portfolio-page {
     padding-top: 4%;
   }
 
-  .grid-color-cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   /*==================================================
      CONTACT PAGE | | min width 1200px
-     ===================================================*/
+     ================================================*/
   .contact-page-img {
     width: 15%;
   }
 
   /*==================================================
      UNDER CONSTRUCTION PAGE | | min width 1200px
-     ===================================================*/
+     ================================================*/
   #under-construction-page .portfolio-description {
     width: 50%;
   }
@@ -5872,21 +4912,21 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1250px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================== */
+/* ~~~~~~~~~~~~~~~~ min width 1250px ~~~~~~~~~~~~~~~~ */
+/* ================================================== */
 @media screen and (min-width:1250px) {
 
   /*==================================================
      HOME PAGE | | min width 1250px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(617px + 1vh);
   }
 
   /*==================================================
      ABOUT PAGE | | min width 1250px
-     ===================================================*/
+     ================================================*/
   #about {
     margin-top: 0;
   }
@@ -5901,15 +4941,15 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1250px
-     ===================================================*/
+     ================================================*/
   #portfolio .full-width {
     padding-top: 5%;
     width: 85%;
   }
 
-  /*========================================================
+  /*===================================================
      PORTFOLIO INDEX PAGES | | min width 1250px
-     =========================================================*/
+     =================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-digital-illustraions-index header,
   .corner-body .spacing-container-ind-portfolio header {
@@ -5918,20 +4958,20 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      CONTACT PAGE | | min width 1250px
-     ===================================================*/
+     ================================================*/
   .contact-page-img {
     width: 14%;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1334px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ============================================== */
+/* ~~~~~~~~~~~~~~ min width 1334px ~~~~~~~~~~~~~~ */
+/* ============================================== */
 @media screen and (min-width:1334px) {
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1334px
-     ===================================================*/
+     ================================================*/
   .portfolio-spacing-container {
     min-height: 850px;
   }
@@ -5942,18 +4982,18 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO INDIVIDUAL PAGES | | min width 1334px
-     ===================================================*/
+     ================================================*/
   #individual-portfolio-page {
     padding-top: 0;
   }
 }
 
-/*==================================================
-   ~~~~~~~iPAD PRO HORIZONTAL | min width 1366px~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~ iPAD PRO HORIZONTAL | min width 1366px ~~~~ */
+/* ================================================ */
 @media screen and (min-width:1366px) {
 
-  /*====================================================
+  /*=======================================================
      GLOBAL STYLES | iPAD PRO HORIZONTAL | min width 1366px
      =====================================================*/
   .home-body {
@@ -5976,16 +5016,16 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding: 9% 0 0 27%;
   }
 
-  /*====================================================
+  /*===================================================
      HOME PAGE | iPAD PRO HORIZONTAL | min width 1366px
-     =====================================================*/
+     =================================================*/
   #home {
     height: 747.47px;
   }
 
   /*====================================================
      ABOUT PAGE | iPAD PRO HORIZONTAL | min width 1366px
-     =====================================================*/
+     ==================================================*/
   .about-spacing-container header {
     min-height: 145px;
   }
@@ -6016,9 +5056,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     width: 45%;
   }
 
-  /*====================================================
+  /*========================================================
      PORTFOLIO PAGE | iPAD PRO HORIZONTAL | min width 1366px
-     =====================================================*/
+     ======================================================*/
   .portfolio-spacing-container {
     min-height: 950px;
   }
@@ -6073,9 +5113,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     line-height: 33px;
   }
 
-  /*========================================================
+  /*===============================================================
      PORTFOLIO INDEX PAGES | iPAD PRO HORIZONTAL | min width 1366px
-     =========================================================*/
+     =============================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-digital-illustraions-index header,
   .corner-body .spacing-container-ind-portfolio header {
@@ -6083,16 +5123,16 @@ END MOBILE FIRST | iPhone5 | NO min width
     margin-bottom: 3%;
   }
 
-  /*=====================================================
+  /*========================================================
      PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 1366px
      ======================================================*/
   .portfolio-description {
     width: 40%;
   }
 
-  /*====================================================
+  /*======================================================
      CONTACT PAGE | iPAD PRO HORIZONTAL | min width 1366px
-     =====================================================*/
+     ====================================================*/
   .contact-name h1 {
     font-size: 143px;
     line-height: 147px;
@@ -6104,14 +5144,14 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1370px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~ min width 1370px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:1370px) {
 
   /*==================================================
      GLOBAL STYLES | | min width 1370px
-     ===================================================*/
+     ================================================*/
   .home-body {
     background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
     background-repeat: no-repeat, no-repeat;
@@ -6143,7 +5183,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      HOME PAGE | | min width 1370px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(535px + 1vh);
   }
@@ -6155,7 +5195,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      ABOUT | | min width 1370px
-     ===================================================*/
+     ================================================*/
   .about-spacing-container header {
     min-height: 155px;
   }
@@ -6167,7 +5207,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1370px
-     ===================================================*/
+     ================================================*/
   .portfolio-spacing-container {
     min-height: 756px;
   }
@@ -6181,9 +5221,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     width: 80%;
   }
 
-  /*========================================================
+  /*===================================================
      PORTFOLIO INDEX PAGES | | min width 1370px
-     =========================================================*/
+     =================================================*/
   .corner-body .spacing-container header,
   .corner-body .spacing-container-digital-illustraions-index header,
   .corner-body .spacing-container-ind-portfolio header {
@@ -6195,157 +5235,37 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding-top: 2%;
   }
 
-  /*==================================================
+  /*================================================
      CONTACT PAGE | | min width 1370px
-     ===================================================*/
+     ==============================================*/
   #contact {
     height: calc(100vh - 263px);
     min-height: 313px;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1420px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~ min width 1420px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:1420px) {
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1420px
-     ===================================================*/
-  .exl-hidden {
-    display: none;
-  }
-
-  .exl-block {
-    display: block;
-  }
-
-  .exl-w-1\/2 {
-    width: 50%;
-  }
-
-  .exl-w-1\/3 {
-    width: 33.33333%;
-  }
-
-  .exl-w-1\/4 {
-    width: 25%;
-  }
-
-  .exl-w-1\/6 {
-    width: 16.66666%;
-  }
-
-  .exl-w-1\/24 {
-    width: 4.16666%;
-  }
-
-  .exl-w-1\/12 {
-    width: 8.33333%;
-  }
-
-  .exl-w-3\/24 {
-    width: 12.5%;
-  }
-
-  .exl-w-2\/12 {
-    width: 16.66666%;
-  }
-
-  .exl-w-5\/24 {
-    width: 20.83333%;
-  }
-
-  .exl-w-3\/12 {
-    width: 25%;
-  }
-
-  .exl-w-7\/24 {
-    width: 29.16666%;
-  }
-
-  .exl-w-4\/12 {
-    width: 33.33333%;
-  }
-
-  .exl-w-9\/24 {
-    width: 37.5%;
-  }
-
-  .exl-w-5\/12 {
-    width: 41.66666%;
-  }
-
-  .exl-w-11\/24 {
-    width: 45.83333%;
-  }
-
-  .exl-w-6\/12 {
-    width: 50%;
-  }
-
-  .exl-w-13\/24 {
-    width: 54.16666%;
-  }
-
-  .exl-w-7\/12 {
-    width: 58.33333%;
-  }
-
-  .exl-w-15\/24 {
-    width: 62.5%;
-  }
-
-  .exl-w-8\/12 {
-    width: 66.66666%;
-  }
-
-  .exl-w-17\/24 {
-    width: 70.83333%;
-  }
-
-  .exl-w-9\/12 {
-    width: 75%;
-  }
-
-  .exl-w-19\/24 {
-    width: 79.16666%;
-  }
-
-  .exl-w-10\/12 {
-    width: 83.33333%;
-  }
-
-  .exl-w-21\/24 {
-    width: 87.5%;
-  }
-
-  .exl-w-11\/12 {
-    width: 91.66666%;
-  }
-
-  .exl-w-23\/24 {
-    width: 95.83333%;
-  }
-
-  .exl-w-full {
-    width: 100%;
-  }
-
+     ===============================================*/
   .portfolio-spacing-container {
     min-height: 790px;
   }
 
   /*==================================================
      PORTFOLIO INDEX PAGE | | min width 1420px
-     ===================================================*/
+     ================================================*/
   .porfolio-thumb {
     width: 12.5%;
   }
 
   /*==================================================
      PORTFOLIO INDIVIDUAL PAGES | | min width 1420px
-     ===================================================*/
+     ================================================*/
   .corner-body .spacing-container-ind-portfolio header {
     min-height: 180px;
     margin-bottom: 0;
@@ -6371,71 +5291,71 @@ END MOBILE FIRST | iPhone5 | NO min width
     width: 92%;
   }
 
-  /*==================================================
+  /*===============================================
      CONTACT PAGE | | min width 1420px
-     ===================================================*/
+     =============================================*/
   .contact-img-block {
     margin-top: 4%;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1475px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* =============================================== */
+/* ~~~~~~~~~~~~~~~~ min width 1475px ~~~~~~~~~~~~~ */
+/* =============================================== */
 @media screen and (min-width:1475px) {
 
-  /*==================================================
+  /*===============================================
      HOME PAGE | | min width 1475px
-     ===================================================*/
+     =============================================*/
   #home {
     height: calc(577px + 1vh);
   }
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1475px
-     ===================================================*/
+     ================================================*/
   #portfolio .full-width {
     padding-top: 1%;
     width: 77%;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1575px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================= */
+/* ~~~~~~~~~~~~~~~~~~ min width 1575px ~~~~~~~~~~~~~ */
+/* ================================================= */
 @media screen and (min-width:1575px) {
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1575px
-     ===================================================*/
+     ================================================*/
   #portfolio .full-width {
     padding-top: 0;
     width: 75%;
   }
 
-  /*==================================================
+  /*===============================================
      CONTACT PAGE | | min width 1575px
-     ===================================================*/
+     =============================================*/
   .contact-page-img {
     width: 13%;
   }
 }
 
-/*==================================================
-   ~~~~~~~~~~~~~~~~~~min width 1615px~~~~~~~~~~~~~~~~~~
-   ===================================================*/
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~min width 1615px~~~~~~~~~~~~~~~~ */
+/* ================================================ */
 @media screen and (min-width:1615px) {
 
   /*==================================================
      HOME PAGE | | min width 1615px
-     ===================================================*/
+     ================================================*/
   #home {
     height: calc(631px + 1vh);
   }
 
   /*==================================================
      PORTFOLIO PAGE | | min width 1615px
-     ===================================================*/
+     ================================================*/
   #portfolio .full-width {
     padding-top: -1%;
     width: 72%;
@@ -6453,13 +5373,9 @@ END MOBILE FIRST | iPhone5 | NO min width
     padding: 16.582px 0 0 40.53px;
   }
 
-  /* .grid-color-cards {
-      grid-template-columns: repeat(4, 1fr);
-    } */
-
   /*==================================================
      PORTFOLIO INDIVIDUAL PAGES | | min width 1615px
-     ===================================================*/
+     ================================================*/
   .portfolio-description {
     width: 50%;
   }
@@ -6470,10 +5386,9 @@ END MOBILE FIRST | iPhone5 | NO min width
   }
 }
 
-/*==================================================
-~~~~~~~~~~~~~~~END INDIVIDUAL STYLES~~~~~~~~~~~~~~~~
-===================================================*/
-
+/* ================================================ */
+/* ~~~~~~~~~~~~ END INDIVIDUAL STYLES ~~~~~~~~~~~~~ */
+/* ================================================ */
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
@@ -6481,12 +5396,11 @@ END MOBILE FIRST | iPhone5 | NO min width
   /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
+/* ========================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
+   ========================================================= */
 @media print {
 
   *,
@@ -6497,7 +5411,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+      http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -6515,10 +5429,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     content: " (" attr(title) ")";
   }
 
-  /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+  /* Don't show links that are fragment identifiers,
+   or use the `javascript:` pseudo protocol */
 
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
@@ -6531,10 +5443,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     page-break-inside: avoid;
   }
 
-  /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+  /* Printing Tables:
+  http://css-discuss.incutio.com/wiki/Printing_Tables */
 
   thead {
     display: table-header-group;
