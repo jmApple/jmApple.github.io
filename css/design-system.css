@@ -32,6 +32,7 @@
   --color-info-disabled-bg: #4A5A6340;
   --color-info-disabled-border: #4A5A6350;
   --color-info-emphasis-hover: #32434C;
+  --color-transparent: #ffffff00;
   /* figma example colors */
   --fe-magenta: #DA0063;
   --fe-orange: #F14725;
@@ -66,7 +67,7 @@
   --code-black: #0D1A2D;
   /* < > */
   --code-red: #DC5D5D;
-  /* text */
+  /* text not in quotes*/
   --code-coral: #FBDAD7;
   /* div */
   --code-orange: #F8A27E;
@@ -170,6 +171,10 @@
 
 .fg-info-subdued {
   color: var(--color-info-subdued);
+}
+
+.fg-transparent {
+  color: var(--color-transparent)
 }
 
 .fg-magenta {
@@ -667,6 +672,10 @@
   border-color: var(--code-black)
 }
 
+.border-transparent {
+  border-color: #ffffff00;
+}
+
 .border-t {
   border-top-width: 2px;
   border-right-width: 0px;
@@ -699,6 +708,11 @@
 }
 
 .border-b-none {
+  border-bottom-width: 0px;
+}
+
+.border-y-none {
+  border-top: 0px;
   border-bottom-width: 0px;
 }
 
@@ -735,6 +749,13 @@
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+.rounded-b-lg {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .flex {
@@ -790,6 +811,10 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 24px;
+}
+
+.h-150 {
+  height: 12px;
 }
 
 .h-300 {
@@ -870,6 +895,10 @@
   margin-block-start: .5em;
 }
 
+.mt-200 {
+  margin-top: 16px;
+}
+
 .m-100 {
   margin: 8px;
 }
@@ -939,9 +968,19 @@
   padding-top: 8px;
 }
 
+.pt-200 {
+  padding-top: 16px;
+}
+
+
+.pb-100 {
+  padding-bottom: 8px;
+}
+
 .pb-150 {
   padding-bottom: 12px;
 }
+
 
 .pb-200 {
   padding-bottom: 16px;
@@ -955,14 +994,15 @@
   padding-left: 12px;
 }
 
-.px-100 {
-  padding-left: 8px;
-  padding-right: 8px;
-}
 
 .px-75 {
   padding-left: 6px;
   padding-right: 6px;
+}
+
+.px-100 {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .px-150 {
@@ -1003,6 +1043,11 @@
 .py-300 {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.py-400 {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .overflow-hidden {
@@ -1104,6 +1149,10 @@
 .max-w-5600 {
   max-width: 448px;
 }
+
+/* .max-w-6200 {
+  max-width: 496px;
+} */
 
 .checkbox {
   cursor: pointer;
@@ -1529,6 +1578,15 @@
     display: block;
   }
 
+}
+
+/* ================================================ */
+/* ~~~~~~~~~~~~~~~~ min width 466px ~~~~~~~~~~~~~~~ */
+/* ================================================ */
+@media screen and (min-width: 466px) {
+  .sm-md-border-none {
+    border: none;
+  }
 }
 
 /* ================================================ */
