@@ -915,6 +915,10 @@
   margin-top: 8px;
 }
 
+.mt-150 {
+  margin-top: 12px;
+}
+
 .mt-200 {
   margin-top: 16px;
 }
@@ -971,6 +975,11 @@
   margin-left: 16px;
 }
 
+.mx-50 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 .mx-75 {
   margin-left: 6px;
   margin-right: 6px;
@@ -989,6 +998,11 @@
 .mx-300 {
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.my-150 {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .my-400 {
