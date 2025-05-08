@@ -861,6 +861,10 @@
   justify-items: end;
 }
 
+.align-start {
+  align-items: start;
+}
+
 .align-center {
   align-items: center;
 }
@@ -895,16 +899,44 @@
   margin-block-start: .5em;
 }
 
-.mt-200 {
-  margin-top: 16px;
-}
-
 .m-100 {
   margin: 8px;
 }
 
 .m-200 {
   margin: 16px;
+}
+
+.mt-50 {
+  margin-top: 4px;
+}
+
+.mt-100 {
+  margin-top: 8px;
+}
+
+.mt-200 {
+  margin-top: 16px;
+}
+
+.mr-50 {
+  margin-right: 4px;
+}
+
+.mr-100 {
+  margin-right: 8px;
+}
+
+.mr-150 {
+  margin-right: 12px;
+}
+
+.mr-200 {
+  margin-right: 16px;
+}
+
+.mb-50 {
+  margin-bottom: 4px;
 }
 
 .mb-100 {
@@ -921,6 +953,22 @@
 
 .mb-300 {
   margin-bottom: 24px;
+}
+
+.ml-50 {
+  margin-left: 4px;
+}
+
+.ml-100 {
+  margin-left: 8px;
+}
+
+.ml-150 {
+  margin-left: 12px;
+}
+
+.ml-200 {
+  margin-left: 16px;
 }
 
 .mx-75 {
