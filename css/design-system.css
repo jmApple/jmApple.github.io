@@ -1,8 +1,8 @@
 :root {
   --color-gray-50: #EEEDEE;
   --color-gray-100: #E0E0E1;
-  --color-subdued: #FFFFFF;
-  --color-emphasis: #000000;
+  --color-subdued: #FBFBFB;
+  --color-emphasis: #030303;
   --color-primary: #4751A3;
   --color-primary-subdued: #D4EFFC;
   --color-primary-disabled-bg: #4751A340;
@@ -142,6 +142,7 @@
   color: var(--color-info);
 }
 
+.fg-default,
 .fg-emphasis {
   color: var(--color-emphasis);
 }
@@ -1864,6 +1865,11 @@
     flex-direction: row;
   }
 
+  .lg-border-x-sm {
+    border-right: 2px solid var(--color-transparent);
+    border-left: 2px solid var(--color-transparent);
+  }
+
 }
 
 /* ==================================================== */
@@ -1941,6 +1947,17 @@
   .xl-w-full {
     width: 100%;
   }
+}
+
+/* ==================================================== */
+/* ~~~~~~~~ iPAD HORIZONTAL | min width 1092px ~~~~~~~~ */
+/* ==================================================== */
+@media screen and (min-width:1092px) {
+/* wonky custom style to pull at at a lter time */
+.xl-xxl-border-none {
+  border: none;
+}
+
 }
 
 /* ================================================== */
