@@ -80,7 +80,7 @@
 
     <main>
       <section id="portfolio-illustration">
-        <div class="dev-portflio-itm-spacing flex flex-col gap-200 mx-300">
+        <div class="dev-portflio-itm-spacing flex flex-col gap-200 mx-100 md-mx-300">
           <div class="p-200 md-w-3/4 lg-w-1/2">
             <div class="project-title">
               <h3>project: translate Figma design to code</h3>
@@ -96,89 +96,2558 @@
               </p>
             </div>
           </div>
+          <!-- *************************************** -->
+          <!-- *** START | wip Figma to Code coded *** -->
+          <!-- *************************************** -->
+          <div class="flex flex-col lg-flex-row gap-200">
 
-          <!-- ************************************** -->
-          <!-- *** START | wip Figma to Code deck *** -->
-          <!-- ************************************** -->
-          <div>
+            <!-- **************************************** -->
+            <!-- *** START | Figma Design & Wireframe *** -->
+            <!-- **************************************** -->
+            <div class="lg-w-1/2">
+              <div>
+                <h2>So you got a Figma design...</h2>
+              </div>
+
+              <!-- **************************************** -->
+              <!-- ******* START | Offers Component ******* -->
+              <!-- **************************************** -->
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 overflow-hidden border-xs border-box rounded-lg border-info-subdued bg-subdued-gradient-vertical overflow-hidden">
+
+                <div class="flex justify-between align-baseline w-full">
+                  <div class="overflow-hidden">
+                    <h2 class="m-block-none">Your Offers</h2>
+                  </div>
+                  <div class="overflow-hidden">
+                    <h4 class="m-block-none">See All</h4>
+                  </div>
+                </div>
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <!-- https://www.freepik.com/free-vector/realistic-credit-card-design_19058345.htm#fromView=keyword&page=1&position=2&uuid=eb78ef45-7428-4529-b84e-5bdba2341c67&query=Credit+Cards -->
+
+                  <div class="flex gap-200 m-200 overflow-hidden">
+                    <div class="flex justify-center align-center h-800 w-800 flex-shrink-0 bg-indigo-opacity-30 ">
+                      <!-- <h5 class="m-block-none">Image</h5> -->
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards">
+                    </div>
+
+                    <div class="flex flex-col gap-200 overflow-hidden">
+                      <div class="overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- second offer card option 1 -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="hidden flex justify-center p-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-200 m-200 overflow-hidden">
+                    <div class="flex justify-center h-800 w-800 flex-shrink-0">
+                      <!-- <h5 class="m-block-none">Icon</h5> -->
+                      <svg class="bg-subdued fill-primary" id="rewards_icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 252 252">
+                        <rect width="252" height="252" fill="none" />
+                        <path
+                          d="M145.83,47.99c-.24,0-.49-.02-.73-.08-1.89-.4-3.1-2.26-2.7-4.15l5.58-26.27c.4-1.89,2.26-3.1,4.15-2.7,1.89.4,3.1,2.26,2.7,4.15l-5.58,26.27c-.35,1.65-1.8,2.77-3.42,2.77Z" />
+                        <path
+                          d="M124.51,47.34c-1.72,0-3.22-1.26-3.46-3.01l-2.45-17.43c-.27-1.91,1.06-3.68,2.98-3.95,1.91-.27,3.68,1.06,3.95,2.98l2.45,17.43c.27,1.91-1.06,3.68-2.98,3.95-.17.02-.33.03-.49.03Z" />
+                        <path
+                          d="M104.27,54.02c-1.25,0-2.46-.67-3.09-1.86l-12.61-23.71c-.91-1.71-.26-3.83,1.45-4.73,1.71-.91,3.83-.26,4.73,1.45l12.61,23.71c.91,1.71.26,3.83-1.45,4.73-.52.28-1.09.41-1.64.41Z" />
+                        <path
+                          d="M87.52,67.22c-.83,0-1.67-.3-2.34-.9l-13.08-11.77c-1.44-1.29-1.55-3.51-.26-4.94,1.29-1.44,3.51-1.55,4.94-.26l13.08,11.77c1.44,1.29,1.55,3.51.26,4.94-.69.77-1.65,1.16-2.6,1.16Z" />
+                        <path
+                          d="M76.31,85.35c-.44,0-.88-.08-1.31-.26l-24.9-10.05c-1.79-.72-2.66-2.76-1.94-4.56.72-1.79,2.77-2.66,4.56-1.94l24.9,10.05c1.79.72,2.66,2.76,1.94,4.56-.55,1.36-1.86,2.19-3.25,2.19Z" />
+                        <path
+                          d="M166.05,56.16c-.63,0-1.27-.17-1.85-.53-1.64-1.02-2.14-3.18-1.11-4.82l9.32-14.93c1.02-1.64,3.18-2.14,4.82-1.11,1.64,1.02,2.14,3.18,1.11,4.82l-9.32,14.93c-.66,1.06-1.8,1.65-2.97,1.65Z" />
+                        <path
+                          d="M181.84,70.48c-1.04,0-2.07-.46-2.76-1.34-1.19-1.52-.92-3.72.6-4.91l21.16-16.54c1.52-1.19,3.72-.92,4.91.6,1.19,1.52.92,3.72-.6,4.91l-21.16,16.54c-.64.5-1.4.74-2.15.74Z" />
+                        <path
+                          d="M191.78,89.35c-1.48,0-2.85-.94-3.33-2.42-.6-1.84.41-3.81,2.25-4.41l16.74-5.44c1.84-.6,3.81.41,4.41,2.25.6,1.84-.41,3.81-2.25,4.41l-16.74,5.44c-.36.12-.72.17-1.08.17Z" />
+                        <path
+                          d="M221.5,111.4s-.08,0-.12,0l-26.84-.93c-1.93-.07-3.44-1.69-3.38-3.62.07-1.93,1.67-3.47,3.62-3.38l26.84.93c1.93.07,3.44,1.69,3.38,3.62-.07,1.89-1.62,3.38-3.5,3.38Z" />
+                        <path
+                          d="M218.55,127.15c-2.11-3.25-5.36-5.48-9.15-6.28l-23.11-4.91c1.46-12.56-1.46-25.11-8.43-35.85-7.92-12.19-20.11-20.56-34.33-23.58-14.22-3.02-28.76-.32-40.95,7.6-10.73,6.97-18.5,17.26-22.27,29.33l-22.51-4.78c-3.79-.8-7.66-.09-10.91,2.03-3.25,2.11-5.48,5.36-6.28,9.15l-18.42,86.76c-.8,3.79-.08,7.66,2.03,10.91,2.11,3.25,5.36,5.48,9.15,6.28l151.6,32.18c1.01.21,2.03.32,3.04.32,2.77,0,5.49-.8,7.87-2.35,3.25-2.11,5.48-5.36,6.28-9.15l18.42-86.76c.8-3.79.08-7.66-2.03-10.91ZM83.89,99.5c4.93-23.21,25.49-39.16,48.32-39.16,3.39,0,6.83.35,10.27,1.08,12.91,2.74,23.98,10.35,31.17,21.41,7.19,11.07,9.64,24.27,6.9,37.18-2.74,12.91-10.35,23.98-21.41,31.17-11.07,7.19-24.27,9.64-37.18,6.9-26.65-5.66-43.73-31.94-38.08-58.6ZM45.49,100.9c.53-2.48,1.99-4.61,4.12-5.99,1.56-1.01,3.34-1.54,5.16-1.54.66,0,1.33.07,1.99.21l22.28,4.73c-.01.05-.03.1-.04.16-1.53,7.22-1.54,14.42-.26,21.26l-35.64-7.56,2.39-11.27ZM197.26,223.78c-.53,2.48-1.99,4.61-4.12,5.99-2.13,1.38-4.67,1.85-7.15,1.33l-151.6-32.18c-2.48-.53-4.61-1.99-5.99-4.12-1.38-2.13-1.85-4.67-1.33-7.15l11.6-54.66,51.18,10.86c7.58,9.44,18.33,16.43,31.07,19.13,3.8.81,7.62,1.2,11.41,1.2,8.61,0,17.07-2.06,24.8-6.05l51.73,10.98-11.6,54.66ZM215.68,137.02l-2.39,11.27-36.2-7.68c4-5.82,6.85-12.43,8.36-19.54.01-.05.02-.11.03-.16l22.88,4.86c2.48.53,4.61,1.99,5.99,4.12,1.38,2.13,1.85,4.67,1.33,7.15Z" />
+                        <path
+                          d="M149.76,151.01c-.6,0-1.19-.21-1.65-.62l-20.39-17.94-25.92,8.11c-.94.29-1.95.01-2.6-.71-.65-.73-.83-1.77-.44-2.66l10.76-24.93-15.72-22.14c-.57-.8-.62-1.85-.13-2.7s1.43-1.33,2.4-1.24l27.04,2.53,16.2-21.8c.58-.78,1.57-1.16,2.53-.95.96.2,1.71.94,1.92,1.9l5.95,26.5,25.74,8.67c.93.31,1.59,1.14,1.69,2.11.1.97-.37,1.91-1.21,2.41l-23.36,13.84-.29,27.16c-.01.98-.59,1.86-1.48,2.26-.33.15-.67.22-1.02.22ZM128.32,127.14c.6,0,1.19.22,1.65.62l17.35,15.27.25-23.11c0-.87.47-1.68,1.23-2.12l19.88-11.78-21.9-7.38c-.83-.28-1.45-.97-1.64-1.82l-5.06-22.55-13.79,18.55c-.52.7-1.37,1.08-2.24,1l-23.01-2.16,13.38,18.84c.51.71.6,1.64.26,2.44l-9.16,21.22,22.06-6.91c.25-.08.5-.11.75-.11Z" />
+                        <path
+                          d="M160.81,105.93l-17.44-5.87-4.03-17.95c-.09-.38-.39-.68-.77-.76-.38-.08-.78.07-1.01.38l-10.98,14.77-18.32-1.72c-.39-.04-.76.16-.96.5-.2.34-.18.76.05,1.08l10.66,15-7.29,16.89c-.16.36-.09.78.17,1.07.26.29.67.4,1.04.28l17.56-5.5,13.81,12.16c.19.16.42.25.66.25.14,0,.28-.03.41-.09.36-.16.59-.51.59-.9l.2-18.4,15.83-9.38c.34-.2.53-.58.48-.97-.04-.39-.3-.72-.68-.84Z" />
+                      </svg>
+                    </div>
+
+                    <div class="flex flex-col gap-200 overflow-hidden">
+                      <div class="overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $50 to earn a $10 reward certificate to use on a future purchase
+                        </h3>
+                      </div>
+                      <div
+                        class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-subdued">
+                        <h4 class="fg-primary m-block-none">Activate</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends June 30</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- **************************************** -->
+              <!-- ******** END | Offers Component ******** -->
+              <!-- **************************************** -->
+            </div>
+
+            <!-- ***************************************** -->
+            <!-- *********** START | Wireframe *********** -->
+            <!-- ***************************************** -->
+            <div class="lg-w-1/2">
+              <h2 class="mb-block-none">1. Wireframe</h2>
+              <p class="mt-block-50">First make up a quick wireframe. This helps speed up writing out the code,
+                especially when planning building a responsive layout.</p>
+              <!-- wire frame -->
+              <div
+                class="flex flex-col gap-150 align pb-150 border-magenta border-sm rounded-lg overflow-hidden border-box">
+                <div class="p-100 bg-magenta-opacity-30 overflow-hidden border-box">
+                  <h5 class="m-block-none">LinearGradient</h5>
+                </div>
+
+                <div
+                  class="flex flex-col mx-100 gap-150 pb-150 border-yellow border-sm rounded-lg overflow-hidden border-box">
+                  <div class="p-100 bg-yellow-opacity-30">
+                    <h5 class="m-block-none">Box</h5>
+                  </div>
+                  <div class="flex flex-row justify-between">
+                    <div
+                      class="w-1/3 mx-100 gap-150 border-green border-sm rounded-lg p-100 bg-green-opacity-30 overflow-hidden border-box">
+                      <h5 class="m-block-none">Text</h5>
+                    </div>
+                    <div
+                      class="w-1/3 mx-100 gap-150 border-green border-sm rounded-lg p-100 bg-green-opacity-30 overflow-hidden border-box">
+                      <h5 class="m-block-none">Link</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col mx-100 gap-150 pb-150 border-yellow border-sm rounded-lg overflow-hidden border-box">
+                  <div class="p-100 bg-yellow-opacity-30">
+                    <h5 class="m-block-none">Box</h5>
+                  </div>
+
+                  <div
+                    class="flex flex-col mx-100 gap-150 pb-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                    <div class="p-100 bg-green-opacity-30">
+                      <h5 class="m-block-none">Box</h5>
+                    </div>
+                    <div
+                      class="mx-100 gap-150 border-aqua border-sm rounded-lg p-100 bg-aqua-opacity-30 overflow-hidden border-box">
+                      <h5 class="m-block-none">Text</h5>
+                    </div>
+                  </div>
+
+                  <div
+                    class="flex flex-col mx-100 gap-150 pb-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                    <div class="p-100 bg-green-opacity-30">
+                      <h5 class="m-block-none">Box</h5>
+                    </div>
+
+                    <div class="flex gap-100 mx-100">
+
+                      <div
+                        class="w-1/3 flex flex-col gap-150 pb-150 border-aqua border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-aqua-opacity-30">
+                          <h5 class="m-block-none">Box</h5>
+                        </div>
+                        <div
+                          class="flex flex-col mx-100 gap-150 pb-150 border-indigo border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-indigo-opacity-30">
+                            <h5 class="m-block-none">Image</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="w-8/12 flex flex-col gap-150 pb-150 border-aqua border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-aqua-opacity-30">
+                          <h5 class="m-block-none">Box</h5>
+                        </div>
+                        <div
+                          class="mx-100 gap-150 border-indigo border-sm rounded-lg p-100 bg-indigo-opacity-30 overflow-hidden border-box">
+                          <h5 class="m-block-none">Text</h5>
+                        </div>
+                        <div
+                          class="mx-100 gap-150 border-indigo border-sm rounded-lg p-100 bg-indigo-opacity-30 overflow-hidden border-box">
+                          <h5 class="m-block-none">Button</h5>
+                        </div>
+                        <div
+                          class="flex flex-col mx-100 gap-150 pb-150 border-indigo border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-indigo-opacity-30">
+                            <h5 class="m-block-none">Box</h5>
+                          </div>
+                          <div class="flex flex-row justify-between">
+                            <div
+                              class="w-1/3 mx-100 gap-150 border-violet border-sm rounded-lg p-100 bg-violet-opacity-30 overflow-hidden border-box">
+                              <h5 class="m-block-none">Text</h5>
+                            </div>
+                            <div
+                              class="w-1/3 mx-100 gap-150 border-violet border-sm rounded-lg p-100 bg-violet-opacity-30 overflow-hidden border-box">
+                              <h5 class="m-block-none">Link</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- second offer card option 1 -->
+                <div
+                  class="flex flex-col mx-100 gap-150 pb-150 border-yellow border-sm rounded-lg overflow-hidden border-box">
+                  <div class="p-100 bg-yellow-opacity-30">
+                    <h5 class="m-block-none">Box</h5>
+                  </div>
+
+                  <div
+                    class="flex flex-col mx-100 gap-150 pb-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                    <div class="p-100 bg-green-opacity-30">
+                      <h5 class="m-block-none">Box</h5>
+                    </div>
+                    <div
+                      class="mx-100 gap-150 border-aqua border-sm rounded-lg p-100 bg-aqua-opacity-30 overflow-hidden border-box">
+                      <h5 class="m-block-none">Text</h5>
+                    </div>
+                  </div>
+
+                  <div
+                    class="flex flex-col mx-100 gap-150 pb-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                    <div class="p-100 bg-green-opacity-30">
+                      <h5 class="m-block-none">Box</h5>
+                    </div>
+
+                    <div class="flex gap-100 mx-100">
+
+                      <div
+                        class="w-1/3 flex flex-col gap-150 pb-150 border-aqua border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-aqua-opacity-30">
+                          <h5 class="m-block-none">Box</h5>
+                        </div>
+                        <div
+                          class="flex flex-col mx-100 gap-150 pb-150 border-indigo border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-indigo-opacity-30">
+                            <h5 class="m-block-none">Icon</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="w-8/12 flex flex-col gap-150 pb-150 border-aqua border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-aqua-opacity-30">
+                          <h5 class="m-block-none">Box</h5>
+                        </div>
+                        <div
+                          class="mx-100 gap-150 border-indigo border-sm rounded-lg p-100 bg-indigo-opacity-30 overflow-hidden border-box">
+                          <h5 class="m-block-none">Text</h5>
+                        </div>
+                        <div
+                          class="mx-100 gap-150 border-indigo border-sm rounded-lg p-100 bg-indigo-opacity-30 overflow-hidden border-box">
+                          <h5 class="m-block-none">Button</h5>
+                        </div>
+                        <div
+                          class="flex flex-col mx-100 gap-150 pb-150 border-indigo border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-indigo-opacity-30">
+                            <h5 class="m-block-none">Box</h5>
+                          </div>
+                          <div class="flex flex-row justify-between">
+                            <div
+                              class="w-1/3 mx-100 gap-150 border-violet border-sm rounded-lg p-100 bg-violet-opacity-30 overflow-hidden border-box">
+                              <h5 class="m-block-none">Text</h5>
+                            </div>
+                            <div
+                              class="w-1/3 mx-100 gap-150 border-violet border-sm rounded-lg p-100 bg-violet-opacity-30 overflow-hidden border-box">
+                              <h5 class="m-block-none">Link</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <!-- *************************************** -->
+            <!-- *********** END | Wireframe *********** -->
+            <!-- *************************************** -->
+          </div>
+
+          <!-- **************************************** -->
+          <!-- **** END | Figma Design & Wireframe **** -->
+          <!-- **************************************** -->
+
+          <div class="hidden">
             <img alt="top banner place holder img" src="img/web-design-Figma-work-01.jpg">
           </div>
-          <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-02.jpg">
+
+          <!-- ***************************************** -->
+          <!-- **** START | wip Figma to Code steps **** -->
+          <!-- ***************************************** -->
+
+          <!-- ***************************************** -->
+          <!-- ******* START | 1. LinearGradient ******* -->
+          <!-- ***************************************** -->
+          <div class="flex flex-col lg-flex-row gap-200">
+            <div class="lg-w-8/12">
+              <h2 class="mb-block-none">1. LinearGradient</h2>
+              <p class="mt-block-50">lorem ipsum...</p>
+
+              <div class="flex flex-col lg-flex-row gap-300">
+
+                <!-- ************************************ -->
+                <!-- ***** Figma design with markup ***** -->
+                <!-- ************************************ -->
+                <div class="lg-w-8/12">
+                <div
+                  class="flex flex-col align-center gap-150 pb-150 border-magenta border-sm rounded-lg overflow-hidden border-box">
+                  <div class="p-100 w-full bg-magenta-opacity-30 overflow-hidden border-box">
+                    <h5 class="m-block-none">LinearGradient</h5>
+                  </div>
+                  <!-- offers component -->
+                  <div
+                    class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 overflow-hidden border-xs border-box rounded-lg border-info-subdued bg-subdued-gradient-vertical overflow-hidden">
+
+                    <div class="flex justify-between align-baseline">
+                      <div class="overflow-hidden opacity-50">
+                        <h2 class="m-block-none">Your Offers</h2>
+                      </div>
+                      <div class="overflow-hidden opacity-50">
+                        <h4 class="m-block-none">See All</h4>
+                      </div>
+                    </div>
+
+                    <!-- first offer card -->
+                    <div
+                      class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                      <div class=" opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                        <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                      </div>
+
+                      <div class="opacity-50 flex gap-200 m-200 overflow-hidden">
+                        <div class="flex justify-center align-center h-800 w-800 flex-shrink-0 bg-indigo-opacity-30 ">
+                          <!-- <h5 class="m-block-none">Image</h5> -->
+                          <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                            alt="stock image of 3 colorful credit cards">
+                        </div>
+
+                        <div class="flex flex-col gap-200 overflow-hidden">
+                          <div class="overflow-hidden">
+                            <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                          </div>
+                          <div
+                            class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                            <h4 class="fg-subdued m-block-none">Shop now</h4>
+                          </div>
+                          <div class="flex justify-between">
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">Offer ends May 31</h5>
+                            </div>
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">See Details</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <!-- second offer card option 1 -->
+                    <div
+                      class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                      <div class="hidden flex justify-center p-100 bg-magenta w-full overflow-hidden">
+                        <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                      </div>
+
+                      <div class="opacity-50 flex gap-200 m-200 overflow-hidden">
+                        <div class="flex justify-center h-800 w-800 flex-shrink-0">
+                          <!-- <h5 class="m-block-none">Icon</h5> -->
+                          <svg class="bg-subdued fill-primary" id="rewards_icon" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 252 252">
+                            <rect width="252" height="252" fill="none" />
+                            <path
+                              d="M145.83,47.99c-.24,0-.49-.02-.73-.08-1.89-.4-3.1-2.26-2.7-4.15l5.58-26.27c.4-1.89,2.26-3.1,4.15-2.7,1.89.4,3.1,2.26,2.7,4.15l-5.58,26.27c-.35,1.65-1.8,2.77-3.42,2.77Z" />
+                            <path
+                              d="M124.51,47.34c-1.72,0-3.22-1.26-3.46-3.01l-2.45-17.43c-.27-1.91,1.06-3.68,2.98-3.95,1.91-.27,3.68,1.06,3.95,2.98l2.45,17.43c.27,1.91-1.06,3.68-2.98,3.95-.17.02-.33.03-.49.03Z" />
+                            <path
+                              d="M104.27,54.02c-1.25,0-2.46-.67-3.09-1.86l-12.61-23.71c-.91-1.71-.26-3.83,1.45-4.73,1.71-.91,3.83-.26,4.73,1.45l12.61,23.71c.91,1.71.26,3.83-1.45,4.73-.52.28-1.09.41-1.64.41Z" />
+                            <path
+                              d="M87.52,67.22c-.83,0-1.67-.3-2.34-.9l-13.08-11.77c-1.44-1.29-1.55-3.51-.26-4.94,1.29-1.44,3.51-1.55,4.94-.26l13.08,11.77c1.44,1.29,1.55,3.51.26,4.94-.69.77-1.65,1.16-2.6,1.16Z" />
+                            <path
+                              d="M76.31,85.35c-.44,0-.88-.08-1.31-.26l-24.9-10.05c-1.79-.72-2.66-2.76-1.94-4.56.72-1.79,2.77-2.66,4.56-1.94l24.9,10.05c1.79.72,2.66,2.76,1.94,4.56-.55,1.36-1.86,2.19-3.25,2.19Z" />
+                            <path
+                              d="M166.05,56.16c-.63,0-1.27-.17-1.85-.53-1.64-1.02-2.14-3.18-1.11-4.82l9.32-14.93c1.02-1.64,3.18-2.14,4.82-1.11,1.64,1.02,2.14,3.18,1.11,4.82l-9.32,14.93c-.66,1.06-1.8,1.65-2.97,1.65Z" />
+                            <path
+                              d="M181.84,70.48c-1.04,0-2.07-.46-2.76-1.34-1.19-1.52-.92-3.72.6-4.91l21.16-16.54c1.52-1.19,3.72-.92,4.91.6,1.19,1.52.92,3.72-.6,4.91l-21.16,16.54c-.64.5-1.4.74-2.15.74Z" />
+                            <path
+                              d="M191.78,89.35c-1.48,0-2.85-.94-3.33-2.42-.6-1.84.41-3.81,2.25-4.41l16.74-5.44c1.84-.6,3.81.41,4.41,2.25.6,1.84-.41,3.81-2.25,4.41l-16.74,5.44c-.36.12-.72.17-1.08.17Z" />
+                            <path
+                              d="M221.5,111.4s-.08,0-.12,0l-26.84-.93c-1.93-.07-3.44-1.69-3.38-3.62.07-1.93,1.67-3.47,3.62-3.38l26.84.93c1.93.07,3.44,1.69,3.38,3.62-.07,1.89-1.62,3.38-3.5,3.38Z" />
+                            <path
+                              d="M218.55,127.15c-2.11-3.25-5.36-5.48-9.15-6.28l-23.11-4.91c1.46-12.56-1.46-25.11-8.43-35.85-7.92-12.19-20.11-20.56-34.33-23.58-14.22-3.02-28.76-.32-40.95,7.6-10.73,6.97-18.5,17.26-22.27,29.33l-22.51-4.78c-3.79-.8-7.66-.09-10.91,2.03-3.25,2.11-5.48,5.36-6.28,9.15l-18.42,86.76c-.8,3.79-.08,7.66,2.03,10.91,2.11,3.25,5.36,5.48,9.15,6.28l151.6,32.18c1.01.21,2.03.32,3.04.32,2.77,0,5.49-.8,7.87-2.35,3.25-2.11,5.48-5.36,6.28-9.15l18.42-86.76c.8-3.79.08-7.66-2.03-10.91ZM83.89,99.5c4.93-23.21,25.49-39.16,48.32-39.16,3.39,0,6.83.35,10.27,1.08,12.91,2.74,23.98,10.35,31.17,21.41,7.19,11.07,9.64,24.27,6.9,37.18-2.74,12.91-10.35,23.98-21.41,31.17-11.07,7.19-24.27,9.64-37.18,6.9-26.65-5.66-43.73-31.94-38.08-58.6ZM45.49,100.9c.53-2.48,1.99-4.61,4.12-5.99,1.56-1.01,3.34-1.54,5.16-1.54.66,0,1.33.07,1.99.21l22.28,4.73c-.01.05-.03.1-.04.16-1.53,7.22-1.54,14.42-.26,21.26l-35.64-7.56,2.39-11.27ZM197.26,223.78c-.53,2.48-1.99,4.61-4.12,5.99-2.13,1.38-4.67,1.85-7.15,1.33l-151.6-32.18c-2.48-.53-4.61-1.99-5.99-4.12-1.38-2.13-1.85-4.67-1.33-7.15l11.6-54.66,51.18,10.86c7.58,9.44,18.33,16.43,31.07,19.13,3.8.81,7.62,1.2,11.41,1.2,8.61,0,17.07-2.06,24.8-6.05l51.73,10.98-11.6,54.66ZM215.68,137.02l-2.39,11.27-36.2-7.68c4-5.82,6.85-12.43,8.36-19.54.01-.05.02-.11.03-.16l22.88,4.86c2.48.53,4.61,1.99,5.99,4.12,1.38,2.13,1.85,4.67,1.33,7.15Z" />
+                            <path
+                              d="M149.76,151.01c-.6,0-1.19-.21-1.65-.62l-20.39-17.94-25.92,8.11c-.94.29-1.95.01-2.6-.71-.65-.73-.83-1.77-.44-2.66l10.76-24.93-15.72-22.14c-.57-.8-.62-1.85-.13-2.7s1.43-1.33,2.4-1.24l27.04,2.53,16.2-21.8c.58-.78,1.57-1.16,2.53-.95.96.2,1.71.94,1.92,1.9l5.95,26.5,25.74,8.67c.93.31,1.59,1.14,1.69,2.11.1.97-.37,1.91-1.21,2.41l-23.36,13.84-.29,27.16c-.01.98-.59,1.86-1.48,2.26-.33.15-.67.22-1.02.22ZM128.32,127.14c.6,0,1.19.22,1.65.62l17.35,15.27.25-23.11c0-.87.47-1.68,1.23-2.12l19.88-11.78-21.9-7.38c-.83-.28-1.45-.97-1.64-1.82l-5.06-22.55-13.79,18.55c-.52.7-1.37,1.08-2.24,1l-23.01-2.16,13.38,18.84c.51.71.6,1.64.26,2.44l-9.16,21.22,22.06-6.91c.25-.08.5-.11.75-.11Z" />
+                            <path
+                              d="M160.81,105.93l-17.44-5.87-4.03-17.95c-.09-.38-.39-.68-.77-.76-.38-.08-.78.07-1.01.38l-10.98,14.77-18.32-1.72c-.39-.04-.76.16-.96.5-.2.34-.18.76.05,1.08l10.66,15-7.29,16.89c-.16.36-.09.78.17,1.07.26.29.67.4,1.04.28l17.56-5.5,13.81,12.16c.19.16.42.25.66.25.14,0,.28-.03.41-.09.36-.16.59-.51.59-.9l.2-18.4,15.83-9.38c.34-.2.53-.58.48-.97-.04-.39-.3-.72-.68-.84Z" />
+                          </svg>
+                        </div>
+
+                        <div class="flex flex-col gap-200 overflow-hidden">
+                          <div class="overflow-hidden">
+                            <h3 class="m-block-none">Spend $50 to earn a $10 reward certificate to use on a future
+                              purchase
+                            </h3>
+                          </div>
+                          <div
+                            class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-subdued">
+                            <h4 class="fg-primary m-block-none">Activate</h4>
+                          </div>
+                          <div class="flex justify-between">
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">Offer ends June 30</h5>
+                            </div>
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">See Details</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+
+                <!-- ************************************* -->
+                <!-- *** Prop list correlated to Figma *** -->
+                <!-- ************************************* -->
+                <div class="lg-w-4/12">
+                    <h3 class="fg-magenta mb-block-none">LinearGradient</h3>
+                    <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+                    <div class="px-200">
+                      <p class="fg-info m-block-none">flex</p>
+                      <p class="fg-info m-block-none">flex-col</p>
+                      <h4 class="fg-green m-block-none">rounded-lg</h4>
+                      <h4 class="fg-aqua m-block-none">border-xs</h4>
+                      <!-- <p class="fg-info m-block-none">border-solid</p> -->
+                      <h4 class="fg-indigo m-block-none">py-300</h4>
+                      <h4 class="fg-purple m-block-none">px-200</h4>
+                      <h4 class="fg-magenta m-block-none">gap-150</h4>
+                      <h4 class="fg-yellow m-block-none">border-info-subdued</h4>
+                      <p class="fg-info m-block-none">border-box</p>
+                      <p class="fg-info m-block-none">overflow-hidden</p>
+                    </div>
+                    <h4 class="px-100 m-block-none">&rsquo;</h4>
+                    <h4 class="fg-amber px-100 mt-block-50 mb-block-none">angle: &lbrace; 180 &rbrace;</h4>
+                    <h4 class="fg-amber px-100 mt-block-50 mb-block-none">variant: &lsquo;subdued-gradient&rsquo;</h4>
+
+                </div>
+
+              </div>
+
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="py-400">
+                <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-red">&lt;</span><span class="fg-code-orange">LinearGradient</span>
+                  </h4>
+                  <div class="pl-150">
+                    <h4 class="m-block-none">
+                      <span class="fg-code-lemon">angle</span>
+                      <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                      <span class="fg-code-yellow">&lbrace;&nbsp;</span>
+                      <span class="fg-code-aqua">180</span>
+                      <span class="fg-code-yellow">&nbsp;&rbrace;</span>
+                      </span>
+                      <br />
+                      <span class="fg-code-lemon">className</span>
+                      <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                      <span class="fg-code-periwinkle">&lsquo;</span>
+                      <span class="fg-code-ice">flex flex&#8209;col rounded&#8209;lg border&#8209;xs py&#8209;300 px&#8209;200 gap&#8209;150 border&#8209;info&#8209;subdued border&#8209;box overflow&#8209;hidden</span>
+                      <br />
+                      <span class="fg-code-periwinkle">&rsquo;</span>
+                      <br />
+                      <span class="fg-code-lemon">variant</span>
+                      <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                      <span class="fg-code-periwinkle">&lsquo;</span>
+                      <span class="fg-code-ice">subdued-gradient</span>
+                      <span class="fg-code-periwinkle">&rsquo;</span>
+                    </h4>
+                  </div>
+                  <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- ******************* -->
+            <!-- *** Figma Panel *** -->
+            <!-- ******************* -->
+            <div class="lg-w-4/12 mt-300">
+              <img alt="top banner place holder img" src="img/figma-panel-02-LinearGradient.jpg">
+            </div>
+            
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ******** END | 1. LinearGradient ******** -->
+          <!-- ***************************************** -->
+
+          <!-- ***************************************** -->
+          <!-- ***** START | 2. Box 'Offers Title' ***** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">2. Box</h2>
+            <p class="mt-block-50">Let's break this down to the first of the three LinearGradient immediate children.
+            </p>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <!-- wireframe note -->
+
+              <div class="flex flex-col align-center gap-150 overflow-hidden">
+                <!-- offers component -->
+                <div
+                  class="flex flex-col w-full max-w-5600 gap-150 pt-100 px-150 md-px-200 overflow-hidden border-xs border-b-none border-box rounded-t-lg border-info-subdued overflow-hidden">
+
+                </div>
+              </div>
+              <!-- Box: You Offers & See All -->
+              <div class="flex flex-col align-center border-yellow border-sm rounded-lg overflow-hidden border-box">
+                <div class="p-100 bg-yellow-opacity-30 w-full overflow-hidden border-box">
+                  <h5 class="m-block-none">Box</h5>
+                </div>
+                <!-- offers component -->
+                <div
+                  class="flex flex-col w-full max-w-5600 gap-150 py-200 px-150 md-px-200 overflow-hidden border-x-xs border-box border-info-subdued overflow-hidden">
+
+                  <div class="flex justify-between align-baseline w-full">
+                    <div class="overflow-hidden">
+                      <h2 class="m-block-none">Your Offers</h2>
+                    </div>
+                    <div class="overflow-hidden">
+                      <h4 class="m-block-none">See All</h4>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="flex flex-col align-center gap-150 pb-150 overflow-hidden">
+                <!-- offers component -->
+                <div
+                  class="flex flex-col w-full max-w-5600 gap-150 py-200 px-150 md-px-200 overflow-hidden border-x-xs border-box border-info-subdued overflow-hidden">
+
+                  <!-- first offer card -->
+                  <div
+                    class="flex flex-col rounded-lg bg-subdued border-sm border-info-subdued border-b-none overflow-hidden border-box opacity-50">
+                    <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-yellow mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">justify-between</p>
+                <p class="fg-info m-block-none">align-baseline</p>
+                <p class="fg-info m-block-none">w-full</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex justify&#8209;between align&#8209;baseline w&#8209;full</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ****** END | 2. Box 'Offers Title' ****** -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-03.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ***** START | 3. Text 'Your Offers' ***** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">3. Text</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <div class="flex flex-col align-center gap-150 overflow-hidden border-box">
+                <div
+                  class="flex flex-col w-full max-w-5600 gap-150 py-200 px-75 md-px-100 overflow-hidden border-xs border-b-none border-box rounded-t-lg border-info-subdued overflow-hidden">
+
+                  <div class="flex justify-between align-baseline align-end w-full">
+                    <div
+                      class="flex flex-col align-center gap-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                      <div class="py-100 px-75 md-px-100 bg-green-opacity-30 w-full overflow-hidden border-box">
+                        <h5 class="m-block-none">Text</h5>
+                      </div>
+                      <div class="px-75 md-px-100 overflow-hidden">
+                        <h2 class="mx-50 m-block-none">Your Offers</h2>
+                      </div>
+                    </div>
+                    <!-- border-green border-sm rounded-lg -->
+                    <div class="flex flex-col align-center overflow-hidden border-box">
+                      <div class="opacity-50 px-75 md-px-100 overflow-hidden">
+                        <h4 class="mx-50 m-block-none">See All</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- first offer card -->
+                  <div
+                    class="flex flex-col mx-75 md-mx-100 rounded-lg border-sm bg-subdued border-info-subdued border-b-none overflow-hidden border-box opacity-50">
+                    <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-green mb-block-none">Text</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">variant: &lsquo;h2&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Text</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">m&#8209;block&#8209;none</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">variant</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">h2</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    Your Offers
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ****************************************** -->
+          <!-- ****** END | 3. Text 'Offers Title' ****** -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-04.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ******* START | 4. Link 'See All' ******* -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">4. Link</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <div class="flex flex-col align-center gap-150 overflow-hidden border-box">
+                <!-- offers component -->
+                <div
+                  class="flex flex-col w-full max-w-5600 gap-150 py-200 px-75 md-px-100 overflow-hidden border-xs border-b-none border-box rounded-t-lg border-info-subdued overflow-hidden">
+
+                  <div class="flex justify-between align-baseline align-end w-full">
+                    <div class="flex flex-col overflow-hidden">
+                      <div class="opacity-50 px-75 md-px-100 overflow-hidden">
+                        <h2 class="mx-50 m-block-none">Your Offers</h2>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col align-center gap-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                      <div class="py-100 px-75 md-px-100 bg-green-opacity-30 w-full overflow-hidden border-box">
+                        <h5 class="m-block-none">Link</h5>
+                      </div>
+                      <div class="mx-50 px-75 md-px-100 overflow-hidden border-box">
+                        <h4 class="m-block-none">See All</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- first offer card -->
+                  <div
+                    class="flex flex-col mx-75 md-mx-100 rounded-lg border-sm bg-subdued border-info-subdued border-b-none overflow-hidden border-box opacity-50">
+                    <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-green mb-block-none">Link</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Link</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">m&#8209;block&#8209;none</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">href</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">https://yourLinkHere.com/path</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    See All
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ******** END | 4. Link 'See All' ******** -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-05.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- ***** START | 5. Box 1/2 offer cards ***** -->
+          <!-- ****************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">5. Box</h2>
+            <p class="mt-block-50">The second of the three LinearGradient immediate children.</p>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <div
+                class="flex flex-col align-center gap-150 pb-150 border-yellow border-sm rounded-lg overflow-hidden border-box">
+                <div class="p-100 bg-yellow-opacity-30 w-full overflow-hidden border-box">
+                  <h5 class="m-block-none">Box</h5>
+                </div>
+                <!-- offers component -->
+                <div
+                  class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                  <!-- first offer card -->
+                  <div
+                    class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                    <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+
+                    <div class="flex gap-200 m-200 overflow-hidden">
+                      <div class="flex justify-center align-center h-800 w-800 flex-shrink-0 bg-indigo-opacity-30">
+                        <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                          alt="stock image of 3 colorful credit cards">
+                      </div>
+
+                      <div class="flex flex-col gap-200 overflow-hidden">
+                        <div class="overflow-hidden">
+                          <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                        </div>
+                        <div
+                          class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                          <h4 class="fg-subdued m-block-none">Shop now</h4>
+                        </div>
+                        <div class="flex justify-between">
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-yellow mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">flex-col</p>
+                <p class="fg-info m-block-none">border-sm</p>
+                <!-- <p class="fg-info m-block-none">border-solid</p> -->
+                <p class="fg-info m-block-none">border-info-subdued</p>
+                <p class="fg-info m-block-none">rounded-lg</p>
+                <p class="fg-info m-block-none">bg-subdued</p>
+                <p class="fg-info m-block-none">overflow-hidden</p>
+                <p class="fg-info m-block-none">border-box</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex flex&#8209;col border&#8209;sm
+                      border&#8209;info&#8209;subdued rounded&#8209;lg bg&#8209;subdued overflow&#8209;hidden
+                      border&#8209;box</span><span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- ****************************************** -->
+          <!-- ****** END | 5. Box 1/2 offer cards ****** -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-06.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ****** START | 6. Box Alert Banner ****** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">6. Box</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <div
+                class="flex flex-col align-center gap-150 border-x-sm border-transparent sm-md-border-none overflow-hidden border-box">
+                <div
+                  class="max-w-5600 flex flex-col align-center w-full py-100 border-x-xs border-box border-info-subdued overflow-hidden">
+                </div>
+              </div>
+              <div class="flex flex-col align-center border-green border-sm rounded-lg overflow-hidden border-box">
+                <div class="p-100 bg-green-opacity-30 w-full overflow-hidden border-box">
+                  <h5 class="m-block-none">Box</h5>
+                </div>
+
+                <!-- offers component -->
+                <div
+                  class="max-w-5600 flex flex-col w-full gap-150 pt-200 px-150 md-px-200 overflow-hidden border-x-xs border-box border-info-subdued overflow-hidden">
+
+                  <!-- first offer card -->
+                  <div
+                    class="flex flex-col bg-subdued rounded-t-lg border-sm border-b-none border-info-subdued overflow-hidden border-box pb-150">
+                    <div class="flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col align-center gap-150 overflow-hidden">
+                <div
+                  class="max-w-5600 flex flex-col align-center border-x-sm overflow-hidden border-box border-transparent sm-md-border-none">
+                  <!-- offers component -->
+                  <div
+                    class="flex flex-col max-w-5600 gap-150 pb-200 px-150 md-px-200 border-x-xs border-info-subdued  bg-gray-50-vertical border-box overflow-hidden">
+
+                    <!-- first offer card -->
+                    <div
+                      class="flex flex-col border-sm bg-subdued border-info-subdued border-t-none rounded-b-lg overflow-hidden border-box">
+
+                      <div class="opacity-50 flex gap-200 m-200 overflow-hidden">
+                        <div class="flex justify-center flex-shrink-0">
+                          <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                            alt="stock image of 3 colorful credit cards">
+                        </div>
+
+                        <div class="flex flex-col gap-200 overflow-hidden">
+                          <div class="overflow-hidden border-box">
+                            <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                          </div>
+                          <div
+                            class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                            <h4 class="fg-subdued m-block-none">Shop now</h4>
+                          </div>
+                          <div class="flex justify-between">
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">Offer ends May 31</h5>
+                            </div>
+                            <div class="overflow-hidden">
+                              <h5 class="m-block-none">See Details</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-green mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">justify-center</p>
+                <p class="fg-info m-block-none">py-100</p>
+                <p class="fg-info m-block-none">bg-magenta</p>
+                <p class="fg-info m-block-none">w-full</p>
+                <p class="fg-info m-block-none">overflow-hidden</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex justify&#8209;center py&#8209;100 bg&#8209;magenta w&#8209;full
+                      overflow&#8209;hidden</span><span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ******* END | 6. Box Alert Banner ******* -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-07.jpg">
           </div>
+
+          <!-- **************************************** -->
+          <!-- ****** START | 7. Text Alert Text ****** -->
+          <!-- **************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">7. Text</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col align-center max-w-5600 pb-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+                <div
+                  class="flex flex-col border-aqua border-sm border-b-none rounded-t-lg rounded-lg overflow-hidden border-box">
+                  <div class="p-100 bg-aqua-opacity-30 overflow-hidden border-box">
+                    <h5 class="m-block-none">Text</h5>
+                  </div>
+                  <div class="h-150">
+                    <h4 class="fg-transparent m-block-none px-200">Ends Tomorrow</h4>
+                  </div>
+                </div>
+
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="flex justify-center bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none py-100 px-200 border-sm border-aqua border-y-none border-box">
+                      Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex flex-col align-center">
+                    <div class="flex border-aqua border-sm border-t-none rounded-b-lg overflow-hidden border-box">
+                      <div class="h-150">
+                        <h4 class="fg-transparent m-block-none px-200">Ends Tomorrow</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="opacity-50 flex gap-200 m-200 overflow-hidden">
+                    <div class="flex justify-center align-center h-800 w-800 flex-shrink-0 bg-indigo-opacity-30 ">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards">
+                    </div>
+
+                    <div class="flex flex-col gap-200 overflow-hidden">
+                      <div class="overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-aqua mb-block-none">Text</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">fg-subdued</p>
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">variant: &lsquo;h4&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Text</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">fg&#8209;subdued m&#8209;block&#8209;none</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">variant</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">h4</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    Ends Tomorrow
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- **************************************** -->
+          <!-- ******* END | 7. Text Alert Text ******* -->
+          <!-- **************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-08.jpg">
           </div>
+
+          <!-- ************************************** -->
+          <!-- *** START | 8. Box offer card body *** -->
+          <!-- ************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">8. Box</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div
+                    class="flex flex-col align-center gap-150 m-100 pb-150 border-green border-sm rounded-lg overflow-hidden border-box">
+                    <div class="p-100 bg-green-opacity-30 w-full overflow-hidden border-box">
+                      <h5 class="m-block-none">Box</h5>
+                    </div>
+
+                    <div class="flex gap-200 m-100 overflow-hidden">
+                      <div class="flex justify-center flex-shrink-0">
+                        <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                          alt="stock image of 3 colorful credit cards">
+                      </div>
+
+                      <div class="flex flex-col gap-200 overflow-hidden">
+                        <div class="overflow-hidden border-box">
+                          <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                        </div>
+                        <div
+                          class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                          <h4 class="fg-subdued m-block-none">Shop now</h4>
+                        </div>
+                        <div class="flex justify-between">
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-green mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">gap-200</p>
+                <p class="fg-info m-block-none">m-200</p>
+                <p class="fg-info m-block-none">overflow-hidden</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <!-- flex gap-200 m-200 overflow-hidden -->
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex gap&#8209;200 m&#8209;200 overflow&#8209;hidden</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ************************************** -->
+          <!-- **** END | 8. Box offer card body **** -->
+          <!-- ************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-09.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ****** START | 9. Box Image parent ****** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">9. Box</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-200 mx-200 mb-200 overflow-hidden">
+
+                    <div
+                      class="flex flex-col align-center flex-shrink-0 pb-150 mt-100 border-aqua border-sm rounded-lg overflow-hidden border-box">
+                      <div class="p-100 bg-aqua-opacity-30 w-full overflow-hidden border-box">
+                        <h5 class="m-block-none">Box</h5>
+                      </div>
+
+                      <div class="flex justify-center flex-shrink-0">
+                        <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                          alt="stock image of 3 colorful credit cards">
+                      </div>
+                    </div>
+
+                    <div class="opacity-50 flex flex-col gap-200 mt-200 overflow-hidden">
+                      <div class="overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-aqua mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">justify-center</p>
+                <p class="fg-info m-block-none">align-center</p>
+                <p class="fg-info m-block-none">w-800</p>
+                <p class="fg-info m-block-none">h-800</p>
+                <p class="fg-info m-block-none">flex-shrink-0</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex justify&#8209;center align&#8209;center h&#8209;800 w&#8209;800
+                      flex&#8209;shrink&#8209;0</span><span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ******* END | 9. Box Image parent ******* -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-10.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- *********** START | 10. Image *********** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">10. Image</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-200 mx-200 mb-200 overflow-hidden">
+                    <div class="flex align-start mt-100 flex-shrink-0">
+                      <div
+                        class="flex flex-col flex-shrink-0 border-indigo border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-indigo-opacity-30 w-full overflow-hidden border-box">
+                          <h5 class="m-block-none">Image</h5>
+                        </div>
+
+                        <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                          alt="stock image of 3 colorful credit cards" />
+
+                      </div>
+                    </div>
+
+                    <div class="opacity-50 flex flex-col gap-200 mt-200 overflow-hidden">
+                      <div class="overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-indigo mb-block-none">Image</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+
+                <p class="fg-info m-block-none">w-800</p>
+                <p class="fg-info m-block-none">h-800</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">source: &lsquo;https://imageBank.com/path &rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Image</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">w&#8209;800 h&#8209;800</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">source</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">https://imageBank.com/path</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                  </h4>
+                </div>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">alt</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">three rewards credit cards</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ************ END | 10. Image ************ -->
+          <!-- ***************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-11.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ***** START | 11. Box offer content ***** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">11. Box</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-50 mr-50 mb-100 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start mt-150 flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="flex flex-col border-aqua pb-100 border-sm rounded-lg overflow-hidden border-box">
+                      <div class="p-100 bg-aqua-opacity-30 w-full overflow-hidden border-box">
+                        <h5 class="m-block-none">Box</h5>
+                      </div>
+
+                      <div class="mx-100 flex flex-col gap-200 mt-200 overflow-hidden">
+                        <div class="overflow-hidden border-box">
+                          <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                        </div>
+                        <div
+                          class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                          <h4 class="fg-subdued m-block-none">Shop now</h4>
+                        </div>
+                        <div class="flex justify-between">
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-aqua mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">flex-col</p>
+                <p class="fg-info m-block-none">gap-200</p>
+                <p class="fg-info m-block-none">overflow-hidden</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <!-- flex flex-col gap-200 overflow-hidden -->
+                    <span class="fg-code-ice">flex flex&#8209;col gap&#8209;200 overflow&#8209;hidden</span><span
+                      class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ****** END | 11. Box offer content ****** -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-12.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- **** START | 12. Text offer body copy **** -->
+          <!-- ****************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">12. Text</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-100 mr-50 mb-200 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start mt-100 flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="mx-100 flex flex-col gap-200 overflow-hidden">
+
+                      <div
+                        class="flex flex-col gap-150 border-indigo pb-100 border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-indigo-opacity-30 w-full overflow-hidden border-box">
+                          <h5 class="m-block-none">Text</h5>
+                        </div>
+
+                        <div class=" mx-50 overflow-hidden border-box">
+                          <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                        </div>
+
+                      </div>
+
+                      <div
+                        class="opacity-50 mx-50 gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="opacity-50 mx-50 flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-indigo mb-block-none">Text</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">variant: &lsquo;h3&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Text</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">m&#8209;block&#8209;none</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">variant</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">h3</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    Spend $75 to earn a $15 reward certificate with your card
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ****************************************** -->
+          <!-- ***** END | 12. Text offer body copy ***** -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-13.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- ****** START | 13. Button offer cta ****** -->
+          <!-- ****************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">13. Button</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+            <p class="mt-block-50">notes for this section:</p>
+            <div class="mx-100 mt-50">
+              <h4 class="m-block-none">Props</h4>
+              <div class="mx-100 mt-50">
+                <p class="m-block-none"><b>variant:</b> button | submit | reset</p>
+                <div class="mx-100">
+                  <p class="m-block-none pt-100"><b>button:</b> has no default behavior, and does nothing when pressed
+                    by default. It can have client-side scripts listen to the element's events, which are triggered when
+                    the events occur. <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
+                      docs</a></p>
+                  <p class="m-block-none pt-100"><b>submit:</b> submits the form data to the server. This is the default
+                    if the attribute is not specified for buttons associated with a &lt;form&gt;, or if the attribute is
+                    an empty or invalid value. <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
+                      docs</a></p>
+                  <p class="m-block-none pt-100"><b>reset:</b> The button resets all the controls to their initial
+                    values. (This behavior tends to annoy users.) <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
+                      docs</a></p>
+                </div>
+              </div>
+              <div class="mx-100 mt-150">
+                <p class="m-block-none"><b>name</b></p>
+                <div class="mx-100">
+                  <p class="mt-block-none mt-50">submitted as a pair with the button's <b>value</b> as part of the form
+                    data, when that button is used to submit the form <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
+                      docs</a></p>
+                </div>
+              </div>
+              <div class="mx-100 my-150">
+                <p class="m-block-none"><b>value</b></p>
+                <div class="mx-100">
+                  <p class="m-block-none mt-50">defines the value associated with the button's <b>name</b> when it's
+                    submitted with the form data. This value is passed to the server in params when the form is
+                    submitted using this button <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
+                      docs</a></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-200 mr-50 mb-200 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="mx-100 flex flex-col gap-200 overflow-hidden">
+                      <div class="opacity-50 mx-50 overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+
+                      <div
+                        class="flex flex-col gap-150 border-indigo pb-100 border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-indigo-opacity-30 w-full overflow-hidden border-box">
+                          <h5 class="m-block-none">Button</h5>
+                        </div>
+
+                        <div
+                          class="mx-50 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                          <h4 class="fg-subdued m-block-none">Shop now</h4>
+                        </div>
+
+                      </div>
+
+                      <div class="opacity-50 mx-50 flex justify-between">
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">Offer ends May 31</h5>
+                        </div>
+                        <div class="overflow-hidden">
+                          <h5 class="m-block-none">See Details</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-indigo mb-block-none">Button</h3>
+              <h4 class="px-100 mt-block-50 mb-block-none">variant: &lsquo;primary&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">size: &lsquo;md&rsquo;</h4>
+              <h4 class="px-100 mt-block-50 mb-block-none">type: &lsquo;button&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Button</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">Label</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">Shop now</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">size</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">md</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">type</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">button</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">variant</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">primary</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">onPress</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-yellow">&lbrace;</span><span class="fg-code-violet">&lpar;&nbsp;</span><span
+                      class="fg-code-violet">&rpar;</span><span class="fg-code-yellow">&rbrace;</span><span
+                      class="fg-code-blue">&nbsp;&equals;&gt;&nbsp;</span><span class="fg-code-violet">&lbrace;</span>
+                  </h4>
+                  <div class="pl-150">
+                    <h4 class="m-block-none">
+                      <span class="fg-code-pool">window</span><span class="fg-code-periwinkle">&period;</span><span
+                        class="fg-code-sea">location</span><span class="fg-code-periwinkle">&period;</span><span
+                        class="fg-code-sky">href</span><span class="fg-code-green">&nbsp;&equals;&nbsp;</span><span
+                        class="fg-code-periwinkle">&lsquo;</span><span class="fg-code-ice">your/path/here</span><span
+                        class="fg-code-periwinkle">&rsquo;</span>
+                    </h4>
+                  </div>
+                  <h4 class="m-block-none">
+                    <span class="fg-code-violet">&rbrace;</span><span class="fg-code-yellow">&rbrace;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ****************************************** -->
+          <!-- ******* END | 13. Button offer cta ******* -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-14.jpg">
           </div>
+
+          <!-- ******************************************** -->
+          <!-- * START | 14. Box offer end date & details * -->
+          <!-- ******************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">14. Box</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-200 mr-50 mb-200 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="mx-100 flex flex-col gap-200 overflow-hidden">
+                      <div class="opacity-50 mx-50 overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="opacity-50 mx-50 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+
+                      <div
+                        class="flex flex-col gap-150 border-indigo pb-100 border-sm rounded-lg overflow-hidden border-box">
+                        <div class="p-100 bg-indigo-opacity-30 w-full overflow-hidden border-box">
+                          <h5 class="m-block-none">Box</h5>
+                        </div>
+
+                        <div class="mx-50 flex justify-between">
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-indigo mb-block-none">Box</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">flex</p>
+                <p class="fg-info m-block-none">justify-between</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Box</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">flex justify&#8209;between</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    ...
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ******************************************** -->
+          <!-- ** END | 14. Box offer end date & details ** -->
+          <!-- ******************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-15.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- **** START | 15. Text offer end date **** -->
+          <!-- ***************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">15. Text</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-200 mr-50 mb-50 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="mx-100 flex flex-col overflow-hidden">
+                      <div class="opacity-50 mx-50 mb-200 overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="opacity-50 mx-50 mb-50 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+
+                        <div
+                          class="flex flex-col gap-150 border-violet pb-100 border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-violet-opacity-30 w-full overflow-hidden border-box">
+                            <h5 class="m-block-none">Text</h5>
+                          </div>
+
+                          <div class="mx-50 overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+
+                        </div>
+
+                        <div class="flex flex-col gap-150 pb-100 overflow-hidden">
+                          <div class="p-100 w-full overflow-hidden">
+                            <h5 class="fg-transparent m-block-none">Link</h5>
+                          </div>
+                          <div class="opacity-50 mx-50 overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-violet mb-block-none">Text</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+              <!-- <h4 class="px-100 mt-block-50 mb-block-none">variant: &lsquo;primary&rsquo;</h4> -->
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Text</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">m&#8209;block&#8209;none</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">variant</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">h5</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    Offer ends May 31
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ***************************************** -->
+          <!-- ***** END | 15. Text offer end date ***** -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-16.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- ***** START | 16. Link offer details ***** -->
+          <!-- ****************************************** -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">16. Link</h2>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div class="flex justify-center">
+              <div
+                class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-x-xs bg-gray-50-vertical border-box border-info-subdued overflow-hidden">
+
+                <!-- first offer card -->
+                <div
+                  class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box">
+                  <div class="opacity-50 flex justify-center py-100 bg-magenta w-full overflow-hidden">
+                    <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                  </div>
+
+                  <div class="flex gap-100 mt-200 mr-50 mb-50 ml-200 overflow-hidden">
+                    <div class="opacity-50 flex align-start flex-shrink-0">
+                      <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                        alt="stock image of 3 colorful credit cards" />
+                    </div>
+
+                    <div class="mx-100 flex flex-col overflow-hidden">
+
+                      <div class="opacity-50 mx-50 mb-200 overflow-hidden border-box">
+                        <h3 class="m-block-none">Spend $75 to earn a $15 reward certificate with your card</h3>
+                      </div>
+                      <div
+                        class="opacity-50 mx-50 mb-50 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-primary">
+                        <h4 class="fg-subdued m-block-none">Shop now</h4>
+                      </div>
+                      <div class="flex justify-between">
+                        <div class="flex flex-col gap-150 pb-100 overflow-hidden">
+                          <div class="p-100 w-full overflow-hidden">
+                            <h5 class="fg-transparent m-block-none">Text</h5>
+                          </div>
+                          <div class="opacity-50 mx-50 overflow-hidden">
+                            <h5 class="m-block-none">Offer ends May 31</h5>
+                          </div>
+                        </div>
+
+                        <div
+                          class="flex flex-col gap-150 border-violet pb-100 border-sm rounded-lg overflow-hidden border-box">
+                          <div class="p-100 bg-violet-opacity-30 w-full overflow-hidden border-box">
+                            <h5 class="m-block-none">Link</h5>
+                          </div>
+                          <div class="mx-50 overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************************************* -->
+            <!-- *** Prop list correlated to Figma *** -->
+            <!-- ************************************* -->
+            <div>
+              <h3 class="fg-violet mb-block-none">Link</h3>
+              <h4 class="px-100 m-block-none">className= &lsquo;</h4>
+              <div class="px-200">
+                <p class="fg-info m-block-none">m-block-none</p>
+              </div>
+              <h4 class="px-100 m-block-none">&rsquo;</h4>
+            </div>
+
+            <!-- ******************* -->
+            <!-- *** code parent *** -->
+            <!-- ******************* -->
+            <div class="py-400">
+              <!-- ****************** -->
+              <!-- *** code block *** -->
+              <!-- ****************** -->
+              <div class="p-150 rounded-lg border-sm border-code-black bg-code-black">
+                <h4 class="m-block-none">
+                  <span class="fg-code-red">&lt;</span><span class="fg-code-orange">Link</span>
+                </h4>
+                <div class="pl-150">
+                  <h4 class="m-block-none">
+                    <span class="fg-code-lemon">className</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">m&#8209;block&#8209;none</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                    <br />
+                    <span class="fg-code-lemon">href</span>
+                    <span class="fg-code-green">&nbsp;&equals;&nbsp;</span>
+                    <span class="fg-code-periwinkle">&lsquo;</span>
+                    <span class="fg-code-ice">https://yourLinkHere.com/path</span>
+                    <span class="fg-code-periwinkle">&rsquo;</span>
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&gt;</h4>
+                <div class="pl-150">
+                  <h4 class="fg-code-coral m-block-none">
+                    See Details
+                  </h4>
+                </div>
+                <h4 class="fg-code-red m-block-none">&#8725;&gt;</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ****************************************** -->
+          <!-- ****** END | 16. Link offer details ****** -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-17.jpg">
           </div>
+
+          <!-- ******************************************* -->
+          <!-- ***** START | 17. Box 2/2 offer cards ***** -->
+          <!-- ******************************************* -->
+          <div class="lg-w-1/2">
+            <h2 class="mb-block-none">17. Box</h2>
+            <p class="mt-block-50">The third of the three LinearGradient immediate children.</p>
+            <p class="mt-block-50">lorem ipsum...</p>
+
+            <!-- ************************************ -->
+            <!-- ***** Figma design with markup ***** -->
+            <!-- ************************************ -->
+            <div>
+              <div
+                class="flex flex-col align-center gap-150 pb-150 border-yellow border-sm rounded-lg overflow-hidden border-box">
+                <div class="p-100 bg-yellow-opacity-30 w-full overflow-hidden border-box">
+                  <h5 class="m-block-none">Box</h5>
+                </div>
+                <!-- offers component -->
+                <div
+                  class="flex flex-col max-w-5600 gap-150 py-200 px-150 md-px-200 border-xs border-t-none border-box rounded-lg border-info-subdued overflow-hidden">
+
+                  <!-- second offer card option 1 -->
+                  <div
+                    class="flex flex-col rounded-lg border-sm bg-subdued border-info-subdued overflow-hidden border-box opacity-50">
+                    <div class="hidden flex justify-center p-100 bg-magenta w-full overflow-hidden">
+                      <h4 class="fg-subdued m-block-none">Ends Tomorrow</h4>
+                    </div>
+
+                    <div class="flex gap-200 m-200 overflow-hidden">
+                      <div class="flex justify-center h-800 w-800 flex-shrink-0">
+                        <!-- <h5 class="m-block-none">Icon</h5> -->
+                        <svg class="bg-subdued fill-primary" id="rewards_icon" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 252 252">
+                          <rect width="252" height="252" fill="none" />
+                          <path
+                            d="M145.83,47.99c-.24,0-.49-.02-.73-.08-1.89-.4-3.1-2.26-2.7-4.15l5.58-26.27c.4-1.89,2.26-3.1,4.15-2.7,1.89.4,3.1,2.26,2.7,4.15l-5.58,26.27c-.35,1.65-1.8,2.77-3.42,2.77Z" />
+                          <path
+                            d="M124.51,47.34c-1.72,0-3.22-1.26-3.46-3.01l-2.45-17.43c-.27-1.91,1.06-3.68,2.98-3.95,1.91-.27,3.68,1.06,3.95,2.98l2.45,17.43c.27,1.91-1.06,3.68-2.98,3.95-.17.02-.33.03-.49.03Z" />
+                          <path
+                            d="M104.27,54.02c-1.25,0-2.46-.67-3.09-1.86l-12.61-23.71c-.91-1.71-.26-3.83,1.45-4.73,1.71-.91,3.83-.26,4.73,1.45l12.61,23.71c.91,1.71.26,3.83-1.45,4.73-.52.28-1.09.41-1.64.41Z" />
+                          <path
+                            d="M87.52,67.22c-.83,0-1.67-.3-2.34-.9l-13.08-11.77c-1.44-1.29-1.55-3.51-.26-4.94,1.29-1.44,3.51-1.55,4.94-.26l13.08,11.77c1.44,1.29,1.55,3.51.26,4.94-.69.77-1.65,1.16-2.6,1.16Z" />
+                          <path
+                            d="M76.31,85.35c-.44,0-.88-.08-1.31-.26l-24.9-10.05c-1.79-.72-2.66-2.76-1.94-4.56.72-1.79,2.77-2.66,4.56-1.94l24.9,10.05c1.79.72,2.66,2.76,1.94,4.56-.55,1.36-1.86,2.19-3.25,2.19Z" />
+                          <path
+                            d="M166.05,56.16c-.63,0-1.27-.17-1.85-.53-1.64-1.02-2.14-3.18-1.11-4.82l9.32-14.93c1.02-1.64,3.18-2.14,4.82-1.11,1.64,1.02,2.14,3.18,1.11,4.82l-9.32,14.93c-.66,1.06-1.8,1.65-2.97,1.65Z" />
+                          <path
+                            d="M181.84,70.48c-1.04,0-2.07-.46-2.76-1.34-1.19-1.52-.92-3.72.6-4.91l21.16-16.54c1.52-1.19,3.72-.92,4.91.6,1.19,1.52.92,3.72-.6,4.91l-21.16,16.54c-.64.5-1.4.74-2.15.74Z" />
+                          <path
+                            d="M191.78,89.35c-1.48,0-2.85-.94-3.33-2.42-.6-1.84.41-3.81,2.25-4.41l16.74-5.44c1.84-.6,3.81.41,4.41,2.25.6,1.84-.41,3.81-2.25,4.41l-16.74,5.44c-.36.12-.72.17-1.08.17Z" />
+                          <path
+                            d="M221.5,111.4s-.08,0-.12,0l-26.84-.93c-1.93-.07-3.44-1.69-3.38-3.62.07-1.93,1.67-3.47,3.62-3.38l26.84.93c1.93.07,3.44,1.69,3.38,3.62-.07,1.89-1.62,3.38-3.5,3.38Z" />
+                          <path
+                            d="M218.55,127.15c-2.11-3.25-5.36-5.48-9.15-6.28l-23.11-4.91c1.46-12.56-1.46-25.11-8.43-35.85-7.92-12.19-20.11-20.56-34.33-23.58-14.22-3.02-28.76-.32-40.95,7.6-10.73,6.97-18.5,17.26-22.27,29.33l-22.51-4.78c-3.79-.8-7.66-.09-10.91,2.03-3.25,2.11-5.48,5.36-6.28,9.15l-18.42,86.76c-.8,3.79-.08,7.66,2.03,10.91,2.11,3.25,5.36,5.48,9.15,6.28l151.6,32.18c1.01.21,2.03.32,3.04.32,2.77,0,5.49-.8,7.87-2.35,3.25-2.11,5.48-5.36,6.28-9.15l18.42-86.76c.8-3.79.08-7.66-2.03-10.91ZM83.89,99.5c4.93-23.21,25.49-39.16,48.32-39.16,3.39,0,6.83.35,10.27,1.08,12.91,2.74,23.98,10.35,31.17,21.41,7.19,11.07,9.64,24.27,6.9,37.18-2.74,12.91-10.35,23.98-21.41,31.17-11.07,7.19-24.27,9.64-37.18,6.9-26.65-5.66-43.73-31.94-38.08-58.6ZM45.49,100.9c.53-2.48,1.99-4.61,4.12-5.99,1.56-1.01,3.34-1.54,5.16-1.54.66,0,1.33.07,1.99.21l22.28,4.73c-.01.05-.03.1-.04.16-1.53,7.22-1.54,14.42-.26,21.26l-35.64-7.56,2.39-11.27ZM197.26,223.78c-.53,2.48-1.99,4.61-4.12,5.99-2.13,1.38-4.67,1.85-7.15,1.33l-151.6-32.18c-2.48-.53-4.61-1.99-5.99-4.12-1.38-2.13-1.85-4.67-1.33-7.15l11.6-54.66,51.18,10.86c7.58,9.44,18.33,16.43,31.07,19.13,3.8.81,7.62,1.2,11.41,1.2,8.61,0,17.07-2.06,24.8-6.05l51.73,10.98-11.6,54.66ZM215.68,137.02l-2.39,11.27-36.2-7.68c4-5.82,6.85-12.43,8.36-19.54.01-.05.02-.11.03-.16l22.88,4.86c2.48.53,4.61,1.99,5.99,4.12,1.38,2.13,1.85,4.67,1.33,7.15Z" />
+                          <path
+                            d="M149.76,151.01c-.6,0-1.19-.21-1.65-.62l-20.39-17.94-25.92,8.11c-.94.29-1.95.01-2.6-.71-.65-.73-.83-1.77-.44-2.66l10.76-24.93-15.72-22.14c-.57-.8-.62-1.85-.13-2.7s1.43-1.33,2.4-1.24l27.04,2.53,16.2-21.8c.58-.78,1.57-1.16,2.53-.95.96.2,1.71.94,1.92,1.9l5.95,26.5,25.74,8.67c.93.31,1.59,1.14,1.69,2.11.1.97-.37,1.91-1.21,2.41l-23.36,13.84-.29,27.16c-.01.98-.59,1.86-1.48,2.26-.33.15-.67.22-1.02.22ZM128.32,127.14c.6,0,1.19.22,1.65.62l17.35,15.27.25-23.11c0-.87.47-1.68,1.23-2.12l19.88-11.78-21.9-7.38c-.83-.28-1.45-.97-1.64-1.82l-5.06-22.55-13.79,18.55c-.52.7-1.37,1.08-2.24,1l-23.01-2.16,13.38,18.84c.51.71.6,1.64.26,2.44l-9.16,21.22,22.06-6.91c.25-.08.5-.11.75-.11Z" />
+                          <path
+                            d="M160.81,105.93l-17.44-5.87-4.03-17.95c-.09-.38-.39-.68-.77-.76-.38-.08-.78.07-1.01.38l-10.98,14.77-18.32-1.72c-.39-.04-.76.16-.96.5-.2.34-.18.76.05,1.08l10.66,15-7.29,16.89c-.16.36-.09.78.17,1.07.26.29.67.4,1.04.28l17.56-5.5,13.81,12.16c.19.16.42.25.66.25.14,0,.28-.03.41-.09.36-.16.59-.51.59-.9l.2-18.4,15.83-9.38c.34-.2.53-.58.48-.97-.04-.39-.3-.72-.68-.84Z" />
+                        </svg>
+                      </div>
+
+                      <div class="flex flex-col gap-200 overflow-hidden">
+                        <div class="overflow-hidden border-box">
+                          <h3 class="m-block-none">Spend $50 to earn a $10 reward certificate to use on a future
+                            purchase
+                          </h3>
+                        </div>
+                        <div
+                          class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-subdued">
+                          <h4 class="fg-primary m-block-none">Activate</h4>
+                        </div>
+                        <div class="flex justify-between">
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">Offer ends June 30</h5>
+                          </div>
+                          <div class="overflow-hidden">
+                            <h5 class="m-block-none">See Details</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ******************************************* -->
+          <!-- ****** END | 17. Box 2/2 offer cards ****** -->
+          <!-- ******************************************* -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-18.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ****** START | 18. Box Icon parent ****** -->
+          <!-- ***************************************** -->
+
+          <!-- ***************************************** -->
+          <!-- ******* END | 18. Box Icon parent ******* -->
+          <!-- ***************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-19.jpg">
           </div>
+
+          <!-- **************************************** -->
+          <!-- *********** START | 19. Icon *********** -->
+          <!-- **************************************** -->
+
+          <!-- **************************************** -->
+          <!-- ************ END | 19. Icon ************ -->
+          <!-- **************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-20.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- ***** START | 20. Box offer content ***** -->
+          <!-- ***************************************** -->
+
+          <!-- ***************************************** -->
+          <!-- ****** END | 20. Box offer content ****** -->
+          <!-- ***************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-21.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- **** START | 21. Text offer body copy **** -->
+          <!-- ****************************************** -->
+
+          <!-- ****************************************** -->
+          <!-- ***** END | 21. Text offer body copy ***** -->
+          <!-- ****************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-22.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- ****** START | 22. Button offer cta ****** -->
+          <!-- ****************************************** -->
+
+          <!-- ****************************************** -->
+          <!-- ******* END | 22. Button offer cta ******* -->
+          <!-- ****************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-23.jpg">
           </div>
+
+          <!-- ******************************************** -->
+          <!-- * START | 23. Box offer end date & details * -->
+          <!-- ******************************************** -->
+
+          <!-- ******************************************** -->
+          <!-- ** END | 23. Box offer end date & details ** -->
+          <!-- ******************************************** -->
+
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-24.jpg">
           </div>
+
+          <!-- ***************************************** -->
+          <!-- **** START | 24. Text offer end date **** -->
+          <!-- ***************************************** -->
+
+          <!-- ***************************************** -->
+          <!-- ***** END | 24. Text offer end date ***** -->
+          <!-- ***************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-25.jpg">
           </div>
+
+          <!-- ****************************************** -->
+          <!-- ***** START | 25. Link offer details ***** -->
+          <!-- ****************************************** -->
+
+          <!-- ****************************************** -->
+          <!-- ****** END | 25. Link offer details ****** -->
+          <!-- ****************************************** -->
           <div>
             <img alt="top banner place holder img" src="img/web-design-Figma-work-26.jpg">
           </div>
-          <!-- END | wip Figma to Code deck -->
+
+          <!-- ****************************************** -->
+          <!-- ***** END | wip Figma to Code steps ****** -->
+          <!-- ****************************************** -->
 
         </div>
 
@@ -223,8 +2692,8 @@
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script> -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <!-- <script>
