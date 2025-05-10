@@ -118,6 +118,10 @@
   box-sizing: border-box;
 }
 
+.rotate-x-180 {
+  transform: rotateX(180deg);
+}
+
 .fg-primary {
   color: var(--color-primary);
 }
@@ -413,6 +417,16 @@
 
 .bg-gray-50-vertical {
   background: linear-gradient(180deg, var(--color-subdued), var(--color-gray-50));
+}
+
+.bg-gray-50-vertical-full {
+  background: linear-gradient(180deg, var(--color-subdued), var(--color-gray-50), var(--color-subdued));
+}
+
+.line-break {
+  width: 100%;
+  height: 32px;
+  background: linear-gradient(180deg, var(--color-subdued), var(--color-gray-50), var(--color-subdued));
 }
 
 .bg-magenta {
@@ -824,6 +838,10 @@
 
 .h-150 {
   height: 12px;
+}
+
+.h-200 {
+  height: 16px;
 }
 
 .h-300 {
