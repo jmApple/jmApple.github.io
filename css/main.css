@@ -339,6 +339,11 @@ main {
 /*==================================================
 MOUSE OVER / HOVER | iPhone5 | NO min width
 ===================================================*/
+a {
+  color: #414BB2;
+  text-decoration: none;
+}
+
 a:hover {
   color: #72b648;
 }
