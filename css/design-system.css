@@ -1949,18 +1949,6 @@
     flex-direction: row;
   }
 
-  .lg-pr-100 {
-    padding-right: 8px;
-  }
-
-  .lg-pr-200 {
-    padding-right: 16px;
-  }
-
-  .lg-pr-300 {
-    padding-right: 24px;
-  }
-
   .lg-border-x-sm {
     border-right: 2px solid var(--color-transparent);
     border-left: 2px solid var(--color-transparent);

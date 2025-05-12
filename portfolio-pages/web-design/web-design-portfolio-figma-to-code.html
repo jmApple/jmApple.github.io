@@ -87,12 +87,17 @@
             </div>
             <div>
               <p>I created a quick tutorial on how to convert a Figma design into code. The goal was to show how easy it is to take a design and convert it to working code leveraging the Design System which included a component library for basic reusable componentry.</p>
+
               <p>I used a simple design to show how to convert the design into code. The design was created in Figma and then converted leveraging the custom cross-platform Design System and Component Library.</p>
+
               <p>This began as a minimium viable product (MVP) of the tutorial and was intneded to be my notes to build out a learning network module. Developers started using the Miro version, providing the feedback that this really helped them synthasize the custom cross-platform design system and component library as a whole.
               </p>
+
               <p>I plan to add to this tutorial. Including, information about creating the first offer card as a React component and how I would recommend setting up that react component for optimal reusability.</p>
+
               <p>In addition, I plan to show how to make the the second offer card it you do not intend to make a React OfferCard component or if you want a different React component when there is no alert on top.</p>
-              <p>There is a lot of flexibilty for the engineer to best leverage the deisgn system for there teams needs. THe deisgn system is created to maintain company brand standards and save developer time in remaking common micro componentry like radios, checkboxes, inputs, buttons, etc.</p>
+
+              <p>There is a lot of flexibilty for the engineer to best leverage the deisgn system for there teams needs. The deisgn system is created to maintain company brand standards and save developer time in remaking common micro componentry like radios, checkboxes, inputs, buttons, etc.</p>
             </div>
           </div>
           <!-- *************************************** -->
@@ -169,7 +174,6 @@
 
                   <div class="flex gap-200 m-200 overflow-hidden">
                     <div class="flex justify-center h-800 w-800 flex-shrink-0">
-                      <!-- <h5 class="m-block-none">Icon</h5> -->
                       <svg class="bg-default fill-primary" id="rewards_icon" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 252 252">
                         <rect width="252" height="252" fill="none" />
@@ -219,9 +223,7 @@
                       </div>
                     </div>
                   </div>
-
                 </div>
-
               </div>
               <!-- **************************************** -->
               <!-- ******** END | Offers Component ******** -->
@@ -232,9 +234,10 @@
             <!-- *********** START | Wireframe *********** -->
             <!-- ***************************************** -->
             <div class="lg-w-1/2">
-              <div class="max-w-text-block">
+              <div class="max-w-text">
                 <h2 class="mb-block-none">Wireframing</h2>
                 <p class="mt-block-50">I recommended creating a quick wireframe, this can be done quickly on a notepad - digital or pen and paper. Wireframing helps plan a solid base structure that supports responsive, mobile-first development.</p>
+
                 <p>In addition, wireframing speeds up development time by eliminating on-the-fly layout changes.</p>
               </div>
               <!-- wire frame -->
@@ -406,19 +409,18 @@
                       </div>
                     </div>
                   </div>
-
                 </div>
-
               </div>
-            </div>
             <!-- *************************************** -->
             <!-- *********** END | Wireframe *********** -->
             <!-- *************************************** -->
-          </div>
+            </div>
 
           <!-- **************************************** -->
           <!-- **** END | Figma Design & Wireframe **** -->
           <!-- **************************************** -->
+          </div>
+
 
           <!-- ***************************************** -->
           <!-- **** START | wip Figma to Code steps **** -->
@@ -434,7 +436,9 @@
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
                   <h2 class="mb-block-none">1. LinearGradient</h2>
+                  
                   <p class="mt-block-50">Begin by adding a <b>LinearGradient</b> component, including the needed property information.</p>
+
                   <p>The <b><span class="fg-amber">angle</span></b> property is inferred by the Linear Gradient title in the <b>Colors</b> panel and from visually observing the gradient in Figma.</p>
                 </div>
                 <div class="lg-w-4/12"></div>
@@ -474,7 +478,9 @@
                         <div class="opacity-50 flex gap-200 m-200 overflow-hidden">
                           <div class="flex justify-center align-center h-800 w-800 flex-shrink-0 bg-indigo-opacity-30 ">
                             <!-- <h5 class="m-block-none">Image</h5> -->
-                            <img class='w-800 h-800' src="img/figma-example-cc-image.jpg"
+                            <img 
+                              class='w-800 h-800'
+                              src="img/figma-example-cc-image.jpg"
                               alt="stock image of 3 colorful credit cards">
                           </div>
 
@@ -653,11 +659,12 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-                <h2 class="mb-block-none">2. Box</h2>
-                <p class="mt-block-50">Let's break this down to the first of three LinearGradient immediate children. Add the <b>Box</b> component, including the needed property information.</p>
+                  <h2 class="mb-block-none">2. Box</h2>
+                  <p class="mt-block-50">Let's break this down to the first of three LinearGradient immediate children.
+                    Add the <b>Box</b> component, including the needed property information.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
               </div>
-            <div class="lg-w-4/12"></div>
-          </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -769,13 +776,16 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">3. Text</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 2, add a <b>Text</b> component, including the needed property information.</p>
-              <p>The <b><span class="fg-green">Text</span></b> panel information indicates using the <b><span class="fg-green">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
-              <p>Since the default color for <b>Text</b> is <b><span class="fg-violet">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">3. Text</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 2, add a <b>Text</b> component, including the needed property information.</p>
+
+                  <p>The <b><span class="fg-green">Text</span></b> panel information indicates using the <b><span class="fg-green">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Text</b> is <b><span class="fg-violet">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -887,14 +897,16 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">4. Link</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 2, and after the the <b>Text</b> component created in step 3, add a <b>Link</b> component, including the needed property information.</p>
+                  <h2 class="mb-block-none">4. Link</h2>
 
-              <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
-              <p>Since the default color for <b>Link</b> is <b><span class="fg-violet">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 2, and after the the <b>Text</b> component created in step 3, add a <b>Link</b> component, including the needed property information.</p>
+
+                  <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Link</b> is <b><span class="fg-violet">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1011,12 +1023,14 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">5. Box</h2>
-              <p class="mt-block-50">This is the second of three LinearGradient immediate children.</p>
-              <p>After the <b>Box</b> component created in step 2, add a <b>Box</b> component, including the needed property information.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">5. Box</h2>
+
+                  <p class="mt-block-50">This is the second of three LinearGradient immediate children.</p>
+
+                  <p>After the <b>Box</b> component created in step 2, add a <b>Box</b> component, including the needed property information.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1141,12 +1155,14 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">6. Box</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 5, add a <b>Box</b> component, including the needed property information. This creates the 'Alert' banner at the top of the offer card.</p>
-              <p>The <b><span class="fg-aqua">overflow-hidden</span></b> class allows for a better overall visual look between the border on the <b>Box</b> parent and this banner, eliminating the need to use the Radius and Border properties found in the Figma panel for this element.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">6. Box</h2>
+                  
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 5, add a <b>Box</b> component, including the needed property information. This creates the 'Alert' banner at the top of the offer card.</p>
+
+                  <p>The <b><span class="fg-aqua">overflow-hidden</span></b> class allows for a better overall visual look between the border on the <b>Box</b> parent and this banner, eliminating the need to use the Radius and Border properties found in the Figma panel for this element.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1183,9 +1199,9 @@
                     </div>
                   </div>
                   <!-- bottom -->
-                  <div class="flex flex-col align-center gap-150 overflow-hidden border-transparent border-sm border-t-none">
-                    <div
-                      class="max-w-5600 flex justify-center overflow-hidden border-box">
+                  <div
+                    class="flex flex-col align-center gap-150 overflow-hidden border-transparent border-sm border-t-none">
+                    <div class="max-w-5600 flex justify-center overflow-hidden border-box">
                       <!-- offers component -->
                       <div
                         class="flex flex-col max-w-5600 px-150 md-px-200 gap-150 pb-200 border-x-xs border-info-subdued  bg-gray-50-vertical border-box overflow-hidden">
@@ -1294,14 +1310,15 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">7. Text</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 6, add a <b>Text</b> component, including the needed property information. This creates the copy seen within the 'Alert' banner.</p>
-              <p>The <b><span class="fg-aqua">Text</span></b> panel information indicates using the <b><span class="fg-aqua">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+                  <h2 class="mb-block-none">7. Text</h2>
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 6, add a <b>Text</b> component, including the needed property information. This creates the copy seen within the 'Alert' banner.</p>
 
-              <p>Since the default color for <b>Text</b> is foreground/default you will need to add the class fg-subdued as indicated in the colors panel: <b><span class="fg-violet">foregound/subdued</span></b>.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <p>The <b><span class="fg-aqua">Text</span></b> panel information indicates using the <b><span class="fg-aqua">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Text</b> is foreground/default you will need to add the class fg-subdued as indicated in the colors panel: <b><span class="fg-violet">foregound/subdued</span></b>.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1444,12 +1461,14 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">8. Box</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 5, and after the <b>Box</b> component created in step 6, add another <b>Box</b> component, including the needed property information.</p>
-              <p>This creates the parent element for all the additional content within the Offers card.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">8. Box</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 5, and after the <b>Box</b> component created in step 6, add another <b>Box</b> component, including the needed property information.</p>
+
+                  <p>This creates the parent element for all the additional content within the Offers card.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1578,12 +1597,14 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">9. Box</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 8, add <b>Box</b> component, including the needed property information.</p>
-              <p>This creates the parent element for the <b>Image</b> component. Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs having a parent here for layout and 'catch-all' sizing situations is very helpful.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">9. Box</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 8, add <b>Box</b> component, including the needed property information.</p>
+
+                  <p>This creates the parent element for the <b>Image</b> component. Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs having a parent here for layout and 'catch-all' sizing situations is very helpful.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1708,14 +1729,17 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">10. Image</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 9, add an <b>Image</b> component, including the needed property information.</p>
-              <p>Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs be sure to include the height and width classes.</p>
-              <p>The information found at the top of the FIgma panel in <b><span class="fg-blue">blue</span></b> is indicating the image file name. This is not needed in the code, but is helpful to know when looking at the Figma panel.
-              </p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">10. Image</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 9, add an <b>Image</b> component, including the needed property information.</p>
+
+                  <p>Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs be sure to include the height and width classes.</p>
+
+                  <p>The information found at the top of the Figma panel in <b><span class="fg-blue">blue</span></b> is indicating the image file name. This is not needed in the code, but is helpful to know when looking at the Figma panel.
+                  </p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1851,12 +1875,15 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">11. Box</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 8, and after the <b>Box</b> component created in step 9 add a <b>Box</b> component, including the needed property information.</p>
-              <p>This creates the parent element for the details and cta's on the right side of the offers card.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">11. Box</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 8, and after the <b>Box</b> component created in step 9 add a <b>Box</b> component, including the needed property information.
+                  </p>
+
+                  <p>This creates the parent element for the details and cta's on the right side of the offers card.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1980,14 +2007,15 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">12. Text</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, add a <b>Text</b> component, including the needed property information.</p>
-              <p>The <b><span class="fg-indigo">Text</span></b> panel information indicates using the <b><span class="fg-indigo">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+                  <h2 class="mb-block-none">12. Text</h2>
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 11, add a <b>Text</b> component, including the needed property information.</p>
 
-              <p>Since the default color for <b>Text</b> is <b><span class="fg-green">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <p>The <b><span class="fg-indigo">Text</span></b> panel information indicates using the <b><span class="fg-indigo">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Text</b> is <b><span class="fg-green">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2117,61 +2145,42 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">13. Button</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Text</b> component created in step 12, add a <b><span class="fg-indigo">Button</span></b> component, including the needed property information.</p>
-              <p>Using the design system <b>Button</b> and properties you do not need to add any additional styling, layout, color, or font styling as it is all taken care of for you.</p>
-              <div class="hidden">
-                <p class="mt-block-50">notes for this section:</p>
-                <div class="mx-100 mt-50">
-                  <h4 class="m-block-none">Props</h4>
-                  <div class="mx-100 mt-50">
-                    <p class="m-block-none"><b>variant:</b> button | submit | reset</p>
-                    <div class="mx-100">
-                      <p class="m-block-none pt-100"><b>button:</b> has no default behavior, and does nothing when
-                        pressed
-                        by default. It can have client-side scripts listen to the element's events, which are triggered
-                        when
-                        the events occur. <a
-                          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
-                          docs</a></p>
-                      <p class="m-block-none pt-100"><b>submit:</b> submits the form data to the server. This is the
-                        default
-                        if the attribute is not specified for buttons associated with a &lt;form&gt;, or if the
-                        attribute is
-                        an empty or invalid value. <a
-                          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
-                          docs</a></p>
-                      <p class="m-block-none pt-100"><b>reset:</b> The button resets all the controls to their initial
-                        values. (This behavior tends to annoy users.) <a
-                          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
-                          docs</a></p>
-                    </div>
-                  </div>
-                  <div class="mx-100 mt-150">
-                    <p class="m-block-none"><b>name</b></p>
-                    <div class="mx-100">
-                      <p class="mt-block-none mt-50">submitted as a pair with the button's <b>value</b> as part of the
-                        form
-                        data, when that button is used to submit the form <a
-                          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
-                          docs</a></p>
-                    </div>
-                  </div>
-                  <div class="mx-100 my-150">
-                    <p class="m-block-none"><b>value</b></p>
-                    <div class="mx-100">
-                      <p class="m-block-none mt-50">defines the value associated with the button's <b>name</b> when it's
-                        submitted with the form data. This value is passed to the server in params when the form is
-                        submitted using this button <a
-                          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN
-                          docs</a></p>
+                  <h2 class="mb-block-none">13. Button</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Text</b> component created in step 12, add a <b><span class="fg-indigo">Button</span></b> component, including the needed property information.</p>
+
+                  <p>Using the design system <b>Button</b> and properties you do not need to add any additional styling, layout, color, or font styling as it is all taken care of for you.</p>
+
+                  <div class="hidden">
+                    <p class="mt-block-50">notes for this section:</p>
+                    <div class="mx-100 mt-50">
+                      <h4 class="m-block-none">Props</h4>
+                      <div class="mx-100 mt-50">
+                        <p class="m-block-none"><b>variant:</b> button | submit | reset</p>
+                        <div class="mx-100">
+                          <p class="m-block-none pt-100"><b>button:</b> has no default behavior, and does nothing when pressed by default. It can have client-side scripts listen to the element's events, which are triggered when the events occur. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN docs</a></p>
+                          <p class="m-block-none pt-100"><b>submit:</b> submits the form data to the server. This is the default if the attribute is not specified for buttons associated with a &lt;form&gt;, or if the attribute is an empty or invalid value. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN docs</a></p>
+
+                          <p class="m-block-none pt-100"><b>reset:</b> The button resets all the controls to their initial values. (This behavior tends to annoy users.) <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN docs</a></p>
+                        </div>
+                      </div>
+                      <div class="mx-100 mt-150">
+                        <p class="m-block-none"><b>name</b></p>
+                        <div class="mx-100">
+                          <p class="mt-block-none mt-50">submitted as a pair with the button's <b>value</b> as part of the form data, when that button is used to submit the form <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN docs</a></p>
+                        </div>
+                      </div>
+                      <div class="mx-100 my-150">
+                        <p class="m-block-none"><b>value</b></p>
+                        <div class="mx-100">
+                          <p class="m-block-none mt-50">defines the value associated with the button's <b>name</b> when it's submitted with the form data. This value is passed to the server in params when the form is submitted using this button <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button">src: MDN docs</a></p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <div class="lg-w-4/12"></div>
               </div>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2324,12 +2333,14 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">14. Box</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Button</b> component created in step 13, add a <b>Box</b> component, including the needed property information.</p>
-              <p>This creates the parent element for the offer end date and details link.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <h2 class="mb-block-none">14. Box</h2>
+
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Button</b> component created in step 13, add a <b>Box</b> component, including the needed property information.</p>
+
+                  <p>This creates the parent element for the offer end date and details link.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2454,15 +2465,16 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">15. Text</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 14, add a <b>Text</b> component, including the needed property information.</p>
+                  <h2 class="mb-block-none">15. Text</h2>
 
-              <p>The <b><span class="fg-violet">Text</span></b> panel information indicates using the <b><span class="fg-violet">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 14, add a <b>Text</b> component, including the needed property information.</p>
 
-              <p>Since the default color for <b>Text</b> is <b><span class="fg-purple">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <p>The <b><span class="fg-violet">Text</span></b> panel information indicates using the <b><span class="fg-violet">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Text</b> is <b><span class="fg-purple">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2598,15 +2610,16 @@
             <div class="lg-w-8/12">
               <div class="flex flex-col lg-flex-row gap-300">
                 <div class="lg-w-8/12 max-w-text">
-              <h2 class="mb-block-none">16. Link</h2>
-              <p class="mt-block-50">Within the <b>Box</b> component created in step 14, and after the <b>Text</b> component created in step 15, add a <b>Link</b> component, including the needed property information.</p>
+                  <h2 class="mb-block-none">16. Link</h2>
 
-              <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
-              
-              <p>Since the default color for <b>Link</b> is <b><span class="fg-purple">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
-            </div>
-            <div class="lg-w-4/12"></div>
-          </div>
+                  <p class="mt-block-50">Within the <b>Box</b> component created in step 14, and after the <b>Text</b> component created in step 15, add a <b>Link</b> component, including the needed property information.</p>
+
+                  <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+                  <p>Since the default color for <b>Link</b> is <b><span class="fg-purple">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
+                </div>
+                <div class="lg-w-4/12"></div>
+              </div>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2767,7 +2780,6 @@
 
                     <div class="flex gap-200 m-200 overflow-hidden">
                       <div class="flex justify-center h-800 w-800 flex-shrink-0">
-                        <!-- <h5 class="m-block-none">Icon</h5> -->
                         <svg class="bg-default fill-primary" id="rewards_icon" xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 252 252">
                           <rect width="252" height="252" fill="none" />
@@ -2800,9 +2812,7 @@
 
                       <div class="flex flex-col gap-200 overflow-hidden">
                         <div class="overflow-hidden border-box">
-                          <h3 class="m-block-none">Spend $50 to earn a $10 reward certificate to use on a future
-                            purchase
-                          </h3>
+                          <h3 class="m-block-none">Spend $50 to earn a $10 reward certificate to use on a future purchase</h3>
                         </div>
                         <div
                           class="gap-150 border-primary border-sm rounded-lg p-100 overflow-hidden border-box flex justify-center bg-default">
@@ -2841,10 +2851,6 @@
           <!-- ******* END | 18. Box Icon parent ******* -->
           <!-- ***************************************** -->
 
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-19.jpg">
-          </div> -->
-
           <!-- **************************************** -->
           <!-- *********** START | 19. Icon *********** -->
           <!-- **************************************** -->
@@ -2852,10 +2858,6 @@
           <!-- **************************************** -->
           <!-- ************ END | 19. Icon ************ -->
           <!-- **************************************** -->
-
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-20.jpg">
-          </div> -->
 
           <!-- ***************************************** -->
           <!-- ***** START | 20. Box offer content ***** -->
@@ -2865,10 +2867,6 @@
           <!-- ****** END | 20. Box offer content ****** -->
           <!-- ***************************************** -->
 
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-21.jpg">
-          </div> -->
-
           <!-- ****************************************** -->
           <!-- **** START | 21. Text offer body copy **** -->
           <!-- ****************************************** -->
@@ -2876,10 +2874,6 @@
           <!-- ****************************************** -->
           <!-- ***** END | 21. Text offer body copy ***** -->
           <!-- ****************************************** -->
-
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-22.jpg">
-          </div> -->
 
           <!-- ****************************************** -->
           <!-- ****** START | 22. Button offer cta ****** -->
@@ -2889,10 +2883,6 @@
           <!-- ******* END | 22. Button offer cta ******* -->
           <!-- ****************************************** -->
 
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-23.jpg">
-          </div> -->
-
           <!-- ******************************************** -->
           <!-- * START | 23. Box offer end date & details * -->
           <!-- ******************************************** -->
@@ -2900,10 +2890,6 @@
           <!-- ******************************************** -->
           <!-- ** END | 23. Box offer end date & details ** -->
           <!-- ******************************************** -->
-
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-24.jpg">
-          </div> -->
 
           <!-- ***************************************** -->
           <!-- **** START | 24. Text offer end date **** -->
@@ -2913,10 +2899,6 @@
           <!-- ***** END | 24. Text offer end date ***** -->
           <!-- ***************************************** -->
 
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-25.jpg">
-          </div> -->
-
           <!-- ****************************************** -->
           <!-- ***** START | 25. Link offer details ***** -->
           <!-- ****************************************** -->
@@ -2924,10 +2906,6 @@
           <!-- ****************************************** -->
           <!-- ****** END | 25. Link offer details ****** -->
           <!-- ****************************************** -->
-
-          <!-- <div>
-            <img alt="top banner place holder img" src="img/web-design-Figma-work-26.jpg">
-          </div> -->
 
           <!-- ****************************************** -->
           <!-- ***** END | wip Figma to Code steps ****** -->
