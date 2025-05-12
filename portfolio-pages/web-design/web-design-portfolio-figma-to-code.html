@@ -83,17 +83,16 @@
         <div class="dev-portflio-itm-spacing flex flex-col gap-200">
           <div class="p-200 md-w-3/4 lg-w-1/2 p-200 mx-100 md-mx-300">
             <div class="project-title">
-              <h3>project: translate Figma design to code</h3>
+              <h3>project: translate a Figma design into code</h3>
             </div>
             <div>
-              <p>Created a quick tutorial on how to convert a Figma design into code. The goal was to show how easy it
-                is to take a design and convert it to working code.</p>
-              <p>We used a simple design to show how to convert the design into code. The design was created in Figma
-                and then converted leveraging the custom cross-platform design system and component library.</p>
-              <p>This is the minimium viable product (MVP) of the tutorial and was intneded to be my notes to build out
-                a learning network module. Developers started using the Miro version, providing feedback that this
-                really helped them synthasize the custom cross-platform design system and component library as a whole.
+              <p>I created a quick tutorial on how to convert a Figma design into code. The goal was to show how easy it is to take a design and convert it to working code leveraging the Design System which included a component library for basic reusable componentry.</p>
+              <p>I used a simple design to show how to convert the design into code. The design was created in Figma and then converted leveraging the custom cross-platform Design System and Component Library.</p>
+              <p>This began as a minimium viable product (MVP) of the tutorial and was intneded to be my notes to build out a learning network module. Developers started using the Miro version, providing the feedback that this really helped them synthasize the custom cross-platform design system and component library as a whole.
               </p>
+              <p>I plan to add to this tutorial. Including, information about creating the first offer card as a React component and how I would recommend setting up that react component for optimal reusability.</p>
+              <p>In addition, I plan to show how to make the the second offer card it you do not intend to make a React OfferCard component or if you want a different React component when there is no alert on top.</p>
+              <p>There is a lot of flexibilty for the engineer to best leverage the deisgn system for there teams needs. THe deisgn system is created to maintain company brand standards and save developer time in remaking common micro componentry, like radios, checkboxes, inputs, buttons, etc.</p>
             </div>
           </div>
           <!-- *************************************** -->
@@ -233,9 +232,8 @@
             <!-- *********** START | Wireframe *********** -->
             <!-- ***************************************** -->
             <div class="lg-w-1/2">
-              <h2 class="mb-block-none">1. Wireframe</h2>
-              <p class="mt-block-50">First make up a quick wireframe. This helps speed up writing out the code,
-                especially when planning building a responsive layout.</p>
+              <h2 class="mb-block-none">Wireframing</h2>
+              <p class="mt-block-50">I recommended creating a quick wireframe. This helps plan a solid base structure that supports responsive, mobile-first development. In addition, it speeds up development time by eliminating on-the-fly layout changes. THis can be done quickly on a notepad - digital or pen and paper.</p>
               <!-- wire frame -->
               <div
                 class="flex flex-col gap-150 align pb-150 border-magenta border-sm rounded-lg overflow-hidden border-box">
@@ -431,7 +429,8 @@
           <div class="flex flex-col lg-flex-row gap-200 mx-100 md-mx-300">
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">1. LinearGradient</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">We will begin by adding a <b>LinearGradient</b> component, including the needed property information.</p>
+              <p>The <b><span class="fg-amber">angle</span></b> property is inferred by the Linear Gradient title in the <b>Colors</b> panel and from visually observing the gradient in Figma.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
 
@@ -645,9 +644,7 @@
           <div class="flex flex-col lg-flex-row gap-200 mx-100 md-mx-300">
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">2. Box</h2>
-              <p class="mt-block-50">Let's break this down to the first of the three LinearGradient immediate children.
-              </p>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Let's break this down to the first of three LinearGradient immediate children. Add the <b>Box</b> component, including the needed property information.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -758,7 +755,10 @@
           <div class="flex flex-col lg-flex-row gap-200 mx-100 md-mx-300">
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">3. Text</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 2, add a <b>Text</b> component, including the needed property information.</p>
+              <p>The <b><span class="fg-green">Text</span></b> panel information indicates using the <b><span class="fg-green">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+              <p>Since the default color for <b>Text</b> is <b><span class="fg-violet">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -869,7 +869,10 @@
           <div class="flex flex-col lg-flex-row gap-200 mx-100 md-mx-300">
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">4. Link</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Also within the <b>Box</b> component created in step 2, add a <b>Link</b> component after the <b>Text</b> component, including the needed property information.</p>
+
+              <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+              <p>Since the default color for <b>Link</b> is <b><span class="fg-violet">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -985,8 +988,7 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">5. Box</h2>
-              <p class="mt-block-50">The second of the three LinearGradient immediate children.</p>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">This is the second of three LinearGradient immediate children. Add a <b>Box</b> component, including the needed property information.</p>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1110,7 +1112,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">6. Box</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 5, add a <b>Box</b> component, including the needed property information. This creates the 'Alert' banner at the top of the offer card.</p>
+              <p>The <b><span class="fg-aqua">overflow-hidden</span></b> class allows for a better overall visual look between the border on the <b>Box</b> parent and this banner, eliminating the need to use the Radius and Border properties found in the Figma panel for this element.</p>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1257,7 +1260,10 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">7. Text</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 6, add a <b>Text</b> component, including the needed property information. This creates the copy seen within the 'Alert' banner.</p>
+              <p>The <b><span class="fg-aqua">Text</span></b> panel information indicates using the <b><span class="fg-aqua">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+
+              <p>Since the default color for <b>Text</b> is foreground/default you will need to add the class fg-subdued as indivated in the colors panel: <b><span class="fg-violet">foregound/subdued</span></b>.</p>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1399,7 +1405,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">8. Box</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 5, and after the <b>Box</b> component created in step 6, add another <b>Box</b> component, including the needed property information.</p>
+              <p>This creates the parent element for all the additional content within the Offers card.</p>
 
               <!-- ************************************ -->
               <!-- ***** Figma design & Prop list ***** -->
@@ -1527,7 +1534,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">9. Box</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 8, add <b>Box</b> component, including the needed property information.</p>
+              <p>This creates the parent element for the <b>Image</b> component. Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs having a parent here for layout and 'catch-all' sizing situations is very helpful.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1651,7 +1659,10 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">10. Image</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 9, add an <b>Image</b> component, including the needed property information.</p>
+              <p>Due to differing browsers and cross-platform &lpar;iOS and Android&rpar; needs be sure to include the height and width classes.</p>
+              <p>The information found at the top of the FIgma panel in <b><span class="fg-blue">blue</span></b> is indicating the image file name. This is not needed in the code, but is helpful to know when looking at the Figma panel.
+              </p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1786,7 +1797,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">11. Box</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 8, and after the <b>Box</b> component created in step 9 add a <b>Box</b> component, including the needed property information.</p>
+              <p>This creates the parent element for the details and cta's on the right side of the offers card.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -1909,7 +1921,10 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">12. Text</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, add a <b>Text</b> component, including the needed property information.</p>
+              <p>The <b><span class="fg-indigo">Text</span></b> panel information indicates using the <b><span class="fg-indigo">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-blue">Content</span></b> panel.</p>
+
+              <p>Since the default color for <b>Text</b> is <b><span class="fg-green">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2038,7 +2053,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">13. Button</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Text</b> component created in step 12, add a <b><span class="fg-indigo">Button</span></b> component, including the needed property information.</p>
+              <p>Using the design system <b>Button</b> and properties you do not need to add any additional styling, layout, color, or font styling as it is all taken care of for you.</p>
               <div class="hidden">
                 <p class="mt-block-50">notes for this section:</p>
                 <div class="mx-100 mt-50">
@@ -2239,7 +2255,8 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">14. Box</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 11, and after the <b>Button</b> component created in step 13, add a <b>Box</b> component, including the needed property information.</p>
+              <p>This creates the parent element for the offer end date and details link.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2363,7 +2380,11 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">15. Text</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 14, add a <b>Text</b> component, including the needed property information.</p>
+
+              <p>The <b><span class="fg-violet">Text</span></b> panel information indicates using the <b><span class="fg-violet">Text</span></b> component and includes the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+
+              <p>Since the default color for <b>Text</b> is <b><span class="fg-purple">foregound/default</span></b> you do not need to add the the fg-default class as indicated in the colors panel.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
@@ -2498,7 +2519,11 @@
             <!-- ********************************************* -->
             <div class="lg-w-8/12">
               <h2 class="mb-block-none">16. Link</h2>
-              <p class="mt-block-50">lorem ipsum...</p>
+              <p class="mt-block-50">Within the <b>Box</b> component created in step 14, and after the <b>Text</b> component created in step 15, add a <b>Link</b> component, including the needed property information.</p>
+
+              <p>Figma does not have a <b>Link</b> component, the <b><span class="fg-aqua">Text</span></b> panel does include the copy needed which can also be found in the <b><span class="fg-aqua">Content</span></b> panel.</p>
+              
+              <p>Since the default color for <b>Link</b> is <b><span class="fg-purple">foregound/primary</span></b> you do not need to add the the fg-primary class as indicated in the colors panel.</p>
 
               <div class="flex flex-col lg-flex-row gap-300">
                 <!-- ************************************ -->
