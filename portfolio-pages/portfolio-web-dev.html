@@ -1,0 +1,552 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jmApple | Jessica McIntosh</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../img/favicon.png">
+
+        <!--  FAVICON CODE FROM BOILERPLATE
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://use.fontawesome.com/f940d2b2b9.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+        <!-- NOTE: font-family: 'Playfair Display', serif;
+                   picked for the bracket on the about page-->
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+        <!-- NOTE: font-family: 'Fredericka the Great', cursive; -->
+        <!-- NOTE: All of the below is for Century Gothic and Cochin fonts from fonts.com -->
+        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/83e20145-0d49-400a-a25a-d4ca0fc7eb70.css"/>
+    </head>
+
+    <!-- NOTE: sign-painter font ~  webchiwake/public/font/signpainter/signpainter-housescript-webfont.eot  ~~ fond at: https://github.com/mlopezvs/webchiwake/blob/master/public/font/signpainter/signpainter-housescript-webfont.eot   -->
+    <body class="corner-body">
+      <div class="spacing-container">
+      <header class="full-width">
+        <div class="logo">
+          <a href="../index.html" title="home"><img src="../img/logo-green.gif" alt="jmApple" /></a>
+        </div>
+          <div class="mobile-nav-icon">
+            <!-- font awesome solution to a menu icon <i class="fa fa-bars" aria-hidden="true"></i> -->
+              <div class="dropdown" style="float:right;">
+                <button class="dropbtn">
+                  <hr>
+                  <hr>
+                  <hr>
+                  <hr>
+                </button>
+                    <div class="dropdown-content">
+                      <nav>
+                        <ul>
+                          <li><a href="../index.html" title="home">home</a></li>
+                          <li><a href="../about.html" title="about">about</a></li>
+                          <li><a href="../portfolio.html" id="nav-on-page" title="portfolio">portfolio</a></li>
+                          <!-- NOTE: <li><a href="../blog.html" title="blog">blog</a></li> -->
+                          <li><a href="../contact.html" title="contact">Contact</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+              </div>
+          </div>
+          <div class="horizontal-nav">
+            <nav>
+              <ul>
+                <li><a href="../index.html" title="home">home</a></li>
+                <li><a href="../about.html" title="about">about</a></li>
+                <li><a href="../portfolio.html" id="nav-on-page" title="portfolio">portfolio</a></li>
+                <!-- NOTE: <li><a href="../blog.html" title="blog">blog</a></li> -->
+                <li><a href="../contact.html" title="contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+      </header>
+
+      <main>
+        <section id="portfolio-illustration">
+          <div class="full-width">
+
+            <style>
+              .porfolio-thumb-hover-details {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0%;
+              }
+
+              .porfolio-thumb-hover-details p {
+                /*font-family: 'EB Garamond', serif;*/
+                font-family: 'Montserrat', sans-serif;
+                color: #ffffff;
+                text-align: center;
+                text-transform: lowercase;
+                font-size: .9em;
+                /*font-weight: 100;*/
+                font-weight: 200;
+                margin-block-start: .4375em;
+                margin-block-end: .4375em;
+              }
+
+              .porfolio-thumb-hover-on {
+                display: none;
+              }
+
+              .porfolio-thumb-hover-on {
+                display: none;
+                position: absolute;
+                width: 100%;
+                top: 35%;
+              }
+
+              .portfolio-thumb-hover-background {
+                position: relative;
+              }
+
+              .porfolio-thumb:hover {
+                background-color: #000000;
+              }
+
+              .porfolio-thumb:hover img {
+                opacity: .3;
+              }
+
+
+              .porfolio-thumb:hover .porfolio-thumb-hover-on {
+                display: block;
+              }
+
+
+            </style>
+
+            <div class="porfolio-thumb porfolio-thumb-title">
+
+              <a href="web-dev/dev-notes/web-dev-portfolio-dev-notes.html" title="links to my web dev notes and references">
+                <img src="img-web-design/web-dev-notes-thumb.png" alt="web dev notes image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>web dev<br>references &amp; notes</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="porfolio-thumb porfolio-thumb-title">
+              <a href="web-dev/web-dev-portfolio-partical-slider-in-layout.html" title="links to the partical slider portfolio page">
+                <img src="img-web-design/paritcal-slider-thumb.png" alt="partical slider image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>partical slider<br>interactive logo</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="porfolio-thumb porfolio-thumb-title-alt">
+              <a href="web-dev/web-dev-portfolio-figma-to-code.html" title="links to the Figma to code portfolio page">
+                <img src="img-web-design/figma-to-code-thumb.jpg" alt="Figma to code slideshow image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>Figma to<br>code example</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="porfolio-thumb porfolio-thumb-title-alt">
+              <a href="web-dev/design-system.html" title="links to the Figma to code portfolio page">
+                <img src="img-web-design/design-system-thumb.png" alt="jm apple leaf and the words design system ">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>Design<br>system</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="porfolio-thumb porfolio-thumb-title">
+              <a href="web-dev/web-dev-portfolio-two-up-slide-show.html" title="links to the two-up slideshow portfolio page">
+                <img src="img-web-design/two-up-slideshow-thumb.jpg" alt="two up slideshow image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>two-up<br>slideshow</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-unplugged.html" title="links to portfolio page with description and link to a website dev project">
+                  <img src="img-web-design/unplugged-thumb.jpg" alt="Unplugged site image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>multi-page<br>responsive site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-holstee-manifesto.html" title="links to portfolio page with description and link to laying out text in a non traditional layout">
+                  <img src="img-web-design/holstee-thumb.png" alt="Holstee Manifesto layout image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>structure &amp; text<br>planning</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-jubilee-austen.html" title="links to a one page website portfolio page">
+                  <img src="img-web-design/jubilee-austen-thumb.jpg" alt="Jubilee Austen site image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>a one page<br>responsive website</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-rogue-pickings.html" title="links to portfolio page with description and link to a website project">
+                  <img src="img-web-design/rogue-pickings-thumb.jpg" alt="Rogue Pickings site image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>build a page from<br>a Photoshop comp.</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-magic-8-ball.html" title="links to the magic 8 ball javascript project portfolio page">
+                  <img src="img-web-design/magic-8-ball-thumb.png" alt="Magic 8 Ball Skillcrush javascript project image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>magic 8 ball<br>javascript project</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-lolcat-clock.html" title="links to portfolio page with description and link to lolcat clock javascript project">
+                  <img src="img-web-design/lolcat-clock-thumb.png" alt="LOL-cat clock Skillcrush javascript project image"><div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>lolcat clock<br>javascript project</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-buttons-opt2.html" title="links to portfolio page with custom developed buttons">
+                  <img src="img-web-design/buttons-opt2-thumb.png" alt="version 1 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-buttons-opt3.html" title="links to portfolio page with a second presentation of custom developed buttons">
+                  <img src="img-web-design/buttons-opt3-thumb.png" alt="version 2 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-buttons.html" title="links to portfolio page with a third presentation of custom developed buttons">
+                  <img src="img-web-design/buttons-thumb.png" alt="version 3 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-carousel.html" title="links to portfolio page with utilizing javascirpt and bootstrap to create a customized carousel">
+                  <img src="img-web-design/carousel-thumb.png" alt="carousel image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>carousel with<br>a modal &amp;<br>play/pause functionality</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!--<div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-carousel-modal-1.html" title="links to portfolio page displaying a modal">
+                 <img src="../img/web-design-place-holder-thumb.png" alt="place holder thumb image to new project">
+               </a>
+              </div> -->
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-flexbox-template-1.html" title="links to portfolio page displaying flex-box dev solution">
+                  <img src="img-web-design/flexbox-template-1-thumb.png" alt="version 1 of flexbox image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>'theme' layout<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-countdown-timers.html" title="links to portfolio page leveraging javascript for the countdown timer and flexbox for the layout">
+                  <img src="img-web-design/countdown-timers-thumb.png" alt="countdown timer image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>javascript:<br>countdown clock in<br>a responsive layout</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-code-generator.html" title="links to portfolio page leveraging javascript to generate blocks of code">
+                  <img src="img-web-design/code-generator-thumb.png" alt="code generator image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>javascript:<br>code generator<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-line-break-layout.html" title="links to portfolio page with a layout that leveraged 'rules'/divider lines">
+                  <img src="img-web-design/line-break-layout-thumb.png" alt="unique responsive line break image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive 'rules'<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-cta-overlay-hero.html" title="links to portfolio page with page layout with a cta overlay of the hero image">
+                  <img src="img-web-design/cta-overlay-hero-thumb.png" alt="call to action button over image, image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>modal &amp; cta overlay<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-marketing-templates.html" title="links to portfolio page with page layout with a cta overlay of the hero image">
+                  <img src="img-web-design/flexbox-template-1-bottom-cta-thumb.png" alt="version 2 of flexbox image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive marketing <br>layoutsfor an<br>ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-flexbox-template-1-bottom-cta.html" title="links to portfolio page with page layout with a cta overlay of the hero image">
+                  <img src="../img/web-dev-portfolio-flexbox-template-1-bottom-cta.png" alt="place holder thumb image to new project">
+                </a>
+              </div> -->
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-flex-column-to-row.html" title="links to portfolio page displaying a flex column to row layout">
+                 <img src="img-web-design/flexbox-layout-5-thumb.png" alt="version 3 of flexbox image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>responsive column <br>layout for an<br>ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
+               </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-flex-page-layout.html" title="links to portfolio page displaying a modal">
+                 <img src="img-web-design/flex-layout-6-thumb.png" alt="version 4 of flexbox image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
+               </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-lp-plus-slider-bar.html" title="links to portfolio page displaying a modal">
+                 <img src="img-web-design/mobile-thumb.png" alt="mobile slider image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>intricate responsive <br>responsive layout<br>for an ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
+               </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-lp-order-switch.html" title="links to portfolio page">
+                 <img src="img-web-design/lp-layout-switch-thumb.png" alt="responsive layout switch from mobile to desktop image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>flex order for an <br>ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
+               </a>
+              </div>
+
+              <div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-mobile-slider-buttons.html" title="links to portfolio page displaying a modal">
+                 <img src="img-web-design/mobile-slider-buttons-thumb.png" alt="mobile slider buttons image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>responsive layout<br>with slider</p>
+                     </div>
+                   </div>
+                 </div>
+               </a>
+              </div>
+
+              <!--<div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-carousel-modal-1.html" title="links to portfolio page displaying a modal">
+                 <img src="../img/web-design-place-holder-thumb.png" alt="place holder thumb image to new project">
+               </a>
+              </div> -->
+
+              <!--<div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-carousel-modal-1.html" title="links to portfolio page displaying a modal">
+                 <img src="../img/web-design-place-holder-thumb.png" alt="place holder thumb image to new project">
+               </a>
+              </div> -->
+
+              <!--<div class="porfolio-thumb">
+                <a href="web-dev/web-dev-portfolio-carousel-modal-1.html" title="links to portfolio page displaying a modal">
+                 <img src="../img/web-design-place-holder-thumb.png" alt="place holder thumb image to new project">
+               </a>
+              </div> -->
+
+
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer-no-border">
+        <div class="full-width">
+          <div class="half-width">
+            <div class="copyright">
+              <p>&copy;2017 Jessica McIntosh</p>
+            </div>
+          </div>
+          <div class="half-width">
+            <div class="social-media">
+              <ul>
+                <li>
+                  <a href="mailto:jessica@jmapple.com" class="email" title="link to email Jessica">
+                    <i class="fa fa-solid fa-envelope fa-lg"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/jmApple" target="_blank" title="jmApple github link">
+                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/jessica-mcintosh-4b9a4132?trk" target="_blank"
+                    title="jmApple LinkedIn link">
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/jmAppleDesign" target="_blank" title="jmApple twitter link">
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script> -->
+    </body>
+</html>
