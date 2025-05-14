@@ -921,6 +921,10 @@
   height: 64px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -989,6 +993,23 @@
 
 .m-200 {
   margin: 16px;
+}
+
+.m-300 {
+  margin: 24px;
+}
+
+.m-400 {
+  margin: 32px;
+}
+
+.m-500 {
+  margin: 40px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .mt-50 {
