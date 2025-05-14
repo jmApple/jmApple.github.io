@@ -1,0 +1,260 @@
+.game-background {
+  background-color: #0a0a23;
+  padding: 10px;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+#button1,
+#button2,
+#button3 {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.w-300 {
+  width: 300px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.red {
+  background-color: #fe2b34;
+}
+
+.coral {
+  background-color: #ba1e47;
+}
+
+.orange {
+  background-color: #f6882f;
+}
+
+.orange-yellow {
+  background-color: #ffa825; 
+}
+
+.yellow-orange {
+  background-color: #ffb514;
+}
+
+.amber {
+  background-color: #ffc233;
+}
+
+.yellow {
+  background-color: #ffe525; /* #ffeb3b */
+}
+
+.lemon {
+  background-color: #fcfc34; /* #ffeb3b */
+}
+
+.spring {
+  background-color: #e0ff19;
+}
+/* .spring {
+  background-color: #c1ff24;
+} */
+
+.lime {
+  background-color: #98f01d;
+}
+
+.green {
+  background-color: #1cce5d;
+}
+
+.cyan {
+  background-color: #00ffff; /* #25ffd1 */
+}
+
+.new-aqua {
+  background-color: #00ddff; /* #25ffd1 */
+}
+
+.aqua {
+  background-color: #00bbff;
+}
+
+.robin-egg {
+  background-color: #a7e7ff;
+}
+
+
+/* .blue {
+  background-color: #25a1ff;
+} */
+ 
+.blue {
+  background-color: #2176FF;
+}
+/* #2159e6 */
+/* .colbalt {
+  background-color: #4625ff;
+} */
+
+.dark-blue {
+  background-color: #0352d0;
+}
+
+.colbalt {
+  background-color: #2e3192;
+}
+
+.indigo {
+  background-color: #181148;
+}
+
+.purple {
+  background-color: #4a2e92; /* #8a25ff */
+}
+
+.violet {
+  background-color: #722e92;
+}
+
+.magenta {
+  background-color: #ff25a8;
+}
+
+.pink {
+  background-color: #ff257b;
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.w-50 {
+  width: 50px;
+}
+
+
+/* checkbox, replace default insteado f alter it */
+.checkbox-b {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox-b + label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* .checkbox + label::before { */
+.checkbox-b + label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 2px solid var(--color-primary);
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.checkbox-b:checked + label::before {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* .checkbox-b:checked + label::before {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+} */
+
+.checkbox-b[aria-checked=mixed] + label::before {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3crect x='1' y='3' width='6' height='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.checkbox-b:not(:disabled):not(:checked) + label:hover::before {
+  border-color: #d9186550;
+}
+
+.checkbox-b:not(:disabled):active + label::before {
+  background-color: #d9186550;
+}
+
+.checkbox-b:focus + label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.125);
+}
+
+.checkbox-b:focus:not(:checked) + label::before {
+  border-color: #c3c3c3;
+}
+
+.checkbox-b:disabled + label::before {
+  border-color: var(--color-danger-disabled-border);
+  background-color: var(--color-danger-disabled-bg);
+}
+
+.checkbox-b:disabled:checked + label::before {
+  border-color: var(--color-danger-disabled-border);
+  background-color: var(--color-danger-disabled-bg);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.checkbox-b:disabled[aria-checked=mixed] + label::before {
+  border-color: var(--color-danger-disabled-border);
+  background-color: var(--color-danger-disabled-bg);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3crect x='1' y='3' width='6' height='2' fill='%23fff'/%3e%3c/svg%3e");
+}
