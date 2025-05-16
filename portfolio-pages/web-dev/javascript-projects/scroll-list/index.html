@@ -1,0 +1,221 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>jmApple | Jessica McIntosh</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../../../img/favicon.png">
+
+  <!-- NOTE: FAVICON CODE FROM BOILERPLATE //
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../../../../css/normalize.css">
+  <link rel="stylesheet" href="../../../../css/main.css">
+  <link rel="stylesheet" href="../../../../css/web-dev-notes.css">
+  <link rel="stylesheet" href="../../../../css/design-system.css">
+  <script src="../../../../js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="https://use.fontawesome.com/f940d2b2b9.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+  <!-- NOTE: font-family: 'Playfair Display', serif;
+  picked for the bracket on the about page-->
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <title>HTML | CoderPad</title> -->
+  <!-- NOTE: font-family: 'Fredericka the Great', cursive; -->
+  <!-- NOTE: All of the below is for Century Gothic and Cochin fonts from fonts.com -->
+  <!-- <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/83e20145-0d49-400a-a25a-d4ca0fc7eb70.css" /> -->
+</head>
+
+<!-- NOTE: sign-painter font ~  webchiwake/public/font/signpainter/signpainter-housescript-webfont.eot  ~~ fond at: https://github.com/mlopezvs/webchiwake/blob/master/public/font/signpainter/signpainter-housescript-webfont.eot   -->
+
+<body class="corner-body">
+
+  <div class="spacing-container-dev-ref-notes">
+
+    <header class="full-width">
+      <div class="logo">
+        <a href="../../../../index.html" title="home">
+          <img src="../../../../img/logo-green.gif" alt="jmApple" />
+        </a>
+      </div>
+      <div class="mobile-nav-icon">
+        <!-- font awesome solution to a menu icon <i class="fa fa-bars" aria-hidden="true"></i> -->
+        <div class="dropdown" style="float:right;">
+          <button class="dropbtn">
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+          </button>
+          <div class="dropdown-content">
+            <nav>
+              <ul>
+                <li>
+                  <a href="../../../../index.html" title="home">home</a>
+                </li>
+                <li>
+                  <a href="../../../../about.html" title="about">about</a>
+                </li>
+                <li>
+                  <a href="../../../../portfolio.html" title="portfolio">portfolio</a>
+                </li>
+                <li>
+                  <a href="../../../../contact.html" title="contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="../../../../index.html" title="home">home</a>
+            </li>
+            <li>
+              <a href="../../../../about.html" title="about">about</a>
+            </li>
+            <li>
+              <a href="../../../../portfolio.html" title="portfolio">portfolio</a>
+            </li>
+            <li>
+              <a href="../../../../contact.html" title="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="portfolio-illustration">
+        <div class="dev-portflio-itm-spacing">
+
+          <!-- ********************************* -->
+          <!-- ********* START | TITLE ********* -->
+          <!-- ********************************* -->
+          <!-- style="background-color:#05a5dd;"-->
+          <div class="reference-guide-main-title">
+            <p>code challenge: virtualized list</p>
+          </div>
+
+          <!-- ********************************* -->
+          <!-- *** START | REFERENCE SECTION *** -->
+          <!-- ********************************* -->
+
+          <div class="web-dev-reference-guide-index-pg">
+            <div class="reference-guide-section">
+
+              <div class="px-400">
+
+                <h2>Virtualized List</h2>
+                <p>This challenge was created by an amazing engineer that was very kind to a very nervous me.</p>
+                <p>The goal of this exercise, is to render every word in the English language in a single, scrollable, performant list.</p>
+
+                <p>In our main.ts file, there’s a function already written for fetchDictionary. This function will fetch the entire dictionary and return it in a nice array of strings.</p>
+
+                <p>This dictionary has nearly 400K words in it, far too many elements to write to the DOM at once. In fact, it will almost certainly crash your web browser. For this reason, there’s a function called addWordsToList also in the utils.ts file. This function will put an artificial limit on the amount of words you can render at once, to ensure that there’s no chance of crashing the interview :&rpar;</p>
+
+                <h4>What is virtualization?</h4>
+
+                <p>Virtualization in client-side development, deals with the concept of only rendering elements that are critical for providing a seamless user experience, and culling every element that is off the screen.
+                </p>
+
+                <p>So instead of rendering 400K list items, we might start with only rendering 500 items, and then progressively adding/removing list items as the user scrolls.</p>
+
+                <p>The goal is to deliver a user experience that feels as seamless as possible.</p>
+
+                <h4>Goals</h4>
+
+                <p>When loading the page, we should see a list that is filled with words, the scrollbar should be as long as the entirety of the dictionary, appearing as if every word is already present in the list.</p>
+
+                <p>Scrolling using the mousewheel should feel completely seamless. The elements should stay positioned correctly and not jump around as elements load/unload.</p>
+
+                <p>We should be able to drag the scrollbar to any position in the list and have the correct items be visible.</p>
+
+                <h4>Stretch Goals</h4>
+
+                <p>Add a search box to the list.</p>
+
+                <p>Parameters</p>
+
+                <p>Each list item has a known height (30px) addWordsToList limits the maximum list items to 5000. The amount of items you render at one time is completely up to you, and should be tuned for a balance of performance and usibility (we want no visual evidence of loading when mousewheel scrolling, and minimal evidence of loading when scrolling large distances at one time)</p>
+
+                <h4>Number of items in the list: <span id="numItems"></span></h4>
+
+                <h4>Height of ul: <span id="ulHeightValue"></span></h4>
+
+                <h4>Scroll position: <span id="scrollPositionText"></span></h4>
+                
+                <h4>Item number at top of list: <span id="itemNum"></span></h4>
+              </div>
+
+              <div class="flex justify-center my-400">
+                <div class="flex flex-col align-center justify-center flex-grow-1 px-400">
+                  <div class="scroll-wrapper">
+                    <ul class="scroll-list">
+                      <!-- List items will be generated here -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+      <footer id="footer-border">
+      <div class="full-width">
+
+        <div class="half-width">
+          <div class="copyright">
+            <p>&copy;2017 Jessica McIntosh</p>
+          </div>
+        </div>
+
+        <div class="half-width">
+
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="mailto:jessica@jmapple.com" class="email" title="link to email Jessica">
+                  <i class="fa fa-solid fa-envelope fa-lg"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/jmApple" target="_blank" title="jmApple github link">
+                  <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jessica-mcintosh-4b9a4132?trk" target="_blank"
+                  title="jmApple LinkedIn link">
+                  <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/jmAppleDesign" target="_blank" title="jmApple twitter link">
+                  <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+
+  </div>
+</body>
+
+</html>
