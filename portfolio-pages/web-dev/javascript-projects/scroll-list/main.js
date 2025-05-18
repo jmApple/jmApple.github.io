@@ -16,7 +16,7 @@ function addWordsToList(list, words) {
 
 async function render() {
   const dictionary = await fetchDictionary();
-  console.log('Number of list items' + dictionary.length)
+  // console.log('Number of list items' + dictionary.length)
 
   const ul = document.getElementsByClassName('scroll-list')[0];;
   if (!ul) {
@@ -27,7 +27,6 @@ async function render() {
   if (!scrollWrapper) {
     throw new Error('The scroll wrapper was not found in the DOM.');
   }
-
 
   //Height of UL
   const ulHeight = dictionary.length * 30;
@@ -44,7 +43,7 @@ async function render() {
   let start = 0;
 
   // Declare ending index variable
-  let end = 5000; 
+  let end = 2000; 
 
   // Function to render the visible items
   function renderVisibleItems() {
