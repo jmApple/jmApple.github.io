@@ -116,38 +116,44 @@
 
               <div class="px-400">
 
-                <h2>Virtualized List</h2>
-                <p>This challenge was created by an amazing engineer that was very kind to a very nervous me.</p>
+                <h2 class="mb-block-none">Virtualized List</h2>
+                
+                <p class="mt-block-none">I did not create this challenge. I had the opportunity to work on this in a recent interview.</p>
+
+                <p>The engineer interviewing me was very kind to a very nervous me. I couldn't get it coded out during the interview but wanted to prove to myself that I could complete it. I still have work to do, like the smooth scrolling better performance... so more to come.</p>
+
+                <p>I plan to come back to this a complete the stretch goals at a later time.</p>
+
                 <p>The goal of this exercise, is to render every word in the English language in a single, scrollable, performant list.</p>
 
                 <p>In our main.ts file, there’s a function already written for fetchDictionary. This function will fetch the entire dictionary and return it in a nice array of strings.</p>
 
                 <p>This dictionary has nearly 400K words in it, far too many elements to write to the DOM at once. In fact, it will almost certainly crash your web browser. For this reason, there’s a function called addWordsToList also in the utils.ts file. This function will put an artificial limit on the amount of words you can render at once, to ensure that there’s no chance of crashing the interview :&rpar;</p>
 
-                <h4>What is virtualization?</h4>
+                <h4 class="mb-block-none">What is virtualization?</h4>
 
-                <p>Virtualization in client-side development, deals with the concept of only rendering elements that are critical for providing a seamless user experience, and culling every element that is off the screen.
+                <p class="mt-block-none">Virtualization in client-side development, deals with the concept of only rendering elements that are critical for providing a seamless user experience, and culling every element that is off the screen.
                 </p>
 
                 <p>So instead of rendering 400K list items, we might start with only rendering 500 items, and then progressively adding/removing list items as the user scrolls.</p>
 
                 <p>The goal is to deliver a user experience that feels as seamless as possible.</p>
 
-                <h4>Goals</h4>
+                <h4 class="mb-block-none">Goals</h4>
 
-                <p>When loading the page, we should see a list that is filled with words, the scrollbar should be as long as the entirety of the dictionary, appearing as if every word is already present in the list.</p>
+                <p class="mt-block-none">When loading the page, we should see a list that is filled with words, the scrollbar should be as long as the entirety of the dictionary, appearing as if every word is already present in the list.</p>
 
                 <p>Scrolling using the mousewheel should feel completely seamless. The elements should stay positioned correctly and not jump around as elements load/unload.</p>
 
                 <p>We should be able to drag the scrollbar to any position in the list and have the correct items be visible.</p>
 
-                <h4>Stretch Goals</h4>
+                <h4 class="mb-block-none">Stretch Goals</h4>
 
-                <p>Add a search box to the list.</p>
+                <p class="mt-block-none">Add a search box to the list.</p>
 
-                <p>Parameters</p>
+                <p class="mb-block-none">Parameters:</p>
 
-                <p>Each list item has a known height (30px) addWordsToList limits the maximum list items to 5000. The amount of items you render at one time is completely up to you, and should be tuned for a balance of performance and usibility (we want no visual evidence of loading when mousewheel scrolling, and minimal evidence of loading when scrolling large distances at one time)</p>
+                <p class="mt-block-none">Each list item has a known height (30px) addWordsToList limits the maximum list items to 5000. The amount of items you render at one time is completely up to you, and should be tuned for a balance of performance and usibility (we want no visual evidence of loading when mousewheel scrolling, and minimal evidence of loading when scrolling large distances at one time)</p>
 
                 <h4>Number of items in the list: <span id="numItems"></span></h4>
 
@@ -161,7 +167,7 @@
               <div class="flex justify-center my-400">
                 <div class="flex flex-col align-center justify-center flex-grow-1 px-400">
                   <div class="scroll-wrapper">
-                    <ul class="scroll-list">
+                    <ul class="scroll-list bg-primary-subdued">
                       <!-- List items will be generated here -->
                     </ul>
                   </div>
